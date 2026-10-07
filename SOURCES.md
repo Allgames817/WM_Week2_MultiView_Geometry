@@ -1,6 +1,4 @@
-# 资料与结构参考
-
-仓库结构参考：[Week03_Flow_Matching](https://github.com/Allgames817/Week03_Flow_Matching)、[Week02_Diffusion_Policy](https://github.com/Allgames817/Week02_Diffusion_Policy)。沿用 README 总览、编号专题笔记、figures 和 results 的学习记录风格；本仓库内容来自自己的 WM 第二周本地材料。
+# 资料
 
 各日保留原资料出处、固定版本和 API 说明：
 

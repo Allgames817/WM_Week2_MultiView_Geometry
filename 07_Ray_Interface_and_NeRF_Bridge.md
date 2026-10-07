@@ -104,7 +104,4 @@ endpoints = origins + (z_depth * z_to_range)[:, None] * directions
 
 在 `Week2_Day7` 中运行。`ray_bridge.py` 读取已完成 Day6 fuse 输出，并验证原始 RGB-D、内参、LOG 和 manifest 的哈希；完整点云须由本机 Day6 重新生成。移动数据时设置 `configs/day7.json` 的 `data_root`；`day6_fuse_run` 必须指向实际成功的 fuse 目录。
 
-
-证据索引配置应指向自己的实际输出路径。重复运行选择新的 `--out`，更改检查输出后相应设置 `--check-report`。阅读：[NeRF 作者项目页](https://www.matthewtancik.com/nerf)、[作者射线函数](https://github.com/bmild/nerf/blob/master/run_nerf_helpers.py)、[体渲染中的方向范数](https://github.com/bmild/nerf/blob/master/run_nerf.py)。
-
 本页记录原实验的代码职责和结果；完整运行脚本、原始数据与大型模型未在精简仓库中分发。
