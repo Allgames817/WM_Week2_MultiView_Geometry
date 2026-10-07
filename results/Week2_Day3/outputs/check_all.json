@@ -1,0 +1,8 @@
+{
+  "part": "all",
+  "tests_run": 15,
+  "success": true,
+  "failures": [],
+  "errors": [],
+  "scope": "Unit tests of user code, not a reconstruction/geometry quality certificate."
+}

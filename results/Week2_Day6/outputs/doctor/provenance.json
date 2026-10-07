@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-07T07:35:08.269909+00:00",
+  "command": [
+    "fuse_rgbd.py",
+    "--mode",
+    "doctor"
+  ],
+  "mode": "doctor",
+  "source_sha256": {
+    "day6/day6_check.py": "4719970bd9fc930836ce3d75fd21b800d08e25d883bd32cadd87d367cb944ed2",
+    "day6/fuse_rgbd.py": "96d35759d953abe98517cefa467bdaffa27d5d43d039a2f70415bc22194ba4ce",
+    "day6/fusion_exercise.py": "7393b7536870404f410719bfef7a9f15cb1a8b95f651a9d42b59b71b8fb742a4",
+    "day6/fusion_io.py": "5a19cfacf494a2480c4773aa68e46703a3dd28ae0436b5aaf799e2fe79c2383d",
+    "day6/fusion_metrics.py": "cda3bce0fbc46502f1c7c8cd9b15d0c6d5903f173a8aa1054da05e6acb15a323",
+    "day6/fusion_plots.py": "7706fea7a96b4c16a1293d326051a21c5392132aa365692aea0e2690c475e8ba",
+    "day6/fusion_validation.py": "50d6f25caafeb4242bdd582d3f847d6fe9ff0d7decfa564b795475cfd2a95aa2",
+    "day6/view_cloud.py": "ac48500591de6dcdab15e2c705dc95e4adbdaa0af57ca886bd9f89276210a037",
+    "day5/common.py": "83c1ff06d9ef5a6d60297ea69bd4026192eee5d3833a0b6841897340c15a993f",
+    "day5/day5_check.py": "3ae46e5f29ca54c51ec4a522706fed4fe1f77d580c98825788072c272abdb195",
+    "day5/plots.py": "dc0a90802281822451db7f7cbf7010c833ad85f11ae8ae43a2fe1e0f5c94ba1e",
+    "day5/prepare_data.py": "1bca033b96d04f542ae770a6759948fd0ff3c1b33919fa813e25190f1d4bed87",
+    "day5/rgbd_exercise.py": "0846117d37b210c35291b50d3445c2b9b9cb912d1d8e6ff714d1bd1d9c38287f",
+    "day5/rgbd_to_cloud.py": "1ab46b7d3ffa03fd363b9ad3d0d60412589c0020ae93839bad2750a66d9d2d48",
+    "day5/validation.py": "775d18fa72d56f2b6c82632130708562f1b6396603dc0e7c33fbec97f807b5b6",
+    "day5/view_cloud.py": "b193ee6b57ecaaad236b5cd71c586ba8762b821c45b896b72b42529c9181b4cf"
+  },
+  "world_frame": "original odometry.log world; NOT COLMAP world; not rebased for display",
+  "pose_source": "provided original odometry.log; not estimated in Day6; not certified ground truth",
+  "matrix_convention": "T_world_from_camera maps camera column vectors to world",
+  "units": "declared metres with inherited depth_scale; no external metrology check",
+  "dataset_downloaded_here": false,
+  "optimization_used": false
+}

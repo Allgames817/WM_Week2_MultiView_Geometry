@@ -1,0 +1,99 @@
+{
+  "status": "reconstruction_commands_completed",
+  "started_utc": "2026-10-06T19:23:42.440598+00:00",
+  "steps": [
+    {
+      "stage": "feature",
+      "argv": [
+        "feature_extractor",
+        "--database_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\database.db",
+        "--image_path",
+        "D:\\WM_Study\\Week2_Day3\\data\\south-building\\images",
+        "--ImageReader.camera_model",
+        "SIMPLE_RADIAL",
+        "--ImageReader.single_camera",
+        "0",
+        "--FeatureExtraction.use_gpu",
+        "1",
+        "--FeatureExtraction.max_image_size",
+        "1600",
+        "--FeatureExtraction.num_threads",
+        "4",
+        "--SiftExtraction.max_num_features",
+        "4096",
+        "--FeatureExtraction.type",
+        "SIFT",
+        "--default_random_seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 8.929882199998247,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\logs\\feature.log"
+    },
+    {
+      "stage": "match",
+      "argv": [
+        "exhaustive_matcher",
+        "--database_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\database.db",
+        "--FeatureMatching.use_gpu",
+        "1",
+        "--FeatureMatching.num_threads",
+        "4",
+        "--FeatureMatching.type",
+        "SIFT_BRUTEFORCE",
+        "--default_random_seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 66.97853829999804,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\logs\\match.log"
+    },
+    {
+      "stage": "map",
+      "argv": [
+        "mapper",
+        "--database_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\database.db",
+        "--image_path",
+        "D:\\WM_Study\\Week2_Day3\\data\\south-building\\images",
+        "--output_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\sparse",
+        "--default_random_seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 113.0022436000072,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\logs\\map.log"
+    },
+    {
+      "stage": "convert_0",
+      "argv": [
+        "model_converter",
+        "--input_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\sparse\\0",
+        "--output_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\models_txt\\0",
+        "--output_type",
+        "TXT"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.2320605999993859,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\logs\\convert_0.log"
+    },
+    {
+      "stage": "analyze_0",
+      "argv": [
+        "model_analyzer",
+        "--path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\sparse\\0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.21559590000106255,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\logs\\analyze_0.log"
+    }
+  ],
+  "current_stage": null,
+  "ended_utc": "2026-10-06T19:26:53.614237+00:00"
+}

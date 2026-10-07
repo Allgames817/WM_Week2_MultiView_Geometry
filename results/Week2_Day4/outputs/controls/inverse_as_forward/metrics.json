@@ -1,0 +1,26 @@
+{
+  "condition": "inverse_as_forward",
+  "n_associated_observations": 241106,
+  "n_valid": 126479,
+  "valid_fraction": 0.5245784012011314,
+  "n_invalid": 114627,
+  "n_unassociated_keypoints": 448131,
+  "n_valid_projected_outside_image": 65539,
+  "observation_error_px": {
+    "n_finite": 126479,
+    "mean": 22544385808.122684,
+    "median": 1385.3715030062576,
+    "p95": 8091.419434338696,
+    "max": 975598749889985.8,
+    "rms": 3623293500825.3716
+  },
+  "opencv_projection_difference_px": {
+    "n_finite": 126479,
+    "mean": 2.452540005742524e-06,
+    "median": 0.0,
+    "p95": 9.094947017729282e-13,
+    "max": 0.15934435979977452,
+    "rms": 0.00051630730359132
+  },
+  "note": "原有 Track 观测的拟合一致性；不是新视角测试、真实三维误差或绝对尺度精度。"
+}

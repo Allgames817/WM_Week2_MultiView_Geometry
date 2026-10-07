@@ -1,0 +1,9 @@
+{
+  "data_root": "D:\\WM_Study\\Week2_Day5\\data\\SampleRedwoodRGBDImages",
+  "frame_index": 0,
+  "depth_scale": 1000.0,
+  "depth_trunc_m": 2.0,
+  "max_plot_points": 20000,
+  "verify_sha256": true,
+  "open3d_version": "0.19.0"
+}

@@ -1,0 +1,81 @@
+{
+  "point3d_id": 1,
+  "xyz": [
+    -0.8322208853141052,
+    -1.742953701425401,
+    0.04486255774264766
+  ],
+  "stored_error_px": 0.7290830100220215,
+  "observations": [
+    {
+      "image_id": 100,
+      "image_name": "P1180319.JPG",
+      "point2d_idx": 19,
+      "observed_xy": [
+        1163.73681640625,
+        238.6631622314453
+      ],
+      "point3d_id_back_reference": 1
+    },
+    {
+      "image_id": 74,
+      "image_name": "P1180214.JPG",
+      "point2d_idx": 11,
+      "observed_xy": [
+        888.3341674804688,
+        236.8778076171875
+      ],
+      "point3d_id_back_reference": 1
+    },
+    {
+      "image_id": 72,
+      "image_name": "P1180212.JPG",
+      "point2d_idx": 23,
+      "observed_xy": [
+        1080.4501953125,
+        202.53416442871094
+      ],
+      "point3d_id_back_reference": 1
+    },
+    {
+      "image_id": 73,
+      "image_name": "P1180213.JPG",
+      "point2d_idx": 2224,
+      "observed_xy": [
+        686.9109497070312,
+        44.604026794433594
+      ],
+      "point3d_id_back_reference": 1
+    },
+    {
+      "image_id": 99,
+      "image_name": "P1180318.JPG",
+      "point2d_idx": 15,
+      "observed_xy": [
+        1859.4434814453125,
+        223.347900390625
+      ],
+      "point3d_id_back_reference": 1
+    },
+    {
+      "image_id": 65,
+      "image_name": "P1180205.JPG",
+      "point2d_idx": 15,
+      "observed_xy": [
+        2408.96875,
+        109.90599822998047
+      ],
+      "point3d_id_back_reference": 1
+    },
+    {
+      "image_id": 76,
+      "image_name": "P1180216.JPG",
+      "point2d_idx": 25,
+      "observed_xy": [
+        602.3602905273438,
+        315.5475158691406
+      ],
+      "point3d_id_back_reference": 1
+    }
+  ]
+}

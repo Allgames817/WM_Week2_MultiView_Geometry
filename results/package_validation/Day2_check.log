@@ -1,0 +1,20 @@
+PASS [exercise] ratio_basic_and_flat_output
+PASS [exercise] ratio_strict_boundary
+PASS [exercise] ratio_sparse_rows
+PASS [exercise] ratio_zero_second_is_ambiguous
+PASS [exercise] ratio_invalid_parameter
+PASS [exercise] ratio_preserves_row_order
+PASS [exercise] ratio_invalid_distances
+PASS [exercise] sampson_exact_epipolar_constraint
+PASS [exercise] sampson_known_two_pixel_vertical_offset
+PASS [exercise] sampson_independent_opencv_comparison
+PASS [exercise] sampson_F_scale_and_sign_invariance
+PASS [exercise] sampson_swap_views_transpose_F
+PASS [exercise] sampson_undefined_denominator_is_inf
+PASS [exercise] sampson_empty_and_invalid_input
+PASS [provided] provided_world_to_camera_and_center
+PASS [provided] provided_estimator_20_noiseless_scenes
+PASS [provided] provided_shared_scale_leaves_pixels_unchanged
+PASS [provided] provided_mask_accounting_and_no_input_mutation
+STUDENT: 18/18 passed
+DAY2 NUMERICAL CHECK PASSED (14 exercise + 4 provided checks; submit experiments/report too)

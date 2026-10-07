@@ -1,0 +1,91 @@
+{
+  "frame_index": 0,
+  "image_size_wh": [
+    640,
+    480
+  ],
+  "K": [
+    [
+      525.0,
+      0.0,
+      319.5
+    ],
+    [
+      0.0,
+      525.0,
+      239.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_world_from_camera": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      2.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      2.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -0.3
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "matrix_direction": "camera_to_world; column-vector convention",
+  "world": "original sample odometry.log world, not COLMAP world",
+  "camera_axes": "right/down/forward (+X,+Y,+Z)",
+  "pixels": "integer u=column, v=row as in original sample; no implicit +0.5",
+  "camera_model": "registered RGB-D pinhole assumption from sample; no SIMPLE_RADIAL support",
+  "depth": "positive camera Z in metres under recorded depth_scale; not ray range",
+  "ray": "world unit direction; r(s)=origin+s*direction; s is world Euclidean distance",
+  "depth_scale": 1000.0,
+  "depth_trunc_m": 3.0,
+  "raw_R_orthogonality_max_abs": 0.0,
+  "rounding": "Raw printed R retained; no implicit orthogonalization or world rebasing.",
+  "scope": "Single-frame sampled geometry adapter, NOT a complete NeRF training dataset or transforms.json.",
+  "train_validation_test_split": "not defined here; define separately in Week3",
+  "depth_available_only_for_validation": "Rays themselves do not need depth; sampling valid depth pixels is a diagnostic convenience.",
+  "provided_pose_is_certified_truth": false,
+  "raw_input_files": {
+    "color/00000.jpg": {
+      "path": "D:\\WM_Study\\Week2_Day5\\data\\SampleRedwoodRGBDImages\\color\\00000.jpg",
+      "sha256": "29468161241d7ef92312991cf0019d7ccf199db1fafbf783d27288ef279d270a"
+    },
+    "depth/00000.png": {
+      "path": "D:\\WM_Study\\Week2_Day5\\data\\SampleRedwoodRGBDImages\\depth\\00000.png",
+      "sha256": "3eff7854dd5f056fe6f67ce68999a632fbc1fe6f3555cc00f83528312d6cb186"
+    },
+    "camera_primesense.json": {
+      "path": "D:\\WM_Study\\Week2_Day5\\data\\SampleRedwoodRGBDImages\\camera_primesense.json",
+      "sha256": "69ec0cb6a0beeead2551e332e1f728df6d1fe37f4b056410580733d2dbc54259"
+    },
+    "odometry.log": {
+      "path": "D:\\WM_Study\\Week2_Day5\\data\\SampleRedwoodRGBDImages\\odometry.log",
+      "sha256": "06c527e3715ce1c3b8b30839e15d866dda067a392e8d91fbf5c4450c54cb0b12"
+    }
+  },
+  "day6_record_sha256": {
+    "config_used.json": "8c67952e5418b9b264dbaef6361cd5d05016ab2a5f6918f39e11bdc6f1548946",
+    "provenance.json": "0337889483f2e0c564911cc6a49b51750f8c1f40d2b243c4e664caf89bf34a0e",
+    "run_status.json": "3bfe68caefdcdc4f9527d5926ee1fb4a07e4007dc1c3da89173a273eb7e8890a",
+    "camera_poses.npz": "60a39c52b27f8760c08dc9811bb0225705738178f363d655e394904073e2bede"
+  },
+  "raw_positive_retained_pixels": 267129,
+  "no_TODO_called": true
+}

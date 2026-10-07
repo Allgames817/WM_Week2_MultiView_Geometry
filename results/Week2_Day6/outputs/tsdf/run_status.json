@@ -1,0 +1,5 @@
+{
+  "status": "completed",
+  "mode": "tsdf",
+  "meaning": "workflow completed, not independently verified GT accuracy"
+}

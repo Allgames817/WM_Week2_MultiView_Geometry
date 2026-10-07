@@ -1,0 +1,114 @@
+{
+  "frame_count": 5,
+  "frames": [
+    {
+      "frame_id": 0,
+      "color": "color/00000.jpg",
+      "depth": "depth/00000.png",
+      "pose_block": 0,
+      "pose_metadata": "0 0 1",
+      "width": 640,
+      "height": 480,
+      "raw_dtype": "uint16",
+      "raw_zero_count": 40071,
+      "camera_center_world_x_m": 2.0,
+      "camera_center_world_y_m": 2.0,
+      "camera_center_world_z_m": -0.3,
+      "rotation_orthogonality_max_abs": 0.0
+    },
+    {
+      "frame_id": 1,
+      "color": "color/00001.jpg",
+      "depth": "depth/00001.png",
+      "pose_block": 1,
+      "pose_metadata": "1 1 2",
+      "width": 640,
+      "height": 480,
+      "raw_dtype": "uint16",
+      "raw_zero_count": 39472,
+      "camera_center_world_x_m": 1.99962,
+      "camera_center_world_y_m": 1.97704,
+      "camera_center_world_z_m": -0.300486,
+      "rotation_orthogonality_max_abs": 9.51742519461618e-07
+    },
+    {
+      "frame_id": 2,
+      "color": "color/00002.jpg",
+      "depth": "depth/00002.png",
+      "pose_block": 2,
+      "pose_metadata": "2 2 3",
+      "width": 640,
+      "height": 480,
+      "raw_dtype": "uint16",
+      "raw_zero_count": 39017,
+      "camera_center_world_x_m": 1.99935,
+      "camera_center_world_y_m": 1.95353,
+      "camera_center_world_z_m": -0.301586,
+      "rotation_orthogonality_max_abs": 1.0354408845891783e-06
+    },
+    {
+      "frame_id": 3,
+      "color": "color/00003.jpg",
+      "depth": "depth/00003.png",
+      "pose_block": 3,
+      "pose_metadata": "3 3 4",
+      "width": 640,
+      "height": 480,
+      "raw_dtype": "uint16",
+      "raw_zero_count": 38580,
+      "camera_center_world_x_m": 1.99922,
+      "camera_center_world_y_m": 1.92981,
+      "camera_center_world_z_m": -0.303173,
+      "rotation_orthogonality_max_abs": 1.723118594254558e-06
+    },
+    {
+      "frame_id": 4,
+      "color": "color/00004.jpg",
+      "depth": "depth/00004.png",
+      "pose_block": 4,
+      "pose_metadata": "4 4 5",
+      "width": 640,
+      "height": 480,
+      "raw_dtype": "uint16",
+      "raw_zero_count": 38149,
+      "camera_center_world_x_m": 2.00124,
+      "camera_center_world_y_m": 1.90487,
+      "camera_center_world_z_m": -0.305411,
+      "rotation_orthogonality_max_abs": 1.1908587800313342e-06
+    }
+  ],
+  "K": [
+    [
+      525.0,
+      0.0,
+      319.5
+    ],
+    [
+      0.0,
+      525.0,
+      239.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "width": 640,
+  "height": 480,
+  "day5_source": {
+    "file": "D:\\WM_Study\\Week2_Day5\\rgbd_exercise.py",
+    "sha256": "0846117d37b210c35291b50d3445c2b9b9cb912d1d8e6ff714d1bd1d9c38287f",
+    "missing_functions": [],
+    "functions_with_NotImplementedError": [],
+    "note": "Static source inspection only; not a Day5 acceptance result."
+  },
+  "trajectory": "D:\\WM_Study\\Week2_Day5\\data\\SampleRedwoodRGBDImages\\odometry.log",
+  "association": "Pinned sample block i corresponds to original image index i; metadata validated.",
+  "raw_matrix_direction": "camera_to_world",
+  "Open3D_LOG_loader_direction": "world_to_camera in returned .extrinsic; it already inverts the raw matrix",
+  "pose_quality": "provided sample trajectory, not certified external ground truth",
+  "depth_scale_inherited_or_overridden": 1000.0,
+  "depth_trunc_m": 3.0,
+  "no_TODO_called": true
+}

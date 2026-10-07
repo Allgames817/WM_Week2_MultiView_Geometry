@@ -1,0 +1,24 @@
+PASS [inverse] identity
+PASS [inverse] translation
+PASS [inverse] rotation plus translation
+PASS [inverse] 20 mixed poses; left and right identities
+PASS [inverse] output dtype and no mutation
+PASS [inverse] reject nonrigid matrix (provided guard)
+PASS [transform] translation acts on each row
+PASS [transform] rotation; row/column distinction
+PASS [transform] independent homogeneous-coordinate oracle
+PASS [transform] empty point array
+PASS [transform] preserve negative Z, order, and inputs
+PASS [transform] reject bad shape/nonfinite input (provided guard)
+PASS [relative] same camera is identity
+PASS [relative] translated camera pair
+PASS [relative] noncommuting rotations; independent linear solve
+PASS [relative] three-camera composition
+PASS [relative] world-mediated point route equals direct route
+PASS [relative] output contract and no mutation
+PASS [io] raw LOG rows and metadata are retained
+PASS [io] incomplete LOG is rejected
+PASS [io] scaled LOG matrix is rejected
+PASS [io] intrinsic JSON is column-major
+DAY6 CODE CHECK PASSED (all). 22/22
+Saved: .\scripts\Week2_Day6\outputs\package_check_v3

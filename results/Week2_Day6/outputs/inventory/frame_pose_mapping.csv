@@ -1,0 +1,6 @@
+﻿frame_id,color,depth,pose_block,pose_metadata,width,height,raw_dtype,raw_zero_count,camera_center_world_x_m,camera_center_world_y_m,camera_center_world_z_m,rotation_orthogonality_max_abs
+0,color/00000.jpg,depth/00000.png,0,0 0 1,640,480,uint16,40071,2.0,2.0,-0.3,0.0
+1,color/00001.jpg,depth/00001.png,1,1 1 2,640,480,uint16,39472,1.99962,1.97704,-0.300486,9.51742519461618e-07
+2,color/00002.jpg,depth/00002.png,2,2 2 3,640,480,uint16,39017,1.99935,1.95353,-0.301586,1.0354408845891783e-06
+3,color/00003.jpg,depth/00003.png,3,3 3 4,640,480,uint16,38580,1.99922,1.92981,-0.303173,1.723118594254558e-06
+4,color/00004.jpg,depth/00004.png,4,4 4 5,640,480,uint16,38149,2.00124,1.90487,-0.305411,1.1908587800313342e-06

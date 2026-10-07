@@ -1,0 +1,22 @@
+[PASS] rotation 单位四元数
+[PASS] rotation 绕 z 正向旋转，检查方向与 wxyz 顺序
+[PASS] rotation 20 组混合旋转与 OpenCV Rodrigues 对照
+[PASS] rotation q 与 -q、归一化输入
+[PASS] rotation SO(3) 正交性与行列式
+[PASS] rotation 非法四元数拒绝（输入验证已提供）
+[PASS] pose 单位旋转下的相机中心
+[PASS] pose 混合旋转下的刚体逆矩阵
+[PASS] pose 相机原点变回世界后应满足 R C+t=0
+[PASS] pose 相机基向量与20个世界点往返
+[PASS] pose 反射矩阵或错误形状拒绝（输入验证已提供）
+[PASS] projection 光轴点落在主点
+[PASS] projection k=0 的针孔投影
+[PASS] projection 正负畸变与 OpenCV projectPoints 对照
+[PASS] projection 无效深度、非有限坐标、阈值等号与 NaN 行
+[PASS] projection 空输入保持 (0,2) 和 (0,)
+[PASS] projection 视野外的有限正深度点不能被丢弃
+[PASS] io 格式：非连续 ID、含空格图像名、空观测行
+[PASS] io -1 未关联点保留原始 POINT2D_IDX
+[PASS] io Track 反向关联错误必须报错
+all: 20/20 passed
+DAY4 CODE CHECK PASSED (all).

@@ -1,0 +1,70 @@
+{
+  "implementation": "student",
+  "solver_sha256": "96333113c8e64a05de4252d644bf5aaf332f927d2a9a0d6bda3feddf423a4db6",
+  "passed": 14,
+  "total": 14,
+  "checks": [
+    {
+      "name": "01 shared projection vs OpenCV; t=-R@C",
+      "passed": true
+    },
+    {
+      "name": "02 A has four correct constraints and nonzero rank",
+      "passed": true
+    },
+    {
+      "name": "03 analytical one-point example",
+      "passed": true
+    },
+    {
+      "name": "04 noise-free reconstruction at two nonzero baselines",
+      "passed": true
+    },
+    {
+      "name": "05 twenty mixed-pose, nonhorizontal cases vs ground truth",
+      "passed": true
+    },
+    {
+      "name": "06 noisy DLT vs OpenCV, identical pixel inputs",
+      "passed": true
+    },
+    {
+      "name": "07 normalized coordinates paired with [R|t], noise-free",
+      "passed": true
+    },
+    {
+      "name": "08 swapping both cameras and both observations preserves X",
+      "passed": true
+    },
+    {
+      "name": "09 projection-matrix rescaling, noise-free",
+      "passed": true
+    },
+    {
+      "name": "10 wrong translation sign: tiny reprojection but negative depth",
+      "passed": true
+    },
+    {
+      "name": "11 assumed baseline x2: scale wrong although reprojection is tiny",
+      "passed": true
+    },
+    {
+      "name": "12 shared guardrail rejects zero baseline and pure rotation",
+      "passed": true
+    },
+    {
+      "name": "13 shared guardrail rejects bad shape and NaN inputs",
+      "passed": true
+    },
+    {
+      "name": "14 solver rejects nonunique and infinite homogeneous solutions",
+      "passed": true
+    }
+  ],
+  "scope": "Day1 numerical checks only; not Week1 acceptance or concept mastery",
+  "versions": {
+    "python": "3.11.17",
+    "numpy": "2.3.5",
+    "opencv": "4.13.0"
+  }
+}

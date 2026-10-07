@@ -1,0 +1,157 @@
+{
+  "counts": {
+    "unpooled_point_count": 1340711,
+    "voxel_point_count": 28218,
+    "voxel_size_m": 0.02,
+    "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+  },
+  "per_frame": [
+    {
+      "frame_id": 0,
+      "point_count": 267129,
+      "world_transform_difference_vs_Open3D_m": {
+        "n": 267129,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "min": 0.0
+      },
+      "inverse_matrix_difference_vs_LOG_API_max_abs": 0.0,
+      "own_camera_roundtrip_xyz_m": {
+        "n": 267129,
+        "mean": 1.3037330064102853e-16,
+        "median": 1.2412670766236366e-16,
+        "p95": 2.482534153247273e-16,
+        "max": 3.1401849173675503e-16,
+        "min": 0.0
+      }
+    },
+    {
+      "frame_id": 1,
+      "point_count": 267728,
+      "world_transform_difference_vs_Open3D_m": {
+        "n": 267728,
+        "mean": 8.20495260767974e-17,
+        "median": 0.0,
+        "p95": 4.440892098500626e-16,
+        "max": 6.661338147750939e-16,
+        "min": 0.0
+      },
+      "inverse_matrix_difference_vs_LOG_API_max_abs": 1.8559498566883548e-06,
+      "own_camera_roundtrip_xyz_m": {
+        "n": 267728,
+        "mean": 1.6199003117810674e-06,
+        "median": 1.652851694261703e-06,
+        "p95": 2.2766103932252843e-06,
+        "max": 2.6017485254467766e-06,
+        "min": 9.535605578127265e-07
+      }
+    },
+    {
+      "frame_id": 2,
+      "point_count": 268183,
+      "world_transform_difference_vs_Open3D_m": {
+        "n": 268183,
+        "mean": 9.490078428388947e-17,
+        "median": 0.0,
+        "p95": 4.440892098500626e-16,
+        "max": 6.661338147750939e-16,
+        "min": 0.0
+      },
+      "inverse_matrix_difference_vs_LOG_API_max_abs": 2.0175688955070825e-06,
+      "own_camera_roundtrip_xyz_m": {
+        "n": 268183,
+        "mean": 6.573711714465906e-07,
+        "median": 6.266072959416152e-07,
+        "p95": 1.1811613207825872e-06,
+        "max": 1.6911711923845567e-06,
+        "min": 9.000505665821254e-08
+      }
+    },
+    {
+      "frame_id": 3,
+      "point_count": 268620,
+      "world_transform_difference_vs_Open3D_m": {
+        "n": 268620,
+        "mean": 8.167422166951699e-17,
+        "median": 0.0,
+        "p95": 4.440892098500626e-16,
+        "max": 6.661338147750939e-16,
+        "min": 0.0
+      },
+      "inverse_matrix_difference_vs_LOG_API_max_abs": 3.470471899191807e-06,
+      "own_camera_roundtrip_xyz_m": {
+        "n": 268620,
+        "mean": 2.1456498417255855e-06,
+        "median": 2.102662321169538e-06,
+        "p95": 3.3727629457536474e-06,
+        "max": 4.018469266994773e-06,
+        "min": 1.2311485461408047e-06
+      }
+    },
+    {
+      "frame_id": 4,
+      "point_count": 269051,
+      "world_transform_difference_vs_Open3D_m": {
+        "n": 269051,
+        "mean": 8.469463623518939e-17,
+        "median": 0.0,
+        "p95": 4.440892098500626e-16,
+        "max": 7.691850745534255e-16,
+        "min": 0.0
+      },
+      "inverse_matrix_difference_vs_LOG_API_max_abs": 1.6885879432493311e-06,
+      "own_camera_roundtrip_xyz_m": {
+        "n": 269051,
+        "mean": 2.202071065203301e-06,
+        "median": 2.2206264264919435e-06,
+        "p95": 3.147112180419951e-06,
+        "max": 3.525298781055933e-06,
+        "min": 1.2850355519608802e-06
+      }
+    }
+  ],
+  "camera_centers": [
+    {
+      "frame_id": 0,
+      "center_x_m": 2.0,
+      "center_y_m": 2.0,
+      "center_z_m": -0.3,
+      "inverse_roundtrip_matrix_max_abs": 0.0
+    },
+    {
+      "frame_id": 1,
+      "center_x_m": 1.99962,
+      "center_y_m": 1.97704,
+      "center_z_m": -0.300486,
+      "inverse_roundtrip_matrix_max_abs": 9.51742519461618e-07
+    },
+    {
+      "frame_id": 2,
+      "center_x_m": 1.99935,
+      "center_y_m": 1.95353,
+      "center_z_m": -0.301586,
+      "inverse_roundtrip_matrix_max_abs": 1.0354408845891783e-06
+    },
+    {
+      "frame_id": 3,
+      "center_x_m": 1.99922,
+      "center_y_m": 1.92981,
+      "center_z_m": -0.303173,
+      "inverse_roundtrip_matrix_max_abs": 1.723118594254558e-06
+    },
+    {
+      "frame_id": 4,
+      "center_x_m": 2.00124,
+      "center_y_m": 1.90487,
+      "center_z_m": -0.305411,
+      "inverse_roundtrip_matrix_max_abs": 1.1908587800313342e-06
+    }
+  ],
+  "world_origin_rebased": false,
+  "all_frame_pixel_ids_retained_in": "fused_raw_world.npz",
+  "implementation_comparison_is_GT_accuracy": false,
+  "LOG_rounding_note": "Raw rotations are retained. Transpose-based rigid inverse can differ slightly from general matrix inverse due to printed precision.",
+  "fusion_type": "transform plus concatenate; voxel output is auxiliary, not TSDF or SLAM"
+}

@@ -1,0 +1,156 @@
+{
+  "part": "all",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "group": "backproject",
+      "name": "01_analytic_identity",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "backproject",
+      "name": "02_known_rotated_translated_world",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "backproject",
+      "name": "03_negative_world_Z_kept",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "backproject",
+      "name": "04_no_half_pixel_no_ray_normalization",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "backproject",
+      "name": "05_twenty_random_camera_truth_cases",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "backproject",
+      "name": "06_order_and_input_preservation",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "backproject",
+      "name": "07_empty_shapes",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "backproject",
+      "name": "08_depth_guard",
+      "kind": "provided_guard",
+      "passed": true
+    },
+    {
+      "group": "project",
+      "name": "09_analytic_identity",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "project",
+      "name": "10_known_world_vs_OpenCV_pixels",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "project",
+      "name": "11_signed_depth_and_invalid_rows",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "project",
+      "name": "12_off_image_and_negative_world_Z",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "project",
+      "name": "13_twenty_nontrivial_pose_oracles",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "project",
+      "name": "14_threshold_is_strict",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "project",
+      "name": "15_empty_and_inputs_unchanged",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "project",
+      "name": "16_pose_guard",
+      "kind": "provided_guard",
+      "passed": true
+    },
+    {
+      "group": "rays",
+      "name": "17_central_axis_and_origins",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "rays",
+      "name": "18_off_axis_unit_vector_and_factor",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "rays",
+      "name": "19_truth_from_world_point_direction",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "rays",
+      "name": "20_translation_changes_origins_not_directions",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "rays",
+      "name": "21_twenty_truth_endpoints",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "rays",
+      "name": "22_rounded_rotation_norm_is_world_norm",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "rays",
+      "name": "23_empty_shapes",
+      "kind": "numerical",
+      "passed": true
+    },
+    {
+      "group": "rays",
+      "name": "24_K_guard",
+      "kind": "provided_guard",
+      "passed": true
+    }
+  ],
+  "student_file_sha256": "21de90b6c84d8629d35fc6e13030b899d43307048f4278679d4bcd868e35aff7",
+  "check_file_sha256": "c45bef7c37035ee75c303706ec2a0351fec9c0b4417b2a85c29b177d1c283837",
+  "support_file_sha256": "59d8fa98495fbdbee67e53cee069121e0c86d9a2d86f995d29091df05b610621",
+  "numerical_passed": 21,
+  "scope": "Synthetic geometry checks only. Not a Week2 completion certificate or physical accuracy."
+}

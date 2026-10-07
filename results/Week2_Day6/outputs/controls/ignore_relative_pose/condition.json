@@ -1,0 +1,57 @@
+{
+  "condition": "ignore_relative_pose",
+  "description": "All camera clouds use the target camera pose; relative motions are ignored.",
+  "counts": {
+    "unpooled_point_count": 1340711,
+    "voxel_point_count": 37900,
+    "voxel_size_m": 0.02,
+    "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+  },
+  "source_input_pixel_count": 269051,
+  "same_source_pixel_set_as_baseline": true,
+  "same_source_world_delta_vs_baseline_m": {
+    "n": 269051,
+    "mean": 0.04503724319151547,
+    "median": 0.0440525421131097,
+    "p95": 0.059684102890784005,
+    "max": 0.09545754924291244,
+    "min": 0.032841497371152224
+  },
+  "delta_is_GT_error": false,
+  "pair": {
+    "source_point_count": 269051,
+    "positive_target_depth_count": 269051,
+    "nonpositive_or_nonfinite_target_count": 0,
+    "projected_inside_count_before_zbuffer": 269051,
+    "zbuffer_visible_target_pixel_count": 269051,
+    "projection_collisions_removed": 0,
+    "valid_target_depth_pixel_count": 267129,
+    "overlap_pixel_count": 267048,
+    "valid_target_coverage_fraction": 0.999696775715104,
+    "signed_depth_residual_m": {
+      "n": 267048,
+      "mean": 0.009753378951554172,
+      "median": 0.01399993896484375,
+      "p95": 0.14300012588500977,
+      "max": 1.2670000791549683,
+      "min": -1.3579999208450317
+    },
+    "absolute_depth_residual_m": {
+      "n": 267048,
+      "mean": 0.11620112779966771,
+      "median": 0.039999961853027344,
+      "p95": 0.7256499767303408,
+      "max": 1.3579999208450317,
+      "min": 0.0
+    },
+    "threshold_m": 0.03,
+    "within_threshold_count": 107457,
+    "predicted_behind_observation_count": 111569,
+    "predicted_in_front_of_observation_count": 48022,
+    "residual_threshold_used_to_remove_points": false,
+    "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+  },
+  "target_depth_unchanged": true,
+  "reoptimization": false,
+  "point_statistics_before_downsampling": true
+}

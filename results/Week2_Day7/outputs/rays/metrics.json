@@ -1,0 +1,65 @@
+{
+  "n_all_valid_pixels": 267129,
+  "n_sampled_pixels": 2048,
+  "ray_direction_norm_difference_from_one": {
+    "n_total": 2048,
+    "n_finite": 2048,
+    "mean": 4.30970363562988e-17,
+    "median": 0.0,
+    "p95": 1.1102230246251565e-16,
+    "max": 2.220446049250313e-16
+  },
+  "z_to_range": {
+    "n_total": 2048,
+    "n_finite": 2048,
+    "mean": 1.0791417365112466,
+    "median": 1.0742426528160554,
+    "p95": 1.167844137304114,
+    "max": 1.2181685818791876
+  },
+  "depth_backprojection_vs_saved_Day6_m": {
+    "n_total": 2048,
+    "n_finite": 2048,
+    "mean": 3.7113726642616894e-17,
+    "median": 0.0,
+    "p95": 2.220446049250313e-16,
+    "max": 6.280369834735101e-16
+  },
+  "ray_endpoint_vs_depth_backprojection_m": {
+    "n_total": 2048,
+    "n_finite": 2048,
+    "mean": 9.12535472846444e-17,
+    "median": 0.0,
+    "p95": 4.440892098500626e-16,
+    "max": 6.280369834735101e-16
+  },
+  "ray_endpoint_vs_saved_Day6_m": {
+    "n_total": 2048,
+    "n_finite": 2048,
+    "mean": 1.0181226379573565e-16,
+    "median": 0.0,
+    "p95": 4.440892098500626e-16,
+    "max": 6.280369834735101e-16
+  },
+  "same_camera_valid_count": 2048,
+  "same_camera_valid_fraction": 1.0,
+  "same_camera_pixel_roundtrip_px": {
+    "n_total": 2048,
+    "n_finite": 2048,
+    "mean": 4.2123218757748606e-14,
+    "median": 2.842170943040401e-14,
+    "p95": 1.1718571004216928e-13,
+    "max": 2.3437142008433856e-13
+  },
+  "same_camera_axial_depth_difference_m": {
+    "n_total": 2048,
+    "n_finite": 2048,
+    "mean": -7.589415207398531e-19,
+    "median": 0.0,
+    "p95": 2.220446049250313e-16,
+    "max": 4.440892098500626e-16
+  },
+  "diagnostic_sampling_only": true,
+  "any_metric_is_external_ground_truth_accuracy": false,
+  "interpretation": "Independent synthetic checks and local shared-input consistency are separate evidence. Real LOG rounding can affect transpose-inverse roundtrips."
+}

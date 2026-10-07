@@ -1,0 +1,22 @@
+PASS 01_known_mm_values_and_zero
+PASS 02_nonfinite_negative_and_zero
+PASS 03_scale_is_not_hardcoded
+PASS 04_exclusive_truncation_boundary
+PASS 05_input_not_mutated_noncontiguous
+PASS 06_invalid_arguments
+PASS 07_principal_point
+PASS 08_nonsquare_distinct_fx_fy_and_axial_Z
+PASS 09_invalid_pixels_are_full_NaN
+PASS 10_mask_preservation
+PASS 11_independent_forward_check_and_input_immutability
+PASS 12_reject_bad_K_or_depth_shape
+PASS 13_row_major_ID_point_and_RGB_alignment
+PASS 14_full_xyz_finite_and_positive_Z
+PASS 15_empty_output_shapes
+PASS 16_no_mutation_random_mask
+PASS 17_bad_shape_or_color_dtype
+PASS 18_intrinsic_JSON_column_major
+PASS 19_same_pixel_comparison_not_nearest_neighbors
+PASS 20_PLY_numeric_frame_preserved
+20/20 passed; saved: .\scripts\Week2_Day5\outputs\package_check_v3
+DAY5 CODE CHECK PASSED (all).

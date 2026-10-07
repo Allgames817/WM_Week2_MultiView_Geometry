@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-07T09:01:38.930730+00:00",
+  "mode": "controls",
+  "command": [
+    "ray_bridge.py",
+    "--mode",
+    "controls"
+  ],
+  "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "H:\\anaconda3\\envs\\wm_geometry\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "opencv-python": null,
+    "opencv-python-headless": "4.13.0.92",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0"
+  },
+  "source_sha256": {
+    "audit_support.py": "59d8fa98495fbdbee67e53cee069121e0c86d9a2d86f995d29091df05b610621",
+    "bridge_io.py": "fd11a7e7d76b3fc36dc73b998138aaef2620030d3c4a81a43b7f5fcebe72a9c3",
+    "collect_evidence.py": "d5567bb0c0ad15d19b33adefdad86350e7e9387b6c486fe4fe2f7a4e37401468",
+    "day7_check.py": "c45bef7c37035ee75c303706ec2a0351fec9c0b4417b2a85c29b177d1c283837",
+    "geometry_audit_exercise.py": "21de90b6c84d8629d35fc6e13030b899d43307048f4278679d4bcd868e35aff7",
+    "ray_bridge.py": "2914f3295d0e30604508fc45cbeb2da165df9efc50404afafd649a3d79136db8"
+  },
+  "optimization_or_training_performed": false,
+  "note": "Created by a local invocation; code checks are not real-world geometry accuracy."
+}

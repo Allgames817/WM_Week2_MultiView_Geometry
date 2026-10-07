@@ -1,0 +1,146 @@
+"""Day3 的两个独立任务。只改本文件；没有 reference 实现或自动答案回退。"""
+from __future__ import annotations
+
+import math
+import statistics
+
+
+def _flag(value: bool) -> str:
+    return "1" if value else "0"
+
+
+def build_commands(cfg: dict, flags: dict) -> dict[str, list[str]]:
+    """TODO 1：把 SfM 的三个阶段连接起来。
+
+    cfg 中的 image_path/database_path/sparse_path 已是绝对路径字符串。
+    其余键：camera_model, single_camera(bool), max_image_size(int),
+    max_num_features(int), num_threads(int), use_gpu(bool)。
+
+    flags 是从本地 COLMAP 子命令帮助中检测得到的参数名，值包含 '--'：
+      extraction_gpu, extraction_size, extraction_threads,
+      matching_gpu, matching_threads。
+    不能自己拼旧版 SiftExtraction.use_gpu 名称。
+
+    返回一个 dict，键按 feature -> match -> map 顺序，值为字符串列表。
+    列表首项是子命令名，不包含 COLMAP 路径，不执行 subprocess。
+    路径保持为单独一个字符串元素，不自行加引号。
+
+    feature: feature_extractor
+      --database_path, --image_path
+      --ImageReader.camera_model, --ImageReader.single_camera
+      flags['extraction_gpu'], flags['extraction_size'],
+      flags['extraction_threads'], --SiftExtraction.max_num_features
+    match: exhaustive_matcher
+      --database_path, flags['matching_gpu'], flags['matching_threads']
+    map: mapper
+      --database_path, --image_path, --output_path (= sparse_path)
+
+    三个阶段必须共用同一个 database_path。
+    所有值转成 str；布尔值编码为 '1' 或 '0'，不是 'True'/'False'。
+    SIFT 类型和随机种子由运行器在验证本地帮助后补充，不在此重复添加。
+    """
+    database_path = str(cfg["database_path"])
+    image_path = str(cfg["image_path"])
+    use_gpu = _flag(bool(cfg["use_gpu"]))
+    num_threads = str(cfg["num_threads"])
+    return {
+        "feature": [
+            "feature_extractor",
+            "--database_path", database_path,
+            "--image_path", image_path,
+            "--ImageReader.camera_model", str(cfg["camera_model"]),
+            "--ImageReader.single_camera", _flag(bool(cfg["single_camera"])),
+            flags["extraction_gpu"], use_gpu,
+            flags["extraction_size"], str(cfg["max_image_size"]),
+            flags["extraction_threads"], num_threads,
+            "--SiftExtraction.max_num_features", str(cfg["max_num_features"]),
+        ],
+        "match": [
+            "exhaustive_matcher",
+            "--database_path", database_path,
+            flags["matching_gpu"], use_gpu,
+            flags["matching_threads"], num_threads,
+        ],
+        "map": [
+            "mapper",
+            "--database_path", database_path,
+            "--image_path", image_path,
+            "--output_path", str(cfg["sparse_path"]),
+        ],
+    }
+
+
+def summarize_model(
+    input_names: list[str],
+    registered_names: list[str],
+    point_errors_px: list[float],
+    track_lengths: list[int],
+) -> dict:
+    """TODO 2：给一个稀疏子模型统计覆盖率和存储的点误差。
+
+    参数由已提供的 TXT 解析器传入。
+    input_names: 此次实际输入的全部图像相对路径，不能为空。
+    registered_names: 此子模型已注册图像的相对路径，可以为空。
+    point_errors_px: points3D.txt 每个点的 ERROR 字段。
+    track_lengths: 每个点的 TRACK 中 (IMAGE_ID, POINT2D_IDX) 对数。
+
+    先检查以下条件，不符合时 raise ValueError：
+      input_names/registered_names 各自不得重复；
+      registered_names 必须是 input_names 的子集；
+      两个逐点列表长度相等；ERROR 有限且 >=0；TRACK 长度为非负整数。
+
+    返回这些键（不要添加别的键，方便对照单元检查）：
+      n_input_images               int
+      n_registered_images          int
+      registration_fraction        n_registered / n_input
+      unregistered_names           未注册图像的排序列表
+      n_points3D                   点的个数，不是最大 POINT3D_ID
+      mean_point_error_px          ERROR 按点等权平均；无点时 None
+      median_point_error_px        ERROR 中位数；无点时 None
+      mean_track_length            TRACK 长度平均；无点时 None
+      n_observations               所有 TRACK 长度之和
+
+    可使用 math.isfinite、statistics.mean/median。
+    无点的平均误差不能写成 0（没有观测 != 完美重建）。
+    此处只汇总模型已存储的 ERROR，不重新计算投影，也不是 GT 三维误差。
+    """
+    if not input_names:
+        raise ValueError("input_names 不能为空")
+    if len(set(input_names)) != len(input_names):
+        raise ValueError("input_names 含有重复图像")
+    if len(set(registered_names)) != len(registered_names):
+        raise ValueError("registered_names 含有重复图像")
+    if not set(registered_names).issubset(input_names):
+        raise ValueError("registered_names 必须是 input_names 的子集")
+    if len(point_errors_px) != len(track_lengths):
+        raise ValueError("point_errors_px 与 track_lengths 长度必须相等")
+    for error in point_errors_px:
+        if isinstance(error, bool) or not isinstance(error, (int, float)):
+            raise ValueError("ERROR 必须是有限非负数")
+        if not math.isfinite(float(error)) or float(error) < 0:
+            raise ValueError("ERROR 必须是有限非负数")
+    for length in track_lengths:
+        if isinstance(length, bool) or not isinstance(length, int) or length < 0:
+            raise ValueError("TRACK 长度必须是非负整数")
+
+    registered = set(registered_names)
+    n_points = len(point_errors_px)
+    if n_points == 0:
+        mean_error = None
+        median_error = None
+        mean_track = None
+    else:
+        mean_error = statistics.mean(point_errors_px)
+        median_error = statistics.median(point_errors_px)
+        mean_track = statistics.mean(track_lengths)
+    return {
+        "n_input_images": len(input_names),
+        "n_registered_images": len(registered_names),
+        "registration_fraction": len(registered_names) / len(input_names),
+        "unregistered_names": sorted(name for name in input_names if name not in registered),
+        "n_points3D": n_points,
+        "mean_point_error_px": mean_error,
+        "median_point_error_px": median_error,
+        "mean_track_length": mean_track,
+        "n_observations": int(sum(track_lengths)),
+    }

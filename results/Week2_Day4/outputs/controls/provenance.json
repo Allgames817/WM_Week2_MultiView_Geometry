@@ -1,0 +1,47 @@
+{
+  "mode": "controls",
+  "config": {
+    "day3_run": "D:\\WM_Study\\Week2_Day3\\outputs\\base4096",
+    "model_id": "0",
+    "image_root": "D:\\WM_Study\\Week2_Day3\\data\\south-building\\images",
+    "image_ids": [
+      1,
+      64,
+      128
+    ],
+    "min_depth": 1e-08,
+    "max_overlay_points": 180,
+    "max_scene_points": 8000,
+    "verify_image_sha256": true,
+    "seed": 0
+  },
+  "model_path": "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\models_txt\\0",
+  "model_text_sha256": {
+    "cameras.txt": "2c4163b6463472b8f2506699c0daa811622171481a379e0178915138c449356a",
+    "frames.txt": "f189808ac7aa32c1fe337a8adeb9d1574958e3be78a19f4dfaad72115ec3b0bf",
+    "images.txt": "219839f9c01d86e6b30405b67b5b56b7ed4fe22c49ac59d9fe77ac630304fa2e",
+    "points3D.txt": "cce32d698cbb0814f91a12d6cd62193115cdd7dccb7d97edc318547d37e29152",
+    "rigs.txt": "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+  },
+  "day3_metadata_sha256": {
+    "config_used.json": "a576584df8d49a592f7220f2296711116052547721816d1149aaad16c1245353",
+    "input_manifest.json": "067584716f4fba2dce81c87b66a3bd846d75d6e1af24611d034f21f477f84d58",
+    "environment.json": "4febb00126f80edd97567d863240e20d7b94e0cf1c1af13cd6b41449345c2c37"
+  },
+  "day4_source_sha256": {
+    "day4_check.py": "ba26ea2b58753dac2915c9058fcbb35aa5957479bb373240e37b0365b81e2b7d",
+    "day4_common.py": "635d6bf4e68b0a2dbe830499f148eddd79157416127abdc7f974ac9e5dcc9bf5",
+    "evaluate_model.py": "10a74d805f3d9aebaa22e4d8dc9857eb25a0bdaab98be173857d044f5f052fd5",
+    "inspect_colmap.py": "1712a20693510960a2fba9f634138d14d625273cc47f58422c6a3106d5ec8081",
+    "model_io.py": "802f944ab92cc05284e60af50813e3f45dba0808663d4f765c52806e08904921",
+    "plots.py": "1cd5ed5cff4f5a92d18749d3515cdb917891b304ecacee59be1038297bd3b535",
+    "pose_exercise.py": "09cc77e6932e92d8b7450b3159c770cdc6c6d3352792d57e948ef7b391221918"
+  },
+  "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "opencv": "4.13.0",
+  "coordinate_convention": "X_cam = R X_world + t; camera x-right/y-down/z-forward",
+  "scale": "arbitrary SfM units, not meters",
+  "scope": "stored training observations, not held-out data or geometric ground truth"
+}

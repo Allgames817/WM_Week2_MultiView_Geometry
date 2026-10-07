@@ -1,0 +1,13 @@
+{
+  "n_points": 300,
+  "n_finite": 300,
+  "finite_fraction": 1.0,
+  "positive_depth_fraction": 1.0,
+  "median_3d_m": 3.566841437502201e-15,
+  "mean_3d_m": 4.601896609387858e-15,
+  "rmse_3d_m": 6.107296996197642e-15,
+  "p90_3d_m": 9.854837441057257e-15,
+  "median_reprojection_px": 6.355287432313019e-14,
+  "opencv_n_common_finite": 300,
+  "opencv_max_difference_m": 2.2360522891433096e-14
+}

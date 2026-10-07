@@ -1,0 +1,35 @@
+{
+  "source_point_count": 269051,
+  "positive_target_depth_count": 269051,
+  "nonpositive_or_nonfinite_target_count": 0,
+  "projected_inside_count_before_zbuffer": 269051,
+  "zbuffer_visible_target_pixel_count": 245314,
+  "projection_collisions_removed": 23737,
+  "valid_target_depth_pixel_count": 267129,
+  "overlap_pixel_count": 239577,
+  "valid_target_coverage_fraction": 0.8968588210190582,
+  "signed_depth_residual_m": {
+    "n": 239577,
+    "mean": 0.09458338514241175,
+    "median": 0.09509241494067977,
+    "p95": 0.1328818305451918,
+    "max": 1.4099968639794516,
+    "min": -1.2212695109964862
+  },
+  "absolute_depth_residual_m": {
+    "n": 239577,
+    "mean": 0.10001378295387155,
+    "median": 0.09531537911221366,
+    "p95": 0.13406990576132533,
+    "max": 1.4099968639794516,
+    "min": 1.2283402954782474e-05
+  },
+  "threshold_m": 0.03,
+  "within_threshold_count": 764,
+  "predicted_behind_observation_count": 237698,
+  "predicted_in_front_of_observation_count": 1115,
+  "residual_threshold_used_to_remove_points": false,
+  "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute.",
+  "source_frame": 4,
+  "target_frame": 0
+}

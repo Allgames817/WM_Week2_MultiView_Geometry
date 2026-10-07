@@ -1,0 +1,6 @@
+* text=auto
+*.md text eol=lf
+/results/** -text
+/figures/** -text
+*.png -text
+*.npz -text

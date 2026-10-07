@@ -1,0 +1,55 @@
+{
+  "condition": "baseline",
+  "n_associated_observations": 241106,
+  "n_valid": 241106,
+  "valid_fraction": 1.0,
+  "n_invalid": 0,
+  "n_unassociated_keypoints": 448131,
+  "n_valid_projected_outside_image": 1,
+  "observation_error_px": {
+    "n_finite": 241106,
+    "mean": 0.8001413645390376,
+    "median": 0.614935827579603,
+    "p95": 2.1623764007859494,
+    "max": 3.9856550575834433,
+    "rms": 1.024330229836544
+  },
+  "opencv_projection_difference_px": {
+    "n_finite": 241106,
+    "mean": 3.959102341079869e-14,
+    "median": 0.0,
+    "p95": 2.2737367544323206e-13,
+    "max": 9.374856803373542e-13,
+    "rms": 1.0660968026627915e-13
+  },
+  "note": "原有 Track 观测的拟合一致性；不是新视角测试、真实三维误差或绝对尺度精度。",
+  "stored_point_error_comparison": {
+    "n_model_points": 40692,
+    "n_comparable_complete_tracks": 40692,
+    "point_equal_weight_recomputed_error_px": {
+      "n_finite": 40692,
+      "mean": 0.7634736755019217,
+      "median": 0.6256041549624289,
+      "p95": 1.7811439719724638,
+      "max": 3.7536754629001052,
+      "rms": 0.9112397038076572
+    },
+    "point_equal_weight_stored_error_px_same_points": {
+      "n_finite": 40692,
+      "mean": 0.7634736755019236,
+      "median": 0.6256041549626155,
+      "p95": 1.7811439719724764,
+      "max": 3.753675462899994,
+      "rms": 0.9112397038076578
+    },
+    "absolute_difference_px": {
+      "n_finite": 40692,
+      "mean": 1.0977910830413348e-13,
+      "median": 7.016609515630989e-14,
+      "p95": 3.5679514898134796e-13,
+      "max": 2.022382261657185e-12,
+      "rms": 1.6810962017443943e-13
+    },
+    "note": "不能与全观测等权均值直接比较。stored ERROR 更新时机可能不同；差异不能单独判定几何真伪。"
+  }
+}

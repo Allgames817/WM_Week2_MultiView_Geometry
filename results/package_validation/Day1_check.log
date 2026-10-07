@@ -1,0 +1,18 @@
+[PASS] 01 shared projection vs OpenCV; t=-R@C
+[PASS] 02 A has four correct constraints and nonzero rank
+[PASS] 03 analytical one-point example
+[PASS] 04 noise-free reconstruction at two nonzero baselines
+[PASS] 05 twenty mixed-pose, nonhorizontal cases vs ground truth
+[PASS] 06 noisy DLT vs OpenCV, identical pixel inputs
+[PASS] 07 normalized coordinates paired with [R|t], noise-free
+[PASS] 08 swapping both cameras and both observations preserves X
+[PASS] 09 projection-matrix rescaling, noise-free
+[PASS] 10 wrong translation sign: tiny reprojection but negative depth
+[PASS] 11 assumed baseline x2: scale wrong although reprojection is tiny
+[PASS] 12 shared guardrail rejects zero baseline and pure rotation
+[PASS] 13 shared guardrail rejects bad shape and NaN inputs
+[PASS] 14 solver rejects nonunique and infinite homogeneous solutions
+
+STUDENT: 14/14 passed
+DAY1 NUMERICAL CHECK PASSED (student module); submit concepts and experiment results separately.
+Saved: .\scripts\Week2_Day1\outputs\package_check\check_student.json

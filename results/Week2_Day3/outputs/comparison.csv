@@ -1,0 +1,3 @@
+﻿run_name,max_num_features,n_models,selected_model,n_input_images,n_registered_images,registration_fraction,n_points3D,mean_point_error_px,median_point_error_px,mean_track_length
+base4096,4096,1,0,128,128,1.0,40692,0.7634736755019236,0.6256041549626155,5.925144991644549
+features2048,2048,1,0,128,128,1.0,17817,0.93145354688768,0.8162330196730245,5.510692035696245

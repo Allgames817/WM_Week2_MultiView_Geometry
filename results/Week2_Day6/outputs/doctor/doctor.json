@@ -1,0 +1,25 @@
+{
+  "environment": {
+    "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "H:\\anaconda3\\envs\\wm_geometry\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "opencv-python-headless": "4.13.0.92",
+      "opencv-python": null,
+      "Pillow": "12.3.0",
+      "open3d": "0.19.0"
+    }
+  },
+  "day5_source": {
+    "file": "D:\\WM_Study\\Week2_Day5\\rgbd_exercise.py",
+    "sha256": "0846117d37b210c35291b50d3445c2b9b9cb912d1d8e6ff714d1bd1d9c38287f",
+    "missing_functions": [],
+    "functions_with_NotImplementedError": [],
+    "note": "Static source inspection only; not a Day5 acceptance result."
+  },
+  "raw_data_exists": true,
+  "open3d_imported": "0.19.0",
+  "no_TODO_called": true
+}

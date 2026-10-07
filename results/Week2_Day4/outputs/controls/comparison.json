@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    {
+      "condition": "baseline",
+      "n_original": 241106,
+      "valid_fraction": 1.0,
+      "median_all_valid_px": 0.614935827579603,
+      "n_common_valid": 241106,
+      "baseline_median_common_px": 0.614935827579603,
+      "condition_median_common_px": 0.614935827579603,
+      "mean_paired_delta_px": 0.0
+    },
+    {
+      "condition": "ignore_distortion",
+      "n_original": 241106,
+      "valid_fraction": 1.0,
+      "median_all_valid_px": 2.0548730400923585,
+      "n_common_valid": 241106,
+      "baseline_median_common_px": 0.614935827579603,
+      "condition_median_common_px": 2.0548730400923585,
+      "mean_paired_delta_px": 2.2948329534352507
+    },
+    {
+      "condition": "inverse_as_forward",
+      "n_original": 241106,
+      "valid_fraction": 0.5245784012011314,
+      "median_all_valid_px": 1385.3715030062576,
+      "n_common_valid": 126479,
+      "baseline_median_common_px": 0.5832358507236789,
+      "condition_median_common_px": 1385.3715030062576,
+      "mean_paired_delta_px": 22544385807.35284
+    }
+  ],
+  "changes": {
+    "baseline": "model as stored",
+    "ignore_distortion": "only k set to zero during projection",
+    "inverse_as_forward": "use entire T_camera_to_world where T_world_to_camera is needed"
+  },
+  "fixed": "same text model, original observations, image IDs, overlay sampling, no optimization",
+  "interpretation": "implementation sensitivity diagnostic; not a trained-model ablation or physical ground truth"
+}

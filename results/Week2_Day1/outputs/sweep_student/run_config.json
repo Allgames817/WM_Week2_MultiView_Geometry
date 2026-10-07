@@ -1,0 +1,30 @@
+{
+  "implementation": "student",
+  "mode": "sweep",
+  "scene_seed": 20261006,
+  "n_points": 300,
+  "arguments": {
+    "mode": "sweep",
+    "impl": "student",
+    "out": null,
+    "n_points": 300,
+    "seed": 20261006,
+    "baseline": 0.5,
+    "noise_px": 0.0,
+    "repeats": 10
+  },
+  "versions": {
+    "python": "3.11.17",
+    "numpy": "2.3.5",
+    "opencv": "4.13.0",
+    "matplotlib": "3.10.8",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "convention": "Xc=R@Xw+t; t=-R@C; x-right y-down z-forward; P=K[R|t]; meters; no distortion",
+  "scope": "Known synthetic cameras and exact point identities. Not feature matching, pose estimation, SfM, or model training.",
+  "source_sha256": {
+    "two_view_synthetic.py": "2824859568c4caa2792df77f934a543efc08b773b5da60625e50fa06b6a9c09f",
+    "geometry_exercise.py": "96333113c8e64a05de4252d644bf5aaf332f927d2a9a0d6bda3feddf423a4db6",
+    "geometry_core.py": "7bc487421e629e9c071fdebd7202e204ac7fe9002c92c8398dd6d292df850686"
+  }
+}

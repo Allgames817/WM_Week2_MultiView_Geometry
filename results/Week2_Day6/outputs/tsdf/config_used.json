@@ -1,0 +1,26 @@
+{
+  "day5_root": "D:\\WM_Study\\Week2_Day5",
+  "day5_config": "D:\\WM_Study\\Week2_Day5\\configs\\day5.json",
+  "data_root": "D:\\WM_Study\\Week2_Day5\\data\\SampleRedwoodRGBDImages",
+  "frame_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "trajectory_filename": "odometry.log",
+  "pose_convention": "camera_to_world",
+  "depth_scale": 1000.0,
+  "depth_trunc_m": 3.0,
+  "verify_sha256": true,
+  "open3d_version": "0.19.0",
+  "voxel_size_m": 0.02,
+  "max_plot_points_per_frame": 5000,
+  "pair_source": 4,
+  "pair_target": 0,
+  "depth_consistency_threshold_m": 0.03,
+  "control_translation_world_x_m": 0.1,
+  "control_depth_factor": 1.05,
+  "tsdf_sdf_trunc_m": 0.06
+}

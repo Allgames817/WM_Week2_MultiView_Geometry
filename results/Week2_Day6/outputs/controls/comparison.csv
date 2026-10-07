@@ -1,0 +1,6 @@
+﻿condition,valid_target_coverage_fraction,overlap_pixel_count,all_overlap_abs_mean_m,all_overlap_abs_median_m,common_target_pixel_count,common_target_abs_mean_m,common_target_abs_median_m,common_target_abs_p95_m,common_target_winner_changes_vs_baseline,baseline_pair_common_target_count,case_abs_median_on_baseline_pair_common_m,baseline_abs_median_on_same_pair_common_m
+baseline,0.892246817080886,238345,0.012044772424900513,0.005479463665533535,0,,,,0,238345,0.005479463665533535,0.005479463665533535
+ignore_relative_pose,0.999696775715104,267048,0.11620112779966771,0.039999961853027344,0,,,,0,238327,0.03600001335144043,0.005479025350757283
+source_world_x_shift,0.7955369877474928,212511,0.1998417375044561,0.03488558382816209,0,,,,0,201404,0.03479152868087576,0.005560837900011939
+source_inverse_as_forward,0.0,0,,,0,,,,0,0,,
+source_depth_scale,0.8968588210190582,239577,0.10001378295387155,0.09531537911221366,0,,,,0,228409,0.09570453499895626,0.005473010951277502

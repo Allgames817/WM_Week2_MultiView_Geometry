@@ -1,0 +1,30 @@
+{
+  "n_original_associated": 241106,
+  "n_common_valid": 241106,
+  "common_valid_fraction": 1.0,
+  "baseline_error_px_on_common": {
+    "n_finite": 241106,
+    "mean": 0.8001413645390376,
+    "median": 0.614935827579603,
+    "p95": 2.1623764007859494,
+    "max": 3.9856550575834433,
+    "rms": 1.024330229836544
+  },
+  "condition_error_px_on_common": {
+    "n_finite": 241106,
+    "mean": 0.8001413645390376,
+    "median": 0.614935827579603,
+    "p95": 2.1623764007859494,
+    "max": 3.9856550575834433,
+    "rms": 1.024330229836544
+  },
+  "paired_error_delta_condition_minus_baseline_px": {
+    "n_finite": 241106,
+    "mean": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "rms": 0.0
+  },
+  "note": "报告各自有效比例和公共有效子集，不能因大量观测变无效而误判改进。"
+}

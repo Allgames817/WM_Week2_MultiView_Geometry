@@ -1,0 +1,57 @@
+{
+  "condition": "source_depth_scale",
+  "description": "Only source frame 4: valid axial depths scaled by 1.05; original mask is frozen.",
+  "counts": {
+    "unpooled_point_count": 1340711,
+    "voxel_point_count": 48466,
+    "voxel_size_m": 0.02,
+    "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+  },
+  "source_input_pixel_count": 269051,
+  "same_source_pixel_set_as_baseline": true,
+  "same_source_world_delta_vs_baseline_m": {
+    "n": 269051,
+    "mean": 0.09745136743843645,
+    "median": 0.0978087075862433,
+    "p95": 0.13836004941729765,
+    "max": 0.16432176882916633,
+    "min": 0.058157792043785565
+  },
+  "delta_is_GT_error": false,
+  "pair": {
+    "source_point_count": 269051,
+    "positive_target_depth_count": 269051,
+    "nonpositive_or_nonfinite_target_count": 0,
+    "projected_inside_count_before_zbuffer": 269051,
+    "zbuffer_visible_target_pixel_count": 245314,
+    "projection_collisions_removed": 23737,
+    "valid_target_depth_pixel_count": 267129,
+    "overlap_pixel_count": 239577,
+    "valid_target_coverage_fraction": 0.8968588210190582,
+    "signed_depth_residual_m": {
+      "n": 239577,
+      "mean": 0.09458338514241175,
+      "median": 0.09509241494067977,
+      "p95": 0.1328818305451918,
+      "max": 1.4099968639794516,
+      "min": -1.2212695109964862
+    },
+    "absolute_depth_residual_m": {
+      "n": 239577,
+      "mean": 0.10001378295387155,
+      "median": 0.09531537911221366,
+      "p95": 0.13406990576132533,
+      "max": 1.4099968639794516,
+      "min": 1.2283402954782474e-05
+    },
+    "threshold_m": 0.03,
+    "within_threshold_count": 764,
+    "predicted_behind_observation_count": 237698,
+    "predicted_in_front_of_observation_count": 1115,
+    "residual_threshold_used_to_remove_points": false,
+    "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+  },
+  "target_depth_unchanged": true,
+  "reoptimization": false,
+  "point_statistics_before_downsampling": true
+}

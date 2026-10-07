@@ -1,0 +1,13 @@
+scripts/
+tools/
+CODE_MAP.md
+REPRODUCTION.md
+UPLOAD.md
+results/**/*.py
+__pycache__/
+*.py[cod]
+.env
+*.db
+*.zip
+Thumbs.db
+.DS_Store

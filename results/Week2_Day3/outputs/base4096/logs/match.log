@@ -1,0 +1,23 @@
+I20261007 03:23:52.274165 49384 feature_matching.cc:196] === Feature matching & geometric verification ===
+I20261007 03:23:52.333094 55664 feature_matching_utils.cc:79] Bind FeatureMatcherWorker to GPU device 0
+I20261007 03:23:52.333743 55664 sift.cc:1679] Creating SIFT GPU feature matcher
+I20261007 03:23:52.335958 49384 pairing.cc:181] Generating exhaustive image pairs...
+I20261007 03:23:52.336078 49384 pairing.cc:214] Processing block [1/3, 1/3]
+I20261007 03:23:57.835501 49384 feature_matching.cc:218] in 5.500s
+I20261007 03:23:57.835559 49384 pairing.cc:214] Processing block [1/3, 2/3]
+I20261007 03:24:05.272041 49384 feature_matching.cc:218] in 7.436s
+I20261007 03:24:05.272095 49384 pairing.cc:214] Processing block [1/3, 3/3]
+I20261007 03:24:06.603852 49384 feature_matching.cc:218] in 1.332s
+I20261007 03:24:06.603913 49384 pairing.cc:214] Processing block [2/3, 1/3]
+I20261007 03:24:24.585284 49384 feature_matching.cc:218] in 17.981s
+I20261007 03:24:24.585497 49384 pairing.cc:214] Processing block [2/3, 2/3]
+I20261007 03:24:38.491605 49384 feature_matching.cc:218] in 13.906s
+I20261007 03:24:38.491675 49384 pairing.cc:214] Processing block [2/3, 3/3]
+I20261007 03:24:41.752615 49384 feature_matching.cc:218] in 3.261s
+I20261007 03:24:41.752702 49384 pairing.cc:214] Processing block [3/3, 1/3]
+I20261007 03:24:49.211141 49384 feature_matching.cc:218] in 7.458s
+I20261007 03:24:49.211806 49384 pairing.cc:214] Processing block [3/3, 2/3]
+I20261007 03:24:57.441257 49384 feature_matching.cc:218] in 8.229s
+I20261007 03:24:57.441469 49384 pairing.cc:214] Processing block [3/3, 3/3]
+I20261007 03:24:59.012856 49384 feature_matching.cc:218] in 1.571s
+I20261007 03:24:59.012991 49384 timer.cc:90] Elapsed time: 1.112 [minutes]

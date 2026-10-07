@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-10-07T07:41:07.963707+00:00",
+  "command": [
+    "fuse_rgbd.py",
+    "--mode",
+    "fuse"
+  ],
+  "mode": "fuse",
+  "source_sha256": {
+    "day6/day6_check.py": "4719970bd9fc930836ce3d75fd21b800d08e25d883bd32cadd87d367cb944ed2",
+    "day6/fuse_rgbd.py": "96d35759d953abe98517cefa467bdaffa27d5d43d039a2f70415bc22194ba4ce",
+    "day6/fusion_exercise.py": "00c8525cd18cad55467f4c1b6c030baf7e962206b99fadd00984568c3236aae1",
+    "day6/fusion_io.py": "5a19cfacf494a2480c4773aa68e46703a3dd28ae0436b5aaf799e2fe79c2383d",
+    "day6/fusion_metrics.py": "cda3bce0fbc46502f1c7c8cd9b15d0c6d5903f173a8aa1054da05e6acb15a323",
+    "day6/fusion_plots.py": "7706fea7a96b4c16a1293d326051a21c5392132aa365692aea0e2690c475e8ba",
+    "day6/fusion_validation.py": "50d6f25caafeb4242bdd582d3f847d6fe9ff0d7decfa564b795475cfd2a95aa2",
+    "day6/view_cloud.py": "ac48500591de6dcdab15e2c705dc95e4adbdaa0af57ca886bd9f89276210a037",
+    "day5/common.py": "83c1ff06d9ef5a6d60297ea69bd4026192eee5d3833a0b6841897340c15a993f",
+    "day5/day5_check.py": "3ae46e5f29ca54c51ec4a522706fed4fe1f77d580c98825788072c272abdb195",
+    "day5/plots.py": "dc0a90802281822451db7f7cbf7010c833ad85f11ae8ae43a2fe1e0f5c94ba1e",
+    "day5/prepare_data.py": "1bca033b96d04f542ae770a6759948fd0ff3c1b33919fa813e25190f1d4bed87",
+    "day5/rgbd_exercise.py": "0846117d37b210c35291b50d3445c2b9b9cb912d1d8e6ff714d1bd1d9c38287f",
+    "day5/rgbd_to_cloud.py": "1ab46b7d3ffa03fd363b9ad3d0d60412589c0020ae93839bad2750a66d9d2d48",
+    "day5/validation.py": "775d18fa72d56f2b6c82632130708562f1b6396603dc0e7c33fbec97f807b5b6",
+    "day5/view_cloud.py": "b193ee6b57ecaaad236b5cd71c586ba8762b821c45b896b72b42529c9181b4cf"
+  },
+  "world_frame": "original odometry.log world; NOT COLMAP world; not rebased for display",
+  "pose_source": "provided original odometry.log; not estimated in Day6; not certified ground truth",
+  "matrix_convention": "T_world_from_camera maps camera column vectors to world",
+  "units": "declared metres with inherited depth_scale; no external metrology check",
+  "dataset_downloaded_here": false,
+  "optimization_used": false,
+  "input_sha256": {
+    "camera_primesense.json": "69ec0cb6a0beeead2551e332e1f728df6d1fe37f4b056410580733d2dbc54259",
+    "odometry.log": "06c527e3715ce1c3b8b30839e15d866dda067a392e8d91fbf5c4450c54cb0b12",
+    "color/00000.jpg": "29468161241d7ef92312991cf0019d7ccf199db1fafbf783d27288ef279d270a",
+    "depth/00000.png": "3eff7854dd5f056fe6f67ce68999a632fbc1fe6f3555cc00f83528312d6cb186",
+    "color/00001.jpg": "99afaf2e053d57f63b0ef730e6c32d2ae313ad2ef9e83218e253f020188a61df",
+    "depth/00001.png": "9c2a4fc35748ecc883e0142e5353a4d6da22afde9702db3a580ed767aa2b17f2",
+    "color/00002.jpg": "2c540e0a3c76973b32bcff184ca5dfdec074f262615c4bb5b4d40370429905bd",
+    "depth/00002.png": "98041b11392817c2781b8853953aa483f707cc19b1c1a9ab2eab6fccac8ee240",
+    "color/00003.jpg": "0ceb63f92fa3c37fe594d480593ff85422c32bcefbfbe468b628af33eeb5f6b3",
+    "depth/00003.png": "1861e3fc0fc69c60c98d38730f0c8b5e57eba3311b6499356122e73fb3745849",
+    "color/00004.jpg": "f32bc60e53da906355e57f879ffabc1195203de19964f3b6e1bd17d1ab14b4ec",
+    "depth/00004.png": "b1dbfb18965ff45e6a927bef653181a4f3a7a99e6638d1190064c3f0dbc60f29"
+  },
+  "input_manifest_sha256": "84419541f47ce99b75c6c7dfc658e9ef74923aa2af3a8c24ae3022e57d55c67e",
+  "dataset_source_url": "https://github.com/isl-org/open3d_downloads/releases/download/20220301-data/SampleRedwoodRGBDImages.zip"
+}

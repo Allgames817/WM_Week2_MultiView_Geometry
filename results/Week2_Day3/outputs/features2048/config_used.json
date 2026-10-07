@@ -1,0 +1,16 @@
+{
+  "colmap": "D:/COLMAP/COLMAP.bat",
+  "image_path": "D:\\WM_Study\\Week2_Day3\\data\\south-building\\images",
+  "output_root": "D:\\WM_Study\\Week2_Day3\\outputs",
+  "run_name": "features2048",
+  "camera_model": "SIMPLE_RADIAL",
+  "single_camera": false,
+  "max_image_size": 1600,
+  "max_num_features": 2048,
+  "num_threads": 4,
+  "use_gpu": true,
+  "seed": 0,
+  "run_path": "D:\\WM_Study\\Week2_Day3\\outputs\\features2048",
+  "database_path": "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\database.db",
+  "sparse_path": "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\sparse"
+}

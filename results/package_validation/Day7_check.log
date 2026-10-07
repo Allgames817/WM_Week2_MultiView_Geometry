@@ -1,0 +1,26 @@
+PASS [numerical] 01_analytic_identity
+PASS [numerical] 02_known_rotated_translated_world
+PASS [numerical] 03_negative_world_Z_kept
+PASS [numerical] 04_no_half_pixel_no_ray_normalization
+PASS [numerical] 05_twenty_random_camera_truth_cases
+PASS [numerical] 06_order_and_input_preservation
+PASS [numerical] 07_empty_shapes
+PASS [provided_guard] 08_depth_guard
+PASS [numerical] 09_analytic_identity
+PASS [numerical] 10_known_world_vs_OpenCV_pixels
+PASS [numerical] 11_signed_depth_and_invalid_rows
+PASS [numerical] 12_off_image_and_negative_world_Z
+PASS [numerical] 13_twenty_nontrivial_pose_oracles
+PASS [numerical] 14_threshold_is_strict
+PASS [numerical] 15_empty_and_inputs_unchanged
+PASS [provided_guard] 16_pose_guard
+PASS [numerical] 17_central_axis_and_origins
+PASS [numerical] 18_off_axis_unit_vector_and_factor
+PASS [numerical] 19_truth_from_world_point_direction
+PASS [numerical] 20_translation_changes_origins_not_directions
+PASS [numerical] 21_twenty_truth_endpoints
+PASS [numerical] 22_rounded_rotation_norm_is_world_norm
+PASS [numerical] 23_empty_shapes
+PASS [provided_guard] 24_K_guard
+24/24 passed. Saved: .\scripts\Week2_Day7\outputs\package_check
+DAY7 CODE CHECK PASSED (all).

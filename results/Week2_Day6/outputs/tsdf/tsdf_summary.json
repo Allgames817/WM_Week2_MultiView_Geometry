@@ -1,0 +1,14 @@
+{
+  "frames_integrated": 5,
+  "vertices": 18776,
+  "triangles": 33498,
+  "surface_point_count": 16155,
+  "mesh_written": true,
+  "voxel_size_m": 0.02,
+  "sdf_trunc_m": 0.06,
+  "depth_trunc_m": 3.0,
+  "extrinsic_direction": "world_to_camera",
+  "input_depth_unit": "already processed float32 metres",
+  "same_raw_data_and_given_poses_as_baseline": true,
+  "note": "Optional representation experiment, not a GT comparison. A smoother mesh does not establish better accuracy."
+}

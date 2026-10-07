@@ -1,0 +1,31 @@
+{
+  "run_name": "features2048",
+  "n_input_images": 128,
+  "n_models": 1,
+  "selected_by_coverage": "0",
+  "union_registered_images": 128,
+  "union_registration_fraction": 1.0,
+  "models": [
+    {
+      "model_id": "0",
+      "n_input_images": 128,
+      "n_registered_images": 128,
+      "registration_fraction": 1.0,
+      "unregistered_names": [],
+      "n_points3D": 17817,
+      "mean_point_error_px": 0.93145354688768,
+      "median_point_error_px": 0.8162330196730245,
+      "mean_track_length": 5.510692035696245,
+      "n_observations": 98184,
+      "cross_checked_counts": {
+        "n_registered_images": 128,
+        "n_points3D": 17817
+      }
+    }
+  ],
+  "metric_definition": "ERROR in points3D.txt, unweighted across 3D points; not recomputed, not GT.",
+  "union_warning": "Coverage union across disconnected models is NOT one common reconstructed world.",
+  "scale_warning": "No metric scale or gravity alignment was supplied.",
+  "summary_source_sha256": "775520ef64a81ef5f99eb2fe475660a88356cf5febecfca011af0076493392e2",
+  "generated_utc": "2026-10-06T19:36:30.970806+00:00"
+}

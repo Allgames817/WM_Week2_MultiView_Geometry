@@ -1,0 +1,57 @@
+{
+  "condition": "source_world_x_shift",
+  "description": "Only source frame 4: camera center shifted along WORLD +X by 0.1 m.",
+  "counts": {
+    "unpooled_point_count": 1340711,
+    "voxel_point_count": 40136,
+    "voxel_size_m": 0.02,
+    "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+  },
+  "source_input_pixel_count": 269051,
+  "same_source_pixel_set_as_baseline": true,
+  "same_source_world_delta_vs_baseline_m": {
+    "n": 269051,
+    "mean": 0.1000000000000001,
+    "median": 0.10000000000000009,
+    "p95": 0.10000000000000031,
+    "max": 0.10000000000000053,
+    "min": 0.09999999999999964
+  },
+  "delta_is_GT_error": false,
+  "pair": {
+    "source_point_count": 269051,
+    "positive_target_depth_count": 269051,
+    "nonpositive_or_nonfinite_target_count": 0,
+    "projected_inside_count_before_zbuffer": 262906,
+    "zbuffer_visible_target_pixel_count": 224990,
+    "projection_collisions_removed": 37916,
+    "valid_target_depth_pixel_count": 267129,
+    "overlap_pixel_count": 212511,
+    "valid_target_coverage_fraction": 0.7955369877474928,
+    "signed_depth_residual_m": {
+      "n": 212511,
+      "mean": -0.016141629886881913,
+      "median": 0.0028355855080637316,
+      "p95": 0.8673338373271335,
+      "max": 1.3709250109480995,
+      "min": -1.2529661609976985
+    },
+    "absolute_depth_residual_m": {
+      "n": 212511,
+      "mean": 0.1998417375044561,
+      "median": 0.03488558382816209,
+      "p95": 1.1925720207641524,
+      "max": 1.3709250109480995,
+      "min": 5.357031955810498e-07
+    },
+    "threshold_m": 0.03,
+    "within_threshold_count": 95249,
+    "predicted_behind_observation_count": 56980,
+    "predicted_in_front_of_observation_count": 60282,
+    "residual_threshold_used_to_remove_points": false,
+    "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+  },
+  "target_depth_unchanged": true,
+  "reoptimization": false,
+  "point_statistics_before_downsampling": true
+}

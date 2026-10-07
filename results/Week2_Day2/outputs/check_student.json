@@ -1,0 +1,106 @@
+{
+  "implementation": "student",
+  "versions": {
+    "python": "3.11.17",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "opencv": "4.13.0"
+  },
+  "passed": 18,
+  "total": 18,
+  "exercise_passed": 14,
+  "exercise_total": 14,
+  "checks": [
+    {
+      "name": "ratio_basic_and_flat_output",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "ratio_strict_boundary",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "ratio_sparse_rows",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "ratio_zero_second_is_ambiguous",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "ratio_invalid_parameter",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "ratio_preserves_row_order",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "ratio_invalid_distances",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "sampson_exact_epipolar_constraint",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "sampson_known_two_pixel_vertical_offset",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "sampson_independent_opencv_comparison",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "sampson_F_scale_and_sign_invariance",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "sampson_swap_views_transpose_F",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "sampson_undefined_denominator_is_inf",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "sampson_empty_and_invalid_input",
+      "kind": "exercise",
+      "passed": true
+    },
+    {
+      "name": "provided_world_to_camera_and_center",
+      "kind": "provided",
+      "passed": true
+    },
+    {
+      "name": "provided_estimator_20_noiseless_scenes",
+      "kind": "provided",
+      "passed": true
+    },
+    {
+      "name": "provided_shared_scale_leaves_pixels_unchanged",
+      "kind": "provided",
+      "passed": true
+    },
+    {
+      "name": "provided_mask_accounting_and_no_input_mutation",
+      "kind": "provided",
+      "passed": true
+    }
+  ],
+  "completion_status": "numerical checks only; experiment/report required"
+}

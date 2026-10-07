@@ -1,0 +1,10 @@
+{
+  "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "colmap_configured": "D:/COLMAP/COLMAP.bat",
+  "colmap_executable": "D:\\COLMAP\\bin\\colmap.exe",
+  "colmap_executable_sha256": "9418a14c93d4a5eec5eb33ebf48a917403b5faa7ab5d2232f23e50c206d9e427",
+  "student_source_sha256": "775520ef64a81ef5f99eb2fe475660a88356cf5febecfca011af0076493392e2",
+  "use_gpu_requested": true,
+  "note": "GPU requested does not mean every pipeline stage uses GPU."
+}

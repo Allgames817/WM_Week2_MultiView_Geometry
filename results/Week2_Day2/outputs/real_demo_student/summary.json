@@ -1,0 +1,10 @@
+[
+  {
+    "ratio": 0.75,
+    "ratio_pass": 985,
+    "unique_tentative": 953,
+    "F_inliers": 872,
+    "F_inlier_fraction": 0.9150052465897167,
+    "median_sqrt_sampson_inliers_px": 0.11876842390721314
+  }
+]

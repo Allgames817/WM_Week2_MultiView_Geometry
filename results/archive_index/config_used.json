@@ -1,0 +1,154 @@
+{
+  "path_base": "All relative paths are relative to the Day7 package root, NOT configs/.",
+  "note": "Archived historical evidence only. Corrected selected paths; no experiments rerun.",
+  "entries": [
+    {
+      "id": "d1_check",
+      "day": "Day1",
+      "role": "本地代码检查",
+      "path": "../../results/Week2_Day1/outputs/check_student.json",
+      "question": "这是全组还是局部检查？与使用的源码和实验设置是否对应？",
+      "requirement": "core",
+      "student_required": true
+    },
+    {
+      "id": "d2_check",
+      "day": "Day2",
+      "role": "本地代码检查",
+      "path": "../../results/Week2_Day2/outputs/check_student.json",
+      "question": "这是全组还是局部检查？与使用的源码和实验设置是否对应？",
+      "requirement": "core",
+      "student_required": true
+    },
+    {
+      "id": "d3_check",
+      "day": "Day3",
+      "role": "本地代码检查",
+      "path": "../../results/Week2_Day3/outputs/check_all.json",
+      "question": "这是全组还是局部检查？与使用的源码和实验设置是否对应？",
+      "requirement": "core",
+      "student_required": false
+    },
+    {
+      "id": "d4_check",
+      "day": "Day4",
+      "role": "本地代码检查",
+      "path": "../../results/Week2_Day4/outputs/checks/all_latest.json",
+      "question": "这是全组还是局部检查？与使用的源码和实验设置是否对应？",
+      "requirement": "core",
+      "student_required": false
+    },
+    {
+      "id": "d5_check",
+      "day": "Day5",
+      "role": "本地代码检查",
+      "path": "../../results/Week2_Day5/outputs/check_all_todo/check_report.json",
+      "question": "这是全组还是局部检查？与使用的源码和实验设置是否对应？",
+      "requirement": "core",
+      "student_required": false
+    },
+    {
+      "id": "d6_check",
+      "day": "Day6",
+      "role": "本地代码检查",
+      "path": "../../results/Week2_Day6/outputs/check_all/check_results.json",
+      "question": "这是全组还是局部检查？与使用的源码和实验设置是否对应？",
+      "requirement": "core",
+      "student_required": false
+    },
+    {
+      "id": "d1_sweep",
+      "day": "Day1",
+      "role": "基线/噪声对照",
+      "path": "../../results/Week2_Day1/outputs/sweep_student/summary.json",
+      "question": "选固定噪声条件比较基线；同时解释三维误差、重投影误差与统计聚合。",
+      "requirement": "core",
+      "student_required": true,
+      "metadata": "../../results/Week2_Day1/outputs/sweep_student/run_config.json"
+    },
+    {
+      "id": "d2_matches",
+      "day": "Day2",
+      "role": "真实外观筛选对照",
+      "path": "../../results/Week2_Day2/outputs/real_sweep_student/summary.json",
+      "question": "区分候选数、几何内点率与未知的真实匹配准确率。",
+      "requirement": "core",
+      "student_required": true,
+      "metadata": "../../results/Week2_Day2/outputs/real_sweep_student/run_config.json"
+    },
+    {
+      "id": "d2_pose",
+      "day": "Day2",
+      "role": "合成相对位姿",
+      "path": "../../results/Week2_Day2/outputs/pose_demo_student/metrics.json",
+      "question": "哪些输入已知？平移方向是否有米尺度？错配标签只用于哪里？",
+      "requirement": "core",
+      "student_required": true,
+      "metadata": "../../results/Week2_Day2/outputs/pose_demo_student/run_config.json"
+    },
+    {
+      "id": "d3_model",
+      "day": "Day3",
+      "role": "COLMAP稀疏模型",
+      "path": "../../results/Week2_Day3/outputs/base4096/summary.json",
+      "question": "记录实际子模型、注册分母、点数及误差聚合；不能把最多注册称为最准确。",
+      "requirement": "core"
+    },
+    {
+      "id": "d4_reprojection",
+      "day": "Day4",
+      "role": "完整Track重投影",
+      "path": "../../results/Week2_Day4/outputs/reproject/metrics.json",
+      "question": "这是全部关联观测还是可视化子样本？存储ERROR与重算值如何对应？",
+      "requirement": "core"
+    },
+    {
+      "id": "d4_controls",
+      "day": "Day4",
+      "role": "位姿/畸变诊断",
+      "path": "../../results/Week2_Day4/outputs/controls/comparison.json",
+      "question": "比较共同有效集合及有效率，区分参数诊断与物理精度。",
+      "requirement": "core"
+    },
+    {
+      "id": "d5_api",
+      "day": "Day5",
+      "role": "同像素实现对照",
+      "path": "../../results/Week2_Day5/outputs/compare/implementation_comparison.json",
+      "question": "有效掩码是否一致？API差异是不是外部深度真值误差？",
+      "requirement": "core"
+    },
+    {
+      "id": "d5_controls",
+      "day": "Day5",
+      "role": "深度尺度与截断",
+      "path": "../../results/Week2_Day5/outputs/controls/comparison.json",
+      "question": "哪些量改变，哪些像素仍然可比？同相机回投能否验单位？",
+      "requirement": "core"
+    },
+    {
+      "id": "d6_fuse",
+      "day": "Day6",
+      "role": "给定位姿的多帧合并",
+      "path": "../../results/Week2_Day6/outputs/fuse/metrics.json",
+      "question": "位姿从哪里来？拼点、体素降采样、TSDF是否同一操作？",
+      "requirement": "core"
+    },
+    {
+      "id": "d6_pairs",
+      "day": "Day6",
+      "role": "双向跨帧检查",
+      "path": "../../results/Week2_Day6/outputs/pair_check/pair_summary.json",
+      "question": "同时给出重叠覆盖率与深度残差，注明遮挡和对应假设。",
+      "requirement": "core"
+    },
+    {
+      "id": "d6_controls",
+      "day": "Day6",
+      "role": "跨帧错误对照",
+      "path": "../../results/Week2_Day6/outputs/controls/comparison.json",
+      "question": "写一例实际观察、被固定的变量、公共集合以及结论的限制。",
+      "requirement": "core"
+    }
+  ]
+}

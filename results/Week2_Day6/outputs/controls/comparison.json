@@ -1,0 +1,390 @@
+{
+  "conditions": {
+    "baseline": {
+      "condition": "baseline",
+      "description": "No intervention.",
+      "counts": {
+        "unpooled_point_count": 1340711,
+        "voxel_point_count": 28218,
+        "voxel_size_m": 0.02,
+        "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+      },
+      "source_input_pixel_count": 269051,
+      "same_source_pixel_set_as_baseline": true,
+      "same_source_world_delta_vs_baseline_m": {
+        "n": 269051,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0,
+        "min": 0.0
+      },
+      "delta_is_GT_error": false,
+      "pair": {
+        "source_point_count": 269051,
+        "positive_target_depth_count": 269051,
+        "nonpositive_or_nonfinite_target_count": 0,
+        "projected_inside_count_before_zbuffer": 269051,
+        "zbuffer_visible_target_pixel_count": 244209,
+        "projection_collisions_removed": 24842,
+        "valid_target_depth_pixel_count": 267129,
+        "overlap_pixel_count": 238345,
+        "valid_target_coverage_fraction": 0.892246817080886,
+        "signed_depth_residual_m": {
+          "n": 238345,
+          "mean": -0.001353752646114931,
+          "median": 0.0005890393187766296,
+          "p95": 0.01525860536491971,
+          "max": 1.2763583927221003,
+          "min": -1.2904211523277291
+        },
+        "absolute_depth_residual_m": {
+          "n": 238345,
+          "mean": 0.012044772424900513,
+          "median": 0.005479463665533535,
+          "p95": 0.02095816929915343,
+          "max": 1.2904211523277291,
+          "min": 5.309621853299973e-09
+        },
+        "threshold_m": 0.03,
+        "within_threshold_count": 233186,
+        "predicted_behind_observation_count": 1934,
+        "predicted_in_front_of_observation_count": 3225,
+        "residual_threshold_used_to_remove_points": false,
+        "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+      },
+      "target_depth_unchanged": true,
+      "reoptimization": false,
+      "point_statistics_before_downsampling": true
+    },
+    "ignore_relative_pose": {
+      "condition": "ignore_relative_pose",
+      "description": "All camera clouds use the target camera pose; relative motions are ignored.",
+      "counts": {
+        "unpooled_point_count": 1340711,
+        "voxel_point_count": 37900,
+        "voxel_size_m": 0.02,
+        "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+      },
+      "source_input_pixel_count": 269051,
+      "same_source_pixel_set_as_baseline": true,
+      "same_source_world_delta_vs_baseline_m": {
+        "n": 269051,
+        "mean": 0.04503724319151547,
+        "median": 0.0440525421131097,
+        "p95": 0.059684102890784005,
+        "max": 0.09545754924291244,
+        "min": 0.032841497371152224
+      },
+      "delta_is_GT_error": false,
+      "pair": {
+        "source_point_count": 269051,
+        "positive_target_depth_count": 269051,
+        "nonpositive_or_nonfinite_target_count": 0,
+        "projected_inside_count_before_zbuffer": 269051,
+        "zbuffer_visible_target_pixel_count": 269051,
+        "projection_collisions_removed": 0,
+        "valid_target_depth_pixel_count": 267129,
+        "overlap_pixel_count": 267048,
+        "valid_target_coverage_fraction": 0.999696775715104,
+        "signed_depth_residual_m": {
+          "n": 267048,
+          "mean": 0.009753378951554172,
+          "median": 0.01399993896484375,
+          "p95": 0.14300012588500977,
+          "max": 1.2670000791549683,
+          "min": -1.3579999208450317
+        },
+        "absolute_depth_residual_m": {
+          "n": 267048,
+          "mean": 0.11620112779966771,
+          "median": 0.039999961853027344,
+          "p95": 0.7256499767303408,
+          "max": 1.3579999208450317,
+          "min": 0.0
+        },
+        "threshold_m": 0.03,
+        "within_threshold_count": 107457,
+        "predicted_behind_observation_count": 111569,
+        "predicted_in_front_of_observation_count": 48022,
+        "residual_threshold_used_to_remove_points": false,
+        "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+      },
+      "target_depth_unchanged": true,
+      "reoptimization": false,
+      "point_statistics_before_downsampling": true
+    },
+    "source_world_x_shift": {
+      "condition": "source_world_x_shift",
+      "description": "Only source frame 4: camera center shifted along WORLD +X by 0.1 m.",
+      "counts": {
+        "unpooled_point_count": 1340711,
+        "voxel_point_count": 40136,
+        "voxel_size_m": 0.02,
+        "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+      },
+      "source_input_pixel_count": 269051,
+      "same_source_pixel_set_as_baseline": true,
+      "same_source_world_delta_vs_baseline_m": {
+        "n": 269051,
+        "mean": 0.1000000000000001,
+        "median": 0.10000000000000009,
+        "p95": 0.10000000000000031,
+        "max": 0.10000000000000053,
+        "min": 0.09999999999999964
+      },
+      "delta_is_GT_error": false,
+      "pair": {
+        "source_point_count": 269051,
+        "positive_target_depth_count": 269051,
+        "nonpositive_or_nonfinite_target_count": 0,
+        "projected_inside_count_before_zbuffer": 262906,
+        "zbuffer_visible_target_pixel_count": 224990,
+        "projection_collisions_removed": 37916,
+        "valid_target_depth_pixel_count": 267129,
+        "overlap_pixel_count": 212511,
+        "valid_target_coverage_fraction": 0.7955369877474928,
+        "signed_depth_residual_m": {
+          "n": 212511,
+          "mean": -0.016141629886881913,
+          "median": 0.0028355855080637316,
+          "p95": 0.8673338373271335,
+          "max": 1.3709250109480995,
+          "min": -1.2529661609976985
+        },
+        "absolute_depth_residual_m": {
+          "n": 212511,
+          "mean": 0.1998417375044561,
+          "median": 0.03488558382816209,
+          "p95": 1.1925720207641524,
+          "max": 1.3709250109480995,
+          "min": 5.357031955810498e-07
+        },
+        "threshold_m": 0.03,
+        "within_threshold_count": 95249,
+        "predicted_behind_observation_count": 56980,
+        "predicted_in_front_of_observation_count": 60282,
+        "residual_threshold_used_to_remove_points": false,
+        "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+      },
+      "target_depth_unchanged": true,
+      "reoptimization": false,
+      "point_statistics_before_downsampling": true
+    },
+    "source_inverse_as_forward": {
+      "condition": "source_inverse_as_forward",
+      "description": "Only source frame 4: numerical inverse is deliberately misused as a forward c2w pose.",
+      "counts": {
+        "unpooled_point_count": 1340711,
+        "voxel_point_count": 47619,
+        "voxel_size_m": 0.02,
+        "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+      },
+      "source_input_pixel_count": 269051,
+      "same_source_pixel_set_as_baseline": true,
+      "same_source_world_delta_vs_baseline_m": {
+        "n": 269051,
+        "mean": 5.723972416584201,
+        "median": 5.727878104572135,
+        "p95": 5.785993168511698,
+        "max": 5.80200057019942,
+        "min": 5.657580839499494
+      },
+      "delta_is_GT_error": false,
+      "pair": {
+        "source_point_count": 269051,
+        "positive_target_depth_count": 269051,
+        "nonpositive_or_nonfinite_target_count": 0,
+        "projected_inside_count_before_zbuffer": 0,
+        "zbuffer_visible_target_pixel_count": 0,
+        "projection_collisions_removed": 0,
+        "valid_target_depth_pixel_count": 267129,
+        "overlap_pixel_count": 0,
+        "valid_target_coverage_fraction": 0.0,
+        "signed_depth_residual_m": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "max": null,
+          "min": null
+        },
+        "absolute_depth_residual_m": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "max": null,
+          "min": null
+        },
+        "threshold_m": 0.03,
+        "within_threshold_count": 0,
+        "predicted_behind_observation_count": 0,
+        "predicted_in_front_of_observation_count": 0,
+        "residual_threshold_used_to_remove_points": false,
+        "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+      },
+      "target_depth_unchanged": true,
+      "reoptimization": false,
+      "point_statistics_before_downsampling": true
+    },
+    "source_depth_scale": {
+      "condition": "source_depth_scale",
+      "description": "Only source frame 4: valid axial depths scaled by 1.05; original mask is frozen.",
+      "counts": {
+        "unpooled_point_count": 1340711,
+        "voxel_point_count": 48466,
+        "voxel_size_m": 0.02,
+        "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+      },
+      "source_input_pixel_count": 269051,
+      "same_source_pixel_set_as_baseline": true,
+      "same_source_world_delta_vs_baseline_m": {
+        "n": 269051,
+        "mean": 0.09745136743843645,
+        "median": 0.0978087075862433,
+        "p95": 0.13836004941729765,
+        "max": 0.16432176882916633,
+        "min": 0.058157792043785565
+      },
+      "delta_is_GT_error": false,
+      "pair": {
+        "source_point_count": 269051,
+        "positive_target_depth_count": 269051,
+        "nonpositive_or_nonfinite_target_count": 0,
+        "projected_inside_count_before_zbuffer": 269051,
+        "zbuffer_visible_target_pixel_count": 245314,
+        "projection_collisions_removed": 23737,
+        "valid_target_depth_pixel_count": 267129,
+        "overlap_pixel_count": 239577,
+        "valid_target_coverage_fraction": 0.8968588210190582,
+        "signed_depth_residual_m": {
+          "n": 239577,
+          "mean": 0.09458338514241175,
+          "median": 0.09509241494067977,
+          "p95": 0.1328818305451918,
+          "max": 1.4099968639794516,
+          "min": -1.2212695109964862
+        },
+        "absolute_depth_residual_m": {
+          "n": 239577,
+          "mean": 0.10001378295387155,
+          "median": 0.09531537911221366,
+          "p95": 0.13406990576132533,
+          "max": 1.4099968639794516,
+          "min": 1.2283402954782474e-05
+        },
+        "threshold_m": 0.03,
+        "within_threshold_count": 764,
+        "predicted_behind_observation_count": 237698,
+        "predicted_in_front_of_observation_count": 1115,
+        "residual_threshold_used_to_remove_points": false,
+        "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+      },
+      "target_depth_unchanged": true,
+      "reoptimization": false,
+      "point_statistics_before_downsampling": true
+    }
+  },
+  "rows": [
+    {
+      "condition": "baseline",
+      "valid_target_coverage_fraction": 0.892246817080886,
+      "overlap_pixel_count": 238345,
+      "all_overlap_abs_mean_m": 0.012044772424900513,
+      "all_overlap_abs_median_m": 0.005479463665533535,
+      "common_target_pixel_count": 0,
+      "common_target_abs_mean_m": null,
+      "common_target_abs_median_m": null,
+      "common_target_abs_p95_m": null,
+      "common_target_winner_changes_vs_baseline": 0,
+      "baseline_pair_common_target_count": 238345,
+      "case_abs_median_on_baseline_pair_common_m": 0.005479463665533535,
+      "baseline_abs_median_on_same_pair_common_m": 0.005479463665533535
+    },
+    {
+      "condition": "ignore_relative_pose",
+      "valid_target_coverage_fraction": 0.999696775715104,
+      "overlap_pixel_count": 267048,
+      "all_overlap_abs_mean_m": 0.11620112779966771,
+      "all_overlap_abs_median_m": 0.039999961853027344,
+      "common_target_pixel_count": 0,
+      "common_target_abs_mean_m": null,
+      "common_target_abs_median_m": null,
+      "common_target_abs_p95_m": null,
+      "common_target_winner_changes_vs_baseline": 0,
+      "baseline_pair_common_target_count": 238327,
+      "case_abs_median_on_baseline_pair_common_m": 0.03600001335144043,
+      "baseline_abs_median_on_same_pair_common_m": 0.005479025350757283
+    },
+    {
+      "condition": "source_world_x_shift",
+      "valid_target_coverage_fraction": 0.7955369877474928,
+      "overlap_pixel_count": 212511,
+      "all_overlap_abs_mean_m": 0.1998417375044561,
+      "all_overlap_abs_median_m": 0.03488558382816209,
+      "common_target_pixel_count": 0,
+      "common_target_abs_mean_m": null,
+      "common_target_abs_median_m": null,
+      "common_target_abs_p95_m": null,
+      "common_target_winner_changes_vs_baseline": 0,
+      "baseline_pair_common_target_count": 201404,
+      "case_abs_median_on_baseline_pair_common_m": 0.03479152868087576,
+      "baseline_abs_median_on_same_pair_common_m": 0.005560837900011939
+    },
+    {
+      "condition": "source_inverse_as_forward",
+      "valid_target_coverage_fraction": 0.0,
+      "overlap_pixel_count": 0,
+      "all_overlap_abs_mean_m": null,
+      "all_overlap_abs_median_m": null,
+      "common_target_pixel_count": 0,
+      "common_target_abs_mean_m": null,
+      "common_target_abs_median_m": null,
+      "common_target_abs_p95_m": null,
+      "common_target_winner_changes_vs_baseline": 0,
+      "baseline_pair_common_target_count": 0,
+      "case_abs_median_on_baseline_pair_common_m": null,
+      "baseline_abs_median_on_same_pair_common_m": null
+    },
+    {
+      "condition": "source_depth_scale",
+      "valid_target_coverage_fraction": 0.8968588210190582,
+      "overlap_pixel_count": 239577,
+      "all_overlap_abs_mean_m": 0.10001378295387155,
+      "all_overlap_abs_median_m": 0.09531537911221366,
+      "common_target_pixel_count": 0,
+      "common_target_abs_mean_m": null,
+      "common_target_abs_median_m": null,
+      "common_target_abs_p95_m": null,
+      "common_target_winner_changes_vs_baseline": 0,
+      "baseline_pair_common_target_count": 228409,
+      "case_abs_median_on_baseline_pair_common_m": 0.09570453499895626,
+      "baseline_abs_median_on_same_pair_common_m": 0.005473010951277502
+    }
+  ],
+  "primary_pair": [
+    4,
+    0
+  ],
+  "common_target_count_across_all_cases": 0,
+  "shared_world_plot_bounds_m": [
+    [
+      -3.510050293911024,
+      -3.2169202183597667,
+      -0.305411
+    ],
+    [
+      3.1731039712119244,
+      2.4715514520236423,
+      2.8249223450718066
+    ]
+  ],
+  "limitations": [
+    "All-overlap and shared-target comparisons condition on visibility/support.",
+    "A common target pixel can have a different source winner in different cases.",
+    "No residual-threshold trimming is used; behind/front categories are not GT visibility.",
+    "Empty common sets yield null statistics, never zero error.",
+    "Bad geometry is not repaired by ICP, BA, smoothing, or pose optimization."
+  ]
+}

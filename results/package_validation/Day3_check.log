@@ -1,0 +1,21 @@
+DAY3 CODE CHECK PASSED (all). Next: local reconstruction and inspection.
+test_changed_parameters_not_hardcoded (__main__.CommandChecks.test_changed_parameters_not_hardcoded) ... ok
+test_detected_flag_names_not_hardcoded (__main__.CommandChecks.test_detected_flag_names_not_hardcoded) ... ok
+test_feature_settings (__main__.CommandChecks.test_feature_settings) ... ok
+test_gpu_and_cpu (__main__.CommandChecks.test_gpu_and_cpu) ... ok
+test_image_and_output_paths (__main__.CommandChecks.test_image_and_output_paths) ... ok
+test_same_database (__main__.CommandChecks.test_same_database) ... ok
+test_stage_order_and_names (__main__.CommandChecks.test_stage_order_and_names) ... ok
+test_all_registered_no_missing (__main__.SummaryChecks.test_all_registered_no_missing) ... ok
+test_coverage_denominator_and_missing_names (__main__.SummaryChecks.test_coverage_denominator_and_missing_names) ... ok
+test_error_track_and_point_counts (__main__.SummaryChecks.test_error_track_and_point_counts) ... ok
+test_exact_fields (__main__.SummaryChecks.test_exact_fields) ... ok
+test_invalid_names (__main__.SummaryChecks.test_invalid_names) ... ok
+test_invalid_point_lists (__main__.SummaryChecks.test_invalid_point_lists) ... ok
+test_point_mean_is_not_track_weighted (__main__.SummaryChecks.test_point_mean_is_not_track_weighted) ... ok
+test_zero_points_is_none_not_zero (__main__.SummaryChecks.test_zero_points_is_none_not_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.001s
+
+OK

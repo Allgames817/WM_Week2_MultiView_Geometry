@@ -1,0 +1,4 @@
+﻿condition,n_points,n_valid_projection,median_delta_to_backproject_m,median_pixel_roundtrip_px,n_common_projection,common_median_pixel_roundtrip_px
+baseline,2048,2048,0.0,2.842170943040401e-14,2048,2.842170943040401e-14
+z_as_range,2048,2048,0.12317950675145214,5.684341886080802e-14,2048,5.684341886080802e-14
+zero_origin,2048,2048,2.8442925306655784,692.4496313553431,2048,692.4496313553431

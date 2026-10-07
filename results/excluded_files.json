@@ -1,0 +1,2610 @@
+{
+  "note": "Originals remain at the source; selected figures may also appear in this omitted-runtime-location list.",
+  "files": [
+    {
+      "source": "Week2_Day1/.gitignore",
+      "bytes": 35,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/__pycache__/geometry_core.cpython-311.pyc",
+      "bytes": 13783,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day1/__pycache__/geometry_exercise.cpython-311.pyc",
+      "bytes": 3140,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day1/DAY1_GUIDE.md",
+      "bytes": 9379,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day1/DAY1_REPORT_TEMPLATE.md",
+      "bytes": 4132,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day1/DAY1_SELF_CHECK.md",
+      "bytes": 3111,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day1/outputs/demo_reference/camera1_observations.png",
+      "bytes": 74560,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/demo_reference/camera2_observations.png",
+      "bytes": 73665,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/demo_reference/reconstruction_xz.png",
+      "bytes": 66658,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/demo_reference/two_rays_xz.png",
+      "bytes": 61650,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.05_noise0/camera1_observations.png",
+      "bytes": 74560,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.05_noise0/camera2_observations.png",
+      "bytes": 75296,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.05_noise0/reconstruction_xz.png",
+      "bytes": 66651,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.05_noise0/two_rays_xz.png",
+      "bytes": 71446,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.05_noise1/camera1_observations.png",
+      "bytes": 118651,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.05_noise1/camera2_observations.png",
+      "bytes": 118318,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.05_noise1/reconstruction_xz.png",
+      "bytes": 55785,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.05_noise1/two_rays_xz.png",
+      "bytes": 71446,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.5_noise0/camera1_observations.png",
+      "bytes": 74560,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.5_noise0/camera2_observations.png",
+      "bytes": 73665,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.5_noise0/reconstruction_xz.png",
+      "bytes": 66658,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.5_noise0/two_rays_xz.png",
+      "bytes": 61650,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.5_noise1/camera1_observations.png",
+      "bytes": 118651,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.5_noise1/camera2_observations.png",
+      "bytes": 119350,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.5_noise1/reconstruction_xz.png",
+      "bytes": 91680,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/B0.5_noise1/two_rays_xz.png",
+      "bytes": 61650,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/comparison_3d.png",
+      "bytes": 43010,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/outputs/sweep_student/comparison_reprojection.png",
+      "bytes": 44273,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day1/README.md",
+      "bytes": 3698,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/check_reference.json",
+      "bytes": 1802,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/check_reference_log.txt",
+      "bytes": 971,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/controls/assumed_baseline_x2.npz",
+      "bytes": 24196,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/controls/controls.json",
+      "bytes": 1337,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/controls/correct.npz",
+      "bytes": 24200,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/controls/run_config.json",
+      "bytes": 1026,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/controls/wrong_translation_sign.npz",
+      "bytes": 24198,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/controls_log.txt",
+      "bytes": 587,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo/camera1_observations.png",
+      "bytes": 82205,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo/camera2_observations.png",
+      "bytes": 81558,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo/cameras.json",
+      "bytes": 1446,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo/data.npz",
+      "bytes": 40854,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo/metrics.json",
+      "bytes": 390,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo/reconstruction_xz.png",
+      "bytes": 74536,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo/run_config.json",
+      "bytes": 1014,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo/two_rays_xz.png",
+      "bytes": 67680,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/demo_log.txt",
+      "bytes": 678,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/package_validation.json",
+      "bytes": 2581,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/README.md",
+      "bytes": 924,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise0/camera1_observations.png",
+      "bytes": 82205,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise0/camera2_observations.png",
+      "bytes": 82928,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise0/data.npz",
+      "bytes": 31398,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise0/reconstruction_xz.png",
+      "bytes": 74498,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise0/two_rays_xz.png",
+      "bytes": 77214,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise1/camera1_observations.png",
+      "bytes": 128521,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise1/camera2_observations.png",
+      "bytes": 128508,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise1/data.npz",
+      "bytes": 31422,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise1/reconstruction_xz.png",
+      "bytes": 62287,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.05_noise1/two_rays_xz.png",
+      "bytes": 77214,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise0/camera1_observations.png",
+      "bytes": 82205,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise0/camera2_observations.png",
+      "bytes": 81558,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise0/data.npz",
+      "bytes": 31391,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise0/reconstruction_xz.png",
+      "bytes": 74536,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise0/two_rays_xz.png",
+      "bytes": 67680,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise1/camera1_observations.png",
+      "bytes": 128521,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise1/camera2_observations.png",
+      "bytes": 129781,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise1/data.npz",
+      "bytes": 31408,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise1/reconstruction_xz.png",
+      "bytes": 102391,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/B0.5_noise1/two_rays_xz.png",
+      "bytes": 67680,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/comparison_3d.png",
+      "bytes": 49156,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/comparison_reprojection.png",
+      "bytes": 50661,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/run_config.json",
+      "bytes": 1017,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/summary.json",
+      "bytes": 2739,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep/trials.csv",
+      "bytes": 3730,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/reference_outputs/sweep_log.txt",
+      "bytes": 577,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day1/solutions/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 244,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day1/solutions/__pycache__/geometry_reference.cpython-311.pyc",
+      "bytes": 1964,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day1/solutions/SELF_CHECK_REFERENCE.md",
+      "bytes": 1748,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day2/.gitignore",
+      "bytes": 40,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/__pycache__/common.cpython-311.pyc",
+      "bytes": 5092,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day2/__pycache__/matching_exercise.cpython-311.pyc",
+      "bytes": 4282,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day2/__pycache__/pose_core.cpython-311.pyc",
+      "bytes": 14442,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day2/data/manifest.json",
+      "bytes": 757,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day2/data/motorcycle_left.png",
+      "bytes": 644701,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day2/data/motorcycle_right.png",
+      "bytes": 640373,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day2/data/README.md",
+      "bytes": 637,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day2/data/SCIKIT_IMAGE_LICENSE.txt",
+      "bytes": 6435,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day2/DAY2_GUIDE.md",
+      "bytes": 12658,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day2/DAY2_REPORT_TEMPLATE.md",
+      "bytes": 6448,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day2/DAY2_SELF_CHECK.md",
+      "bytes": 5754,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day2/outputs/pose_demo_reference/reconstruction_xz.png",
+      "bytes": 50905,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/pose_demo_reference/reprojection_image2.png",
+      "bytes": 48000,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/pose_demo_student/reconstruction_xz.png",
+      "bytes": 50905,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/pose_demo_student/reprojection_image2.png",
+      "bytes": 48000,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_demo_reference/epilines_image2.png",
+      "bytes": 1245261,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_demo_reference/matches_before.png",
+      "bytes": 1778546,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_demo_reference/matches_inliers.png",
+      "bytes": 1777565,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_demo_reference/matches_rejected.png",
+      "bytes": 1805725,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_demo_student/epilines_image2.png",
+      "bytes": 1245261,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_demo_student/matches_before.png",
+      "bytes": 1778546,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_demo_student/matches_inliers.png",
+      "bytes": 1777565,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_demo_student/matches_rejected.png",
+      "bytes": 1805725,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.60/epilines_image2.png",
+      "bytes": 1260956,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.60/matches_before.png",
+      "bytes": 1779666,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.60/matches_inliers.png",
+      "bytes": 1778921,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.60/matches_rejected.png",
+      "bytes": 1757518,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.75/epilines_image2.png",
+      "bytes": 1245261,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.75/matches_before.png",
+      "bytes": 1778546,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.75/matches_inliers.png",
+      "bytes": 1777565,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.75/matches_rejected.png",
+      "bytes": 1805725,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.90/epilines_image2.png",
+      "bytes": 1239620,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.90/matches_before.png",
+      "bytes": 1781032,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.90/matches_inliers.png",
+      "bytes": 1776901,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/outputs/real_sweep_student/ratio_0.90/matches_rejected.png",
+      "bytes": 1851676,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day2/README.md",
+      "bytes": 2811,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/check_reference.json",
+      "bytes": 1802,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/check_reference_log.txt",
+      "bytes": 971,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/controls/assumed_baseline_x2.npz",
+      "bytes": 24196,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/controls/controls.json",
+      "bytes": 1337,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/controls/correct.npz",
+      "bytes": 24200,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/controls/run_config.json",
+      "bytes": 1026,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/controls/wrong_translation_sign.npz",
+      "bytes": 24198,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/controls_log.txt",
+      "bytes": 587,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo/camera1_observations.png",
+      "bytes": 82205,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo/camera2_observations.png",
+      "bytes": 81558,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo/cameras.json",
+      "bytes": 1446,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo/data.npz",
+      "bytes": 40854,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo/metrics.json",
+      "bytes": 390,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo/reconstruction_xz.png",
+      "bytes": 74536,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo/run_config.json",
+      "bytes": 1014,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo/two_rays_xz.png",
+      "bytes": 67680,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/demo_log.txt",
+      "bytes": 678,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/package_validation.json",
+      "bytes": 2581,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/README.md",
+      "bytes": 924,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise0/camera1_observations.png",
+      "bytes": 82205,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise0/camera2_observations.png",
+      "bytes": 82928,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise0/data.npz",
+      "bytes": 31398,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise0/reconstruction_xz.png",
+      "bytes": 74498,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise0/two_rays_xz.png",
+      "bytes": 77214,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise1/camera1_observations.png",
+      "bytes": 128521,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise1/camera2_observations.png",
+      "bytes": 128508,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise1/data.npz",
+      "bytes": 31422,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise1/reconstruction_xz.png",
+      "bytes": 62287,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.05_noise1/two_rays_xz.png",
+      "bytes": 77214,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise0/camera1_observations.png",
+      "bytes": 82205,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise0/camera2_observations.png",
+      "bytes": 81558,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise0/data.npz",
+      "bytes": 31391,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise0/reconstruction_xz.png",
+      "bytes": 74536,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise0/two_rays_xz.png",
+      "bytes": 67680,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise1/camera1_observations.png",
+      "bytes": 128521,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise1/camera2_observations.png",
+      "bytes": 129781,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise1/data.npz",
+      "bytes": 31408,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise1/reconstruction_xz.png",
+      "bytes": 102391,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/B0.5_noise1/two_rays_xz.png",
+      "bytes": 67680,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/comparison_3d.png",
+      "bytes": 49156,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/comparison_reprojection.png",
+      "bytes": 50661,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/run_config.json",
+      "bytes": 1017,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/summary.json",
+      "bytes": 2739,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep/trials.csv",
+      "bytes": 3730,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/reference_outputs/sweep_log.txt",
+      "bytes": 577,
+      "reason": "reference_output"
+    },
+    {
+      "source": "Week2_Day2/solutions/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 241,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day2/solutions/__pycache__/matching_reference.cpython-311.pyc",
+      "bytes": 2710,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day2/solutions/SELF_CHECK_REFERENCE.md",
+      "bytes": 1710,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day3/.gitignore",
+      "bytes": 55,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/__pycache__/day3_common.cpython-311.pyc",
+      "bytes": 18855,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day3/__pycache__/day3_common.cpython-313.pyc",
+      "bytes": 16851,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day3/__pycache__/sfm_exercise.cpython-311.pyc",
+      "bytes": 8235,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day3/__pycache__/sfm_exercise.cpython-313.pyc",
+      "bytes": 7405,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day3/data/README.md",
+      "bytes": 692,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180141.JPG",
+      "bytes": 1883220,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180142.JPG",
+      "bytes": 1896949,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180143.JPG",
+      "bytes": 1892188,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180144.JPG",
+      "bytes": 1811680,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180145.JPG",
+      "bytes": 1814823,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180146.JPG",
+      "bytes": 1830629,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180147.JPG",
+      "bytes": 1808078,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180148.JPG",
+      "bytes": 1913407,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180149.JPG",
+      "bytes": 1837145,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180150.JPG",
+      "bytes": 1885690,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180151.JPG",
+      "bytes": 1909031,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180152.JPG",
+      "bytes": 1853373,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180153.JPG",
+      "bytes": 1893232,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180154.JPG",
+      "bytes": 1807317,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180155.JPG",
+      "bytes": 1861718,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180156.JPG",
+      "bytes": 1778210,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180157.JPG",
+      "bytes": 1821958,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180158.JPG",
+      "bytes": 1848598,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180159.JPG",
+      "bytes": 1861068,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180160.JPG",
+      "bytes": 1813120,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180161.JPG",
+      "bytes": 1812845,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180162.JPG",
+      "bytes": 1776531,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180163.JPG",
+      "bytes": 1765409,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180164.JPG",
+      "bytes": 1791480,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180165.JPG",
+      "bytes": 1759067,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180166.JPG",
+      "bytes": 1819482,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180167.JPG",
+      "bytes": 1887001,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180168.JPG",
+      "bytes": 1860950,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180169.JPG",
+      "bytes": 1881681,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180170.JPG",
+      "bytes": 1817851,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180171.JPG",
+      "bytes": 1816511,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180172.JPG",
+      "bytes": 1802107,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180173.JPG",
+      "bytes": 1855652,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180174.JPG",
+      "bytes": 1852960,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180175.JPG",
+      "bytes": 1853766,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180176.JPG",
+      "bytes": 1934680,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180177.JPG",
+      "bytes": 1884713,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180178.JPG",
+      "bytes": 1887063,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180179.JPG",
+      "bytes": 1812816,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180180.JPG",
+      "bytes": 1842207,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180181.JPG",
+      "bytes": 1759205,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180182.JPG",
+      "bytes": 1774941,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180183.JPG",
+      "bytes": 1892635,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180184.JPG",
+      "bytes": 1807401,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180185.JPG",
+      "bytes": 1824520,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180186.JPG",
+      "bytes": 1890094,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180187.JPG",
+      "bytes": 1859937,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180188.JPG",
+      "bytes": 1853623,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180189.JPG",
+      "bytes": 1836134,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180190.JPG",
+      "bytes": 1752139,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180191.JPG",
+      "bytes": 1835639,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180192.JPG",
+      "bytes": 1838613,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180193.JPG",
+      "bytes": 1592172,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180194.JPG",
+      "bytes": 1663048,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180195.JPG",
+      "bytes": 1641199,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180196.JPG",
+      "bytes": 1723074,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180197.JPG",
+      "bytes": 1737391,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180198.JPG",
+      "bytes": 1810169,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180199.JPG",
+      "bytes": 1856532,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180200.JPG",
+      "bytes": 1795774,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180201.JPG",
+      "bytes": 1819870,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180202.JPG",
+      "bytes": 1880652,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180203.JPG",
+      "bytes": 1821931,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180204.JPG",
+      "bytes": 1914999,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180205.JPG",
+      "bytes": 1810332,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180206.JPG",
+      "bytes": 1818278,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180207.JPG",
+      "bytes": 1912667,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180208.JPG",
+      "bytes": 1781901,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180209.JPG",
+      "bytes": 1882464,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180210.JPG",
+      "bytes": 1912229,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180211.JPG",
+      "bytes": 1775954,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180212.JPG",
+      "bytes": 1788699,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180213.JPG",
+      "bytes": 1799585,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180214.JPG",
+      "bytes": 1840004,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180215.JPG",
+      "bytes": 1813838,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180216.JPG",
+      "bytes": 1828936,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180217.JPG",
+      "bytes": 1830942,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180218.JPG",
+      "bytes": 1887820,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180219.JPG",
+      "bytes": 1871481,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180220.JPG",
+      "bytes": 1922245,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180221.JPG",
+      "bytes": 1879717,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180222.JPG",
+      "bytes": 1893087,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180223.JPG",
+      "bytes": 1809832,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180224.JPG",
+      "bytes": 1798073,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180225.JPG",
+      "bytes": 1903605,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180305.JPG",
+      "bytes": 1833174,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180306.JPG",
+      "bytes": 1712933,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180307.JPG",
+      "bytes": 1793631,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180308.JPG",
+      "bytes": 1774281,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180309.JPG",
+      "bytes": 1761587,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180310.JPG",
+      "bytes": 1600635,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180311.JPG",
+      "bytes": 1731879,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180312.JPG",
+      "bytes": 1870888,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180313.JPG",
+      "bytes": 1820174,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180314.JPG",
+      "bytes": 1909421,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180315.JPG",
+      "bytes": 1891619,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180316.JPG",
+      "bytes": 1811210,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180317.JPG",
+      "bytes": 1771788,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180318.JPG",
+      "bytes": 1804537,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180319.JPG",
+      "bytes": 1774471,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180320.JPG",
+      "bytes": 1860875,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180321.JPG",
+      "bytes": 1780789,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180322.JPG",
+      "bytes": 1816951,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180323.JPG",
+      "bytes": 1842107,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180324.JPG",
+      "bytes": 1904981,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180325.JPG",
+      "bytes": 1892827,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180326.JPG",
+      "bytes": 1879335,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180327.JPG",
+      "bytes": 1833024,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180328.JPG",
+      "bytes": 1917574,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180329.JPG",
+      "bytes": 1790830,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180330.JPG",
+      "bytes": 1884285,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180331.JPG",
+      "bytes": 1799124,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180332.JPG",
+      "bytes": 1855475,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180333.JPG",
+      "bytes": 1812308,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180334.JPG",
+      "bytes": 1827883,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180335.JPG",
+      "bytes": 1753905,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180336.JPG",
+      "bytes": 1810496,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180337.JPG",
+      "bytes": 1835291,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180338.JPG",
+      "bytes": 1843412,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180339.JPG",
+      "bytes": 1877192,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180340.JPG",
+      "bytes": 1815253,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180341.JPG",
+      "bytes": 1861400,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180342.JPG",
+      "bytes": 1815202,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180343.JPG",
+      "bytes": 1810182,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180344.JPG",
+      "bytes": 1786656,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180345.JPG",
+      "bytes": 1814178,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180346.JPG",
+      "bytes": 1799511,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/images/P1180347.JPG",
+      "bytes": 1787312,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/data/south-building/input_manifest.json",
+      "bytes": 31594,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day3/DAY3_GUIDE.md",
+      "bytes": 17551,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/database.db",
+      "bytes": 120303616,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/models_txt/0/cameras.txt",
+      "bytes": 198,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/models_txt/0/frames.txt",
+      "bytes": 20978,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/models_txt/0/images.txt",
+      "bytes": 27401187,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/models_txt/0/points3D.txt",
+      "bytes": 5891584,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/models_txt/0/rigs.txt",
+      "bytes": 222,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/sparse/0/cameras.bin",
+      "bytes": 64,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/sparse/0/frames.bin",
+      "bytes": 10760,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/sparse/0/images.bin",
+      "bytes": 16552576,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/sparse/0/points3D.bin",
+      "bytes": 4004148,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/sparse/0/project.ini",
+      "bytes": 2351,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/base4096/sparse/0/rigs.bin",
+      "bytes": 24,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/database.db",
+      "bytes": 53424128,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/models_txt/0/cameras.txt",
+      "bytes": 198,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/models_txt/0/frames.txt",
+      "bytes": 20960,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/models_txt/0/images.txt",
+      "bytes": 12135043,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/models_txt/0/points3D.txt",
+      "bytes": 2492348,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/models_txt/0/rigs.txt",
+      "bytes": 222,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/sparse/0/cameras.bin",
+      "bytes": 64,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/sparse/0/frames.bin",
+      "bytes": 10760,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/sparse/0/images.bin",
+      "bytes": 7329784,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/sparse/0/points3D.bin",
+      "bytes": 1694147,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/sparse/0/project.ini",
+      "bytes": 2359,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/outputs/features2048/sparse/0/rigs.bin",
+      "bytes": 24,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/README.md",
+      "bytes": 1547,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day3/reports/DAY3_REPORT_TEMPLATE.md",
+      "bytes": 8209,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day3/reports/Week2_Day3_2048.png",
+      "bytes": 45415,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/reports/Week2_Day3_4096.png",
+      "bytes": 50982,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day3/SELF_CHECK.md",
+      "bytes": 7946,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day4/.gitignore",
+      "bytes": 44,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/.mpl_cache/fontlist-v390.json",
+      "bytes": 126561,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day4/__pycache__/day4_common.cpython-311.pyc",
+      "bytes": 19411,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day4/__pycache__/evaluate_model.cpython-311.pyc",
+      "bytes": 15006,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day4/__pycache__/model_io.cpython-311.pyc",
+      "bytes": 13666,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day4/__pycache__/plots.cpython-311.pyc",
+      "bytes": 13072,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day4/__pycache__/pose_exercise.cpython-311.pyc",
+      "bytes": 6478,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day4/DAY4_GUIDE.md",
+      "bytes": 13693,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/baseline/error_vs_radius.png",
+      "bytes": 341725,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/baseline/observations.npz",
+      "bytes": 11557576,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/baseline/overlay_1.png",
+      "bytes": 3065940,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/baseline/overlay_128.png",
+      "bytes": 3636211,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/baseline/overlay_64.png",
+      "bytes": 3420609,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/baseline/reprojection_histogram.png",
+      "bytes": 43049,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/ignore_distortion/error_vs_radius.png",
+      "bytes": 174377,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/ignore_distortion/observations.npz",
+      "bytes": 11575295,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/ignore_distortion/overlay_1.png",
+      "bytes": 3069301,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/ignore_distortion/overlay_128.png",
+      "bytes": 3640989,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/ignore_distortion/overlay_64.png",
+      "bytes": 3426618,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/ignore_distortion/reprojection_histogram.png",
+      "bytes": 39303,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/inverse_as_forward/error_vs_radius.png",
+      "bytes": 37715,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/inverse_as_forward/observations.npz",
+      "bytes": 8218714,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/inverse_as_forward/overlay_1.png",
+      "bytes": 3123498,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/inverse_as_forward/overlay_128.png",
+      "bytes": 3803030,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/inverse_as_forward/overlay_64.png",
+      "bytes": 3425122,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/controls/inverse_as_forward/reprojection_histogram.png",
+      "bytes": 41286,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/poses/camera_layout.png",
+      "bytes": 260617,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/reproject/error_vs_radius.png",
+      "bytes": 341725,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/reproject/observations.npz",
+      "bytes": 11557576,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/reproject/overlay_1.png",
+      "bytes": 3065940,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/reproject/overlay_128.png",
+      "bytes": 3636211,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/reproject/overlay_64.png",
+      "bytes": 3420609,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/outputs/reproject/reprojection_histogram.png",
+      "bytes": 43049,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day4/README.md",
+      "bytes": 1969,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day4/reports/DAY4_REPORT_TEMPLATE.md",
+      "bytes": 11758,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day4/SELF_CHECK.md",
+      "bytes": 6219,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day5/.gitignore",
+      "bytes": 93,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/__pycache__/common.cpython-311.pyc",
+      "bytes": 17627,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day5/__pycache__/common.cpython-313.pyc",
+      "bytes": 15414,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day5/__pycache__/plots.cpython-311.pyc",
+      "bytes": 8770,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day5/__pycache__/rgbd_exercise.cpython-311.pyc",
+      "bytes": 6084,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day5/__pycache__/rgbd_exercise.cpython-313.pyc",
+      "bytes": 5645,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day5/__pycache__/validation.cpython-311.pyc",
+      "bytes": 4005,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day5/__pycache__/validation.cpython-313.pyc",
+      "bytes": 3860,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day5/CODE_MAP.md",
+      "bytes": 3402,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day5/data/_downloads/SampleRedwoodRGBDImages.zip",
+      "bytes": 3772513,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/camera_primesense.json",
+      "bytes": 125,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/color/00000.jpg",
+      "bytes": 63425,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/color/00001.jpg",
+      "bytes": 63254,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/color/00002.jpg",
+      "bytes": 63672,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/color/00003.jpg",
+      "bytes": 63241,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/color/00004.jpg",
+      "bytes": 63495,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/depth/00000.png",
+      "bytes": 93238,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/depth/00001.png",
+      "bytes": 93572,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/depth/00002.png",
+      "bytes": 93413,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/depth/00003.png",
+      "bytes": 93869,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/depth/00004.png",
+      "bytes": 93943,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/manifest.json",
+      "bytes": 3335,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/odometry.log",
+      "bytes": 928,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/rgbd.match",
+      "bytes": 160,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/data/SampleRedwoodRGBDImages/trajectory.log",
+      "bytes": 1290,
+      "reason": "raw_data"
+    },
+    {
+      "source": "Week2_Day5/DAY5_GUIDE.md",
+      "bytes": 14627,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day5/DAY5_SELF_CHECK.md",
+      "bytes": 4346,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day5/outputs/backproject/cloud_camera.npz",
+      "bytes": 4834400,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/backproject/cloud_camera.ply",
+      "bytes": 7212729,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/backproject/cloud_camera_3d.png",
+      "bytes": 317692,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/backproject/cycle_consistency.png",
+      "bytes": 33896,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/backproject/depth_m.png",
+      "bytes": 184029,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/backproject/points_xy.png",
+      "bytes": 160302,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/backproject/points_xz.png",
+      "bytes": 103092,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/cloud_camera.npz",
+      "bytes": 4834400,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/cloud_camera.ply",
+      "bytes": 7212729,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/cloud_camera_3d.png",
+      "bytes": 317692,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/cycle_consistency.png",
+      "bytes": 33896,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/depth_implementation_difference.png",
+      "bytes": 47210,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/depth_m.png",
+      "bytes": 184029,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/implementation_differences.npz",
+      "bytes": 1221624,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/points_xy.png",
+      "bytes": 160302,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/points_xz.png",
+      "bytes": 103092,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/compare/same_pixel_xyz_difference.png",
+      "bytes": 32448,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/baseline/cloud_camera.npz",
+      "bytes": 4834400,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/baseline/cloud_camera.ply",
+      "bytes": 7212729,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/baseline/cloud_camera_3d.png",
+      "bytes": 317692,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/baseline/cycle_consistency.png",
+      "bytes": 33896,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/baseline/depth_m.png",
+      "bytes": 184029,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/baseline/points_xy.png",
+      "bytes": 160302,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/baseline/points_xz.png",
+      "bytes": 103092,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/common_pixels.npz",
+      "bytes": 1516810,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/common_points_xz.png",
+      "bytes": 144868,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/scale_500/cloud_camera.npz",
+      "bytes": 1688738,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/scale_500/cloud_camera.ply",
+      "bytes": 2268920,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/scale_500/cloud_camera_3d.png",
+      "bytes": 277074,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/scale_500/cycle_consistency.png",
+      "bytes": 38540,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/scale_500/depth_m.png",
+      "bytes": 96621,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/scale_500/points_xy.png",
+      "bytes": 87872,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/scale_500/points_xz.png",
+      "bytes": 117609,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/trunc_2m/cloud_camera.npz",
+      "bytes": 3266040,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/trunc_2m/cloud_camera.ply",
+      "bytes": 4737990,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/trunc_2m/cloud_camera_3d.png",
+      "bytes": 328570,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/trunc_2m/cycle_consistency.png",
+      "bytes": 36913,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/trunc_2m/depth_m.png",
+      "bytes": 144501,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/trunc_2m/points_xy.png",
+      "bytes": 156335,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/controls/trunc_2m/points_xz.png",
+      "bytes": 111595,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/inventory/raw_depth_view.png",
+      "bytes": 194091,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/inventory/raw_nonzero_mask.png",
+      "bytes": 29457,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/outputs/inventory/rgb.png",
+      "bytes": 514504,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day5/PACKAGE_CHECKS.md",
+      "bytes": 913,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day5/README.md",
+      "bytes": 1504,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day5/reports/DAY5_REPORT_TEMPLATE.md",
+      "bytes": 7755,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day5/reports/pip_before_day5.txt",
+      "bytes": 472,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/.gitignore",
+      "bytes": 35,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/__pycache__/fusion_exercise.cpython-311.pyc",
+      "bytes": 3406,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day6/__pycache__/fusion_exercise.cpython-313.pyc",
+      "bytes": 3190,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day6/__pycache__/fusion_io.cpython-311.pyc",
+      "bytes": 29521,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day6/__pycache__/fusion_io.cpython-313.pyc",
+      "bytes": 25999,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day6/__pycache__/fusion_metrics.cpython-311.pyc",
+      "bytes": 9229,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day6/__pycache__/fusion_plots.cpython-311.pyc",
+      "bytes": 11731,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day6/__pycache__/fusion_validation.cpython-311.pyc",
+      "bytes": 3418,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day6/__pycache__/fusion_validation.cpython-313.pyc",
+      "bytes": 3225,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day6/CODE_MAP.md",
+      "bytes": 1690,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day6/DAY6_GUIDE.md",
+      "bytes": 16273,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day6/DAY6_SELF_CHECK.md",
+      "bytes": 6330,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/baseline/alignment_xz_by_frame.png",
+      "bytes": 173228,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/baseline/camera_layout.png",
+      "bytes": 194204,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/baseline/fused_rgb_3d.png",
+      "bytes": 227944,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/baseline/fused_voxel.ply",
+      "bytes": 762140,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/baseline/pair/depth_check.npz",
+      "bytes": 3838668,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/baseline/pair/depth_residual_abs.png",
+      "bytes": 638101,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/baseline/pair/depth_residual_histogram.png",
+      "bytes": 40292,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/common_target_residual.png",
+      "bytes": 39151,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/ignore_relative_pose/alignment_xz_by_frame.png",
+      "bytes": 175080,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/ignore_relative_pose/camera_layout.png",
+      "bytes": 189128,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/ignore_relative_pose/fused_rgb_3d.png",
+      "bytes": 230253,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/ignore_relative_pose/fused_voxel.ply",
+      "bytes": 1023554,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/ignore_relative_pose/pair/depth_check.npz",
+      "bytes": 788835,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/ignore_relative_pose/pair/depth_residual_abs.png",
+      "bytes": 581743,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/ignore_relative_pose/pair/depth_residual_histogram.png",
+      "bytes": 37175,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_depth_scale/alignment_xz_by_frame.png",
+      "bytes": 185942,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_depth_scale/camera_layout.png",
+      "bytes": 195421,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_depth_scale/fused_rgb_3d.png",
+      "bytes": 238262,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_depth_scale/fused_voxel.ply",
+      "bytes": 1308836,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_depth_scale/pair/depth_check.npz",
+      "bytes": 3890839,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_depth_scale/pair/depth_residual_abs.png",
+      "bytes": 764828,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_depth_scale/pair/depth_residual_histogram.png",
+      "bytes": 35854,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_inverse_as_forward/alignment_xz_by_frame.png",
+      "bytes": 215944,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_inverse_as_forward/camera_layout.png",
+      "bytes": 177469,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_inverse_as_forward/fused_rgb_3d.png",
+      "bytes": 275555,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_inverse_as_forward/fused_voxel.ply",
+      "bytes": 1285967,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_inverse_as_forward/pair/depth_residual_abs.png",
+      "bytes": 52930,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_inverse_as_forward/pair/depth_residual_histogram.png",
+      "bytes": 36957,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_world_x_shift/alignment_xz_by_frame.png",
+      "bytes": 184901,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_world_x_shift/camera_layout.png",
+      "bytes": 177964,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_world_x_shift/fused_rgb_3d.png",
+      "bytes": 234182,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_world_x_shift/fused_voxel.ply",
+      "bytes": 1083926,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_world_x_shift/pair/depth_check.npz",
+      "bytes": 3585511,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_world_x_shift/pair/depth_residual_abs.png",
+      "bytes": 860445,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/source_world_x_shift/pair/depth_residual_histogram.png",
+      "bytes": 37712,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/controls/target_coverage.png",
+      "bytes": 68144,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/fuse/alignment_xz_by_frame.png",
+      "bytes": 310524,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/fuse/camera_layout.png",
+      "bytes": 197092,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/fuse/fused_raw_world.npz",
+      "bytes": 28580745,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/fuse/fused_raw_world.ply",
+      "bytes": 36199453,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/fuse/fused_rgb_3d.png",
+      "bytes": 435424,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/fuse/fused_voxel.ply",
+      "bytes": 762140,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/pair_check/0_to_4/depth_check.npz",
+      "bytes": 3887896,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/pair_check/0_to_4/depth_residual_abs.png",
+      "bytes": 686808,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/pair_check/0_to_4/depth_residual_histogram.png",
+      "bytes": 38626,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/pair_check/4_to_0/depth_check.npz",
+      "bytes": 3838668,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/pair_check/4_to_0/depth_residual_abs.png",
+      "bytes": 638101,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/pair_check/4_to_0/depth_residual_histogram.png",
+      "bytes": 40292,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/tsdf/tsdf_mesh.ply",
+      "bytes": 1393374,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/tsdf/tsdf_surface_points.ply",
+      "bytes": 436439,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/outputs/tsdf/tsdf_viewer_screenshot.png",
+      "bytes": 346609,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/PACKAGE_CHECKS.md",
+      "bytes": 943,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day6/README.md",
+      "bytes": 1216,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day6/reports/DAY6_REPORT_TEMPLATE.md",
+      "bytes": 13902,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day6/ScreenCamera_2026-10-07-16-05-18.json",
+      "bytes": 656,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day6/ScreenCapture_2026-10-07-16-05-18.png",
+      "bytes": 330299,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day7/.gitignore",
+      "bytes": 38,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day7/__pycache__/audit_support.cpython-311.pyc",
+      "bytes": 10257,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day7/__pycache__/bridge_io.cpython-311.pyc",
+      "bytes": 17746,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day7/__pycache__/geometry_audit_exercise.cpython-311.pyc",
+      "bytes": 6455,
+      "reason": "cache"
+    },
+    {
+      "source": "Week2_Day7/CODE_MAP.md",
+      "bytes": 951,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day7/DAY7_GUIDE.md",
+      "bytes": 10507,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day7/DAY7_SELF_CHECK.md",
+      "bytes": 11587,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day7/NERF_BRIDGE.md",
+      "bytes": 4193,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day7/outputs/controls/conditions_xz.png",
+      "bytes": 102774,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day7/outputs/rays/range_vs_z.png",
+      "bytes": 89938,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day7/outputs/rays/rays_world_xz.png",
+      "bytes": 104323,
+      "reason": "large_runtime_artifact_or_unselected_figure"
+    },
+    {
+      "source": "Week2_Day7/PACKAGE_CHECKS.md",
+      "bytes": 822,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day7/README.md",
+      "bytes": 1588,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day7/reports/WEEK2_SUMMARY.md",
+      "bytes": 15037,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day7/reports/WEEK2_SUMMARY_TEMPLATE.md",
+      "bytes": 15118,
+      "reason": "teaching_guide_or_report_rewritten"
+    },
+    {
+      "source": "Week2_Day7/WEEK2_REVIEW.md",
+      "bytes": 4116,
+      "reason": "teaching_guide_or_report_rewritten"
+    }
+  ]
+}

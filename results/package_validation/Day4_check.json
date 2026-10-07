@@ -1,0 +1,109 @@
+{
+  "part": "all",
+  "passed": 20,
+  "total": 20,
+  "results": [
+    {
+      "part": "rotation",
+      "name": "单位四元数",
+      "passed": true
+    },
+    {
+      "part": "rotation",
+      "name": "绕 z 正向旋转，检查方向与 wxyz 顺序",
+      "passed": true
+    },
+    {
+      "part": "rotation",
+      "name": "20 组混合旋转与 OpenCV Rodrigues 对照",
+      "passed": true
+    },
+    {
+      "part": "rotation",
+      "name": "q 与 -q、归一化输入",
+      "passed": true
+    },
+    {
+      "part": "rotation",
+      "name": "SO(3) 正交性与行列式",
+      "passed": true
+    },
+    {
+      "part": "rotation",
+      "name": "非法四元数拒绝（输入验证已提供）",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "单位旋转下的相机中心",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "混合旋转下的刚体逆矩阵",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "相机原点变回世界后应满足 R C+t=0",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "相机基向量与20个世界点往返",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "反射矩阵或错误形状拒绝（输入验证已提供）",
+      "passed": true
+    },
+    {
+      "part": "projection",
+      "name": "光轴点落在主点",
+      "passed": true
+    },
+    {
+      "part": "projection",
+      "name": "k=0 的针孔投影",
+      "passed": true
+    },
+    {
+      "part": "projection",
+      "name": "正负畸变与 OpenCV projectPoints 对照",
+      "passed": true
+    },
+    {
+      "part": "projection",
+      "name": "无效深度、非有限坐标、阈值等号与 NaN 行",
+      "passed": true
+    },
+    {
+      "part": "projection",
+      "name": "空输入保持 (0,2) 和 (0,)",
+      "passed": true
+    },
+    {
+      "part": "projection",
+      "name": "视野外的有限正深度点不能被丢弃",
+      "passed": true
+    },
+    {
+      "part": "io",
+      "name": "格式：非连续 ID、含空格图像名、空观测行",
+      "passed": true
+    },
+    {
+      "part": "io",
+      "name": "-1 未关联点保留原始 POINT2D_IDX",
+      "passed": true
+    },
+    {
+      "part": "io",
+      "name": "Track 反向关联错误必须报错",
+      "passed": true
+    }
+  ],
+  "student_source_sha256": "09cc77e6932e92d8b7450b3159c770cdc6c6d3352792d57e948ef7b391221918",
+  "note": "单元检查含已提供的输入验证和3项格式检查；不能代替本地真实实验分析。"
+}

@@ -1,0 +1,55 @@
+{
+  "common_pixel_count": 267129,
+  "only_a_pixel_count": 0,
+  "only_b_pixel_count": 0,
+  "same_pixel_xyz_difference_m": {
+    "n": 267129,
+    "mean": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "min": 0.0
+  },
+  "open3d_version": "0.19.0",
+  "intrinsic_readers_agree": true,
+  "numpy_valid_count": 267129,
+  "open3d_valid_count": 267129,
+  "input_pixel_count": 307200,
+  "mask_disagreement_count": 0,
+  "depth_image_absolute_difference_m": {
+    "n": 307200,
+    "mean": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "min": 0.0
+  },
+  "same_pixel_color_max_channel_difference": {
+    "n": 267129,
+    "mean": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "min": 0.0
+  },
+  "alignment_method": "original pixel_id=v*W+u, not nearest-neighbor registration",
+  "ground_truth_accuracy_measured": false,
+  "tolerances": {
+    "xyz_m": 1e-06,
+    "depth_m": 1e-07,
+    "rgb": 1e-12
+  },
+  "notes": [
+    "Depth conversion compared from raw uint16 in both branches.",
+    "Both branches use identical raw RGB, raw depth, K, scale, truncation and identity extrinsic.",
+    "Agreement validates implementation under these assumptions, not sensor accuracy."
+  ],
+  "numeric_agreement_checks": {
+    "nonempty_common_subset": true,
+    "same_valid_pixel_set": true,
+    "depth_difference_within_tolerance": true,
+    "xyz_difference_within_tolerance": true,
+    "rgb_difference_within_tolerance": true
+  },
+  "numeric_agreement": true
+}

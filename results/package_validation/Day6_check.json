@@ -1,0 +1,119 @@
+{
+  "part": "all",
+  "passed": 22,
+  "total": 22,
+  "checks": [
+    {
+      "group": "inverse",
+      "name": "identity",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "translation",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "rotation plus translation",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "20 mixed poses; left and right identities",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "output dtype and no mutation",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "reject nonrigid matrix (provided guard)",
+      "passed": true
+    },
+    {
+      "group": "transform",
+      "name": "translation acts on each row",
+      "passed": true
+    },
+    {
+      "group": "transform",
+      "name": "rotation; row/column distinction",
+      "passed": true
+    },
+    {
+      "group": "transform",
+      "name": "independent homogeneous-coordinate oracle",
+      "passed": true
+    },
+    {
+      "group": "transform",
+      "name": "empty point array",
+      "passed": true
+    },
+    {
+      "group": "transform",
+      "name": "preserve negative Z, order, and inputs",
+      "passed": true
+    },
+    {
+      "group": "transform",
+      "name": "reject bad shape/nonfinite input (provided guard)",
+      "passed": true
+    },
+    {
+      "group": "relative",
+      "name": "same camera is identity",
+      "passed": true
+    },
+    {
+      "group": "relative",
+      "name": "translated camera pair",
+      "passed": true
+    },
+    {
+      "group": "relative",
+      "name": "noncommuting rotations; independent linear solve",
+      "passed": true
+    },
+    {
+      "group": "relative",
+      "name": "three-camera composition",
+      "passed": true
+    },
+    {
+      "group": "relative",
+      "name": "world-mediated point route equals direct route",
+      "passed": true
+    },
+    {
+      "group": "relative",
+      "name": "output contract and no mutation",
+      "passed": true
+    },
+    {
+      "group": "io",
+      "name": "raw LOG rows and metadata are retained",
+      "passed": true
+    },
+    {
+      "group": "io",
+      "name": "incomplete LOG is rejected",
+      "passed": true
+    },
+    {
+      "group": "io",
+      "name": "scaled LOG matrix is rejected",
+      "passed": true
+    },
+    {
+      "group": "io",
+      "name": "intrinsic JSON is column-major",
+      "passed": true
+    }
+  ],
+  "student_file_sha256": "00c8525cd18cad55467f4c1b6c030baf7e962206b99fadd00984568c3236aae1",
+  "note": "Synthetic implementation checks, not real-world reconstruction accuracy."
+}

@@ -1,0 +1,34 @@
+{
+  "part": "pose",
+  "passed": 5,
+  "total": 5,
+  "results": [
+    {
+      "part": "pose",
+      "name": "单位旋转下的相机中心",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "混合旋转下的刚体逆矩阵",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "相机原点变回世界后应满足 R C+t=0",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "相机基向量与20个世界点往返",
+      "passed": true
+    },
+    {
+      "part": "pose",
+      "name": "反射矩阵或错误形状拒绝（输入验证已提供）",
+      "passed": true
+    }
+  ],
+  "student_source_sha256": "f19cb6c52261192604b884572f76a3fc054c9077b4042d154514b833f6702060",
+  "note": "单元检查含已提供的输入验证和3项格式检查；不能代替本地真实实验分析。"
+}

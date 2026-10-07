@@ -1,0 +1,7 @@
+{
+  "extraction_gpu": "--FeatureExtraction.use_gpu",
+  "extraction_size": "--FeatureExtraction.max_image_size",
+  "extraction_threads": "--FeatureExtraction.num_threads",
+  "matching_gpu": "--FeatureMatching.use_gpu",
+  "matching_threads": "--FeatureMatching.num_threads"
+}

@@ -1,0 +1,21 @@
+{
+  "n_images": 128,
+  "coordinates": "arbitrary SfM world; not meters",
+  "rotation_determinants": {
+    "n_finite": 128,
+    "mean": 1.0,
+    "median": 1.0000000000000002,
+    "p95": 1.0000000000000009,
+    "max": 1.0000000000000013,
+    "rms": 1.0000000000000002
+  },
+  "center_equation_residual": {
+    "n_finite": 128,
+    "mean": 1.0913412007256066e-15,
+    "median": 7.731705958955176e-16,
+    "p95": 3.321462932344996e-15,
+    "max": 4.910148818092704e-15,
+    "rms": 1.5002475018863845e-15
+  },
+  "note": "Camera ID order is not a measured time trajectory. Checks concern internal convention, not external truth."
+}

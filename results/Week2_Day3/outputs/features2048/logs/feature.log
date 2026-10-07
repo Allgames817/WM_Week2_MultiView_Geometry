@@ -1,0 +1,899 @@
+I20261007 03:35:22.172537 55360 feature_extraction.cc:498] === Feature extraction ===
+I20261007 03:35:22.174213 61504 sift.cc:758] Creating SIFT GPU feature extractor
+I20261007 03:35:22.504936 42532 feature_extraction.cc:270] Processed file [1/128]
+I20261007 03:35:22.505010 42532 feature_extraction.cc:273]   Name:            P1180141.JPG
+I20261007 03:35:22.505031 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.505046 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.505063 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.505097 42532 feature_extraction.cc:294]   Features:        2379 (SIFT)
+I20261007 03:35:22.519949 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.537556 42532 feature_extraction.cc:270] Processed file [2/128]
+I20261007 03:35:22.537622 42532 feature_extraction.cc:273]   Name:            P1180142.JPG
+I20261007 03:35:22.537641 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.537654 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.537675 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.537695 42532 feature_extraction.cc:294]   Features:        1606 (SIFT)
+I20261007 03:35:22.559549 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.568190 42532 feature_extraction.cc:270] Processed file [3/128]
+I20261007 03:35:22.568312 42532 feature_extraction.cc:273]   Name:            P1180143.JPG
+I20261007 03:35:22.568332 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.568345 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.568362 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.568378 42532 feature_extraction.cc:294]   Features:        2669 (SIFT)
+I20261007 03:35:22.598755 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.600684 42532 feature_extraction.cc:270] Processed file [4/128]
+I20261007 03:35:22.600714 42532 feature_extraction.cc:273]   Name:            P1180144.JPG
+I20261007 03:35:22.600722 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.600728 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.600735 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.600742 42532 feature_extraction.cc:294]   Features:        2792 (SIFT)
+I20261007 03:35:22.637934 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.640353 42532 feature_extraction.cc:270] Processed file [5/128]
+I20261007 03:35:22.640399 42532 feature_extraction.cc:273]   Name:            P1180145.JPG
+I20261007 03:35:22.640408 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.640414 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.640421 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.640429 42532 feature_extraction.cc:294]   Features:        3060 (SIFT)
+I20261007 03:35:22.684349 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.686533 42532 feature_extraction.cc:270] Processed file [6/128]
+I20261007 03:35:22.686567 42532 feature_extraction.cc:273]   Name:            P1180146.JPG
+I20261007 03:35:22.686576 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.686582 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.686588 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.686596 42532 feature_extraction.cc:294]   Features:        2093 (SIFT)
+I20261007 03:35:22.742307 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.743785 42532 feature_extraction.cc:270] Processed file [7/128]
+I20261007 03:35:22.743814 42532 feature_extraction.cc:273]   Name:            P1180147.JPG
+I20261007 03:35:22.745281 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.745293 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.745300 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.745307 42532 feature_extraction.cc:294]   Features:        2110 (SIFT)
+I20261007 03:35:22.823317 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.824729 42532 feature_extraction.cc:270] Processed file [8/128]
+I20261007 03:35:22.824765 42532 feature_extraction.cc:273]   Name:            P1180148.JPG
+I20261007 03:35:22.824773 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.824779 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.824786 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.824793 42532 feature_extraction.cc:294]   Features:        3205 (SIFT)
+I20261007 03:35:22.868620 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.870876 42532 feature_extraction.cc:270] Processed file [9/128]
+I20261007 03:35:22.870912 42532 feature_extraction.cc:273]   Name:            P1180149.JPG
+I20261007 03:35:22.870921 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.870926 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.870933 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.870940 42532 feature_extraction.cc:294]   Features:        2870 (SIFT)
+I20261007 03:35:22.907414 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.917289 42532 feature_extraction.cc:270] Processed file [10/128]
+I20261007 03:35:22.917345 42532 feature_extraction.cc:273]   Name:            P1180150.JPG
+I20261007 03:35:22.917355 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.917360 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.917367 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.917376 42532 feature_extraction.cc:294]   Features:        3059 (SIFT)
+I20261007 03:35:22.956690 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:22.958497 42532 feature_extraction.cc:270] Processed file [11/128]
+I20261007 03:35:22.958536 42532 feature_extraction.cc:273]   Name:            P1180151.JPG
+I20261007 03:35:22.958547 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:22.958555 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:22.958562 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:22.958569 42532 feature_extraction.cc:294]   Features:        3204 (SIFT)
+I20261007 03:35:23.000173 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.002019 42532 feature_extraction.cc:270] Processed file [12/128]
+I20261007 03:35:23.002062 42532 feature_extraction.cc:273]   Name:            P1180152.JPG
+I20261007 03:35:23.002071 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.002077 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.002086 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.002096 42532 feature_extraction.cc:294]   Features:        1921 (SIFT)
+I20261007 03:35:23.079073 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.080323 42532 feature_extraction.cc:270] Processed file [13/128]
+I20261007 03:35:23.080360 42532 feature_extraction.cc:273]   Name:            P1180153.JPG
+I20261007 03:35:23.080368 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.080374 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.080472 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.080483 42532 feature_extraction.cc:294]   Features:        2955 (SIFT)
+I20261007 03:35:23.118977 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.120624 42532 feature_extraction.cc:270] Processed file [14/128]
+I20261007 03:35:23.120658 42532 feature_extraction.cc:273]   Name:            P1180154.JPG
+I20261007 03:35:23.120666 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.120672 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.120688 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.120696 42532 feature_extraction.cc:294]   Features:        2168 (SIFT)
+I20261007 03:35:23.156759 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.158148 42532 feature_extraction.cc:270] Processed file [15/128]
+I20261007 03:35:23.158195 42532 feature_extraction.cc:273]   Name:            P1180155.JPG
+I20261007 03:35:23.158204 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.158210 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.158217 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.158224 42532 feature_extraction.cc:294]   Features:        2334 (SIFT)
+I20261007 03:35:23.200452 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.201802 42532 feature_extraction.cc:270] Processed file [16/128]
+I20261007 03:35:23.201830 42532 feature_extraction.cc:273]   Name:            P1180156.JPG
+I20261007 03:35:23.201838 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.201844 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.201850 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.201865 42532 feature_extraction.cc:294]   Features:        2115 (SIFT)
+I20261007 03:35:23.239040 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.240677 42532 feature_extraction.cc:270] Processed file [17/128]
+I20261007 03:35:23.240725 42532 feature_extraction.cc:273]   Name:            P1180157.JPG
+I20261007 03:35:23.240736 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.240751 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.240758 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.240767 42532 feature_extraction.cc:294]   Features:        2114 (SIFT)
+I20261007 03:35:23.282290 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.283579 42532 feature_extraction.cc:270] Processed file [18/128]
+I20261007 03:35:23.283615 42532 feature_extraction.cc:273]   Name:            P1180158.JPG
+I20261007 03:35:23.283623 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.283629 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.283636 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.283643 42532 feature_extraction.cc:294]   Features:        2179 (SIFT)
+I20261007 03:35:23.322884 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.324412 42532 feature_extraction.cc:270] Processed file [19/128]
+I20261007 03:35:23.324451 42532 feature_extraction.cc:273]   Name:            P1180159.JPG
+I20261007 03:35:23.324460 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.324466 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.324473 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.324480 42532 feature_extraction.cc:294]   Features:        2264 (SIFT)
+I20261007 03:35:23.364766 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.374784 42532 feature_extraction.cc:270] Processed file [20/128]
+I20261007 03:35:23.374843 42532 feature_extraction.cc:273]   Name:            P1180160.JPG
+I20261007 03:35:23.374852 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.374857 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.374868 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.374878 42532 feature_extraction.cc:294]   Features:        2126 (SIFT)
+I20261007 03:35:23.415086 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.416411 42532 feature_extraction.cc:270] Processed file [21/128]
+I20261007 03:35:23.416444 42532 feature_extraction.cc:273]   Name:            P1180161.JPG
+I20261007 03:35:23.416453 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.416458 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.416465 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.416473 42532 feature_extraction.cc:294]   Features:        2051 (SIFT)
+I20261007 03:35:23.463292 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.464581 42532 feature_extraction.cc:270] Processed file [22/128]
+I20261007 03:35:23.464616 42532 feature_extraction.cc:273]   Name:            P1180162.JPG
+I20261007 03:35:23.464624 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.464630 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.464639 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.464648 42532 feature_extraction.cc:294]   Features:        2972 (SIFT)
+I20261007 03:35:23.502213 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.504073 42532 feature_extraction.cc:270] Processed file [23/128]
+I20261007 03:35:23.504124 42532 feature_extraction.cc:273]   Name:            P1180163.JPG
+I20261007 03:35:23.504133 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.504139 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.504146 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.504154 42532 feature_extraction.cc:294]   Features:        2554 (SIFT)
+I20261007 03:35:23.549102 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.550591 42532 feature_extraction.cc:270] Processed file [24/128]
+I20261007 03:35:23.550624 42532 feature_extraction.cc:273]   Name:            P1180164.JPG
+I20261007 03:35:23.550633 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.550639 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.550648 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.550657 42532 feature_extraction.cc:294]   Features:        2744 (SIFT)
+I20261007 03:35:23.623606 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.625210 42532 feature_extraction.cc:270] Processed file [25/128]
+I20261007 03:35:23.625247 42532 feature_extraction.cc:273]   Name:            P1180165.JPG
+I20261007 03:35:23.625257 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.625262 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.625269 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.625285 42532 feature_extraction.cc:294]   Features:        2527 (SIFT)
+I20261007 03:35:23.662924 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.664358 42532 feature_extraction.cc:270] Processed file [26/128]
+I20261007 03:35:23.664513 42532 feature_extraction.cc:273]   Name:            P1180166.JPG
+I20261007 03:35:23.664530 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.664537 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.664546 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.664556 42532 feature_extraction.cc:294]   Features:        2286 (SIFT)
+I20261007 03:35:23.702418 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.703748 42532 feature_extraction.cc:270] Processed file [27/128]
+I20261007 03:35:23.703774 42532 feature_extraction.cc:273]   Name:            P1180167.JPG
+I20261007 03:35:23.703781 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.703787 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.703794 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.703801 42532 feature_extraction.cc:294]   Features:        2836 (SIFT)
+I20261007 03:35:23.703828 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.705605 42532 feature_extraction.cc:270] Processed file [28/128]
+I20261007 03:35:23.705735 42532 feature_extraction.cc:273]   Name:            P1180168.JPG
+I20261007 03:35:23.705745 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.705751 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.705758 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.705766 42532 feature_extraction.cc:294]   Features:        2898 (SIFT)
+I20261007 03:35:23.743124 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.744758 42532 feature_extraction.cc:270] Processed file [29/128]
+I20261007 03:35:23.744788 42532 feature_extraction.cc:273]   Name:            P1180169.JPG
+I20261007 03:35:23.744797 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.744802 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.744809 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.744823 42532 feature_extraction.cc:294]   Features:        3052 (SIFT)
+I20261007 03:35:23.787887 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.799351 42532 feature_extraction.cc:270] Processed file [30/128]
+I20261007 03:35:23.799402 42532 feature_extraction.cc:273]   Name:            P1180170.JPG
+I20261007 03:35:23.799411 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.799417 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.799424 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.799433 42532 feature_extraction.cc:294]   Features:        2630 (SIFT)
+I20261007 03:35:23.874305 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.875820 42532 feature_extraction.cc:270] Processed file [31/128]
+I20261007 03:35:23.875846 42532 feature_extraction.cc:273]   Name:            P1180171.JPG
+I20261007 03:35:23.875856 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.875862 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.875869 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.875876 42532 feature_extraction.cc:294]   Features:        2482 (SIFT)
+I20261007 03:35:23.875900 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.877398 42532 feature_extraction.cc:270] Processed file [32/128]
+I20261007 03:35:23.877427 42532 feature_extraction.cc:273]   Name:            P1180172.JPG
+I20261007 03:35:23.877435 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.877467 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.877474 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.877481 42532 feature_extraction.cc:294]   Features:        2702 (SIFT)
+I20261007 03:35:23.915086 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.916706 42532 feature_extraction.cc:270] Processed file [33/128]
+I20261007 03:35:23.916753 42532 feature_extraction.cc:273]   Name:            P1180173.JPG
+I20261007 03:35:23.916763 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.916769 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.916777 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.916785 42532 feature_extraction.cc:294]   Features:        3221 (SIFT)
+I20261007 03:35:23.955928 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:23.957818 42532 feature_extraction.cc:270] Processed file [34/128]
+I20261007 03:35:23.957858 42532 feature_extraction.cc:273]   Name:            P1180174.JPG
+I20261007 03:35:23.957867 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:23.957872 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:23.957879 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:23.957886 42532 feature_extraction.cc:294]   Features:        2792 (SIFT)
+I20261007 03:35:24.003816 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.006070 42532 feature_extraction.cc:270] Processed file [35/128]
+I20261007 03:35:24.006121 42532 feature_extraction.cc:273]   Name:            P1180175.JPG
+I20261007 03:35:24.006129 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.006134 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.006144 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.006156 42532 feature_extraction.cc:294]   Features:        1809 (SIFT)
+I20261007 03:35:24.051371 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.052512 42532 feature_extraction.cc:270] Processed file [36/128]
+I20261007 03:35:24.052546 42532 feature_extraction.cc:273]   Name:            P1180176.JPG
+I20261007 03:35:24.052553 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.052558 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.052565 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.052573 42532 feature_extraction.cc:294]   Features:        2882 (SIFT)
+I20261007 03:35:24.097648 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.099974 42532 feature_extraction.cc:270] Processed file [37/128]
+I20261007 03:35:24.100006 42532 feature_extraction.cc:273]   Name:            P1180177.JPG
+I20261007 03:35:24.100016 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.100021 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.100028 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.100036 42532 feature_extraction.cc:294]   Features:        2097 (SIFT)
+I20261007 03:35:24.145725 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.147104 42532 feature_extraction.cc:270] Processed file [38/128]
+I20261007 03:35:24.147139 42532 feature_extraction.cc:273]   Name:            P1180178.JPG
+I20261007 03:35:24.147148 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.147153 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.147160 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.147197 42532 feature_extraction.cc:294]   Features:        3221 (SIFT)
+I20261007 03:35:24.232381 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.234613 42532 feature_extraction.cc:270] Processed file [39/128]
+I20261007 03:35:24.234667 42532 feature_extraction.cc:273]   Name:            P1180179.JPG
+I20261007 03:35:24.234676 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.234682 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.234691 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.234702 42532 feature_extraction.cc:294]   Features:        2189 (SIFT)
+I20261007 03:35:24.234746 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.251238 42532 feature_extraction.cc:270] Processed file [40/128]
+I20261007 03:35:24.251304 42532 feature_extraction.cc:273]   Name:            P1180180.JPG
+I20261007 03:35:24.251315 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.251323 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.251332 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.251345 42532 feature_extraction.cc:294]   Features:        2309 (SIFT)
+I20261007 03:35:24.327062 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.328456 42532 feature_extraction.cc:270] Processed file [41/128]
+I20261007 03:35:24.328497 42532 feature_extraction.cc:273]   Name:            P1180181.JPG
+I20261007 03:35:24.328508 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.328513 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.328521 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.328528 42532 feature_extraction.cc:294]   Features:        2295 (SIFT)
+I20261007 03:35:24.367066 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.368486 42532 feature_extraction.cc:270] Processed file [42/128]
+I20261007 03:35:24.368521 42532 feature_extraction.cc:273]   Name:            P1180182.JPG
+I20261007 03:35:24.368534 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.368541 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.368548 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.368557 42532 feature_extraction.cc:294]   Features:        2422 (SIFT)
+I20261007 03:35:24.408836 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.410269 42532 feature_extraction.cc:270] Processed file [43/128]
+I20261007 03:35:24.410345 42532 feature_extraction.cc:273]   Name:            P1180183.JPG
+I20261007 03:35:24.410355 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.410360 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.410369 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.410377 42532 feature_extraction.cc:294]   Features:        2432 (SIFT)
+I20261007 03:35:24.448723 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.450580 42532 feature_extraction.cc:270] Processed file [44/128]
+I20261007 03:35:24.450624 42532 feature_extraction.cc:273]   Name:            P1180184.JPG
+I20261007 03:35:24.450632 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.450637 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.450644 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.450652 42532 feature_extraction.cc:294]   Features:        2014 (SIFT)
+I20261007 03:35:24.450688 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.451926 42532 feature_extraction.cc:270] Processed file [45/128]
+I20261007 03:35:24.451955 42532 feature_extraction.cc:273]   Name:            P1180185.JPG
+I20261007 03:35:24.451961 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.451967 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.451973 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.451979 42532 feature_extraction.cc:294]   Features:        2371 (SIFT)
+I20261007 03:35:24.489993 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.491480 42532 feature_extraction.cc:270] Processed file [46/128]
+I20261007 03:35:24.491526 42532 feature_extraction.cc:273]   Name:            P1180186.JPG
+I20261007 03:35:24.491535 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.491541 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.491549 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.491557 42532 feature_extraction.cc:294]   Features:        2075 (SIFT)
+I20261007 03:35:24.569355 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.570577 42532 feature_extraction.cc:270] Processed file [47/128]
+I20261007 03:35:24.570607 42532 feature_extraction.cc:273]   Name:            P1180187.JPG
+I20261007 03:35:24.570618 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.570623 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.570630 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.570637 42532 feature_extraction.cc:294]   Features:        2962 (SIFT)
+I20261007 03:35:24.570662 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.572287 42532 feature_extraction.cc:270] Processed file [48/128]
+I20261007 03:35:24.572311 42532 feature_extraction.cc:273]   Name:            P1180188.JPG
+I20261007 03:35:24.572318 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.572324 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.572330 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.572336 42532 feature_extraction.cc:294]   Features:        3040 (SIFT)
+I20261007 03:35:24.607934 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.612066 42532 feature_extraction.cc:270] Processed file [49/128]
+I20261007 03:35:24.612109 42532 feature_extraction.cc:273]   Name:            P1180189.JPG
+I20261007 03:35:24.612118 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.612124 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.612131 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.612138 42532 feature_extraction.cc:294]   Features:        2883 (SIFT)
+I20261007 03:35:24.683288 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.693485 42532 feature_extraction.cc:270] Processed file [50/128]
+I20261007 03:35:24.693536 42532 feature_extraction.cc:273]   Name:            P1180190.JPG
+I20261007 03:35:24.693545 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.693554 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.693563 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.693571 42532 feature_extraction.cc:294]   Features:        1732 (SIFT)
+I20261007 03:35:24.693613 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.694721 42532 feature_extraction.cc:270] Processed file [51/128]
+I20261007 03:35:24.694747 42532 feature_extraction.cc:273]   Name:            P1180191.JPG
+I20261007 03:35:24.694814 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.694819 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.694826 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.694833 42532 feature_extraction.cc:294]   Features:        1445 (SIFT)
+I20261007 03:35:24.732140 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.733303 42532 feature_extraction.cc:270] Processed file [52/128]
+I20261007 03:35:24.733333 42532 feature_extraction.cc:273]   Name:            P1180192.JPG
+I20261007 03:35:24.733342 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.733348 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.733355 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.733362 42532 feature_extraction.cc:294]   Features:        2124 (SIFT)
+I20261007 03:35:24.769163 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.770484 42532 feature_extraction.cc:270] Processed file [53/128]
+I20261007 03:35:24.770514 42532 feature_extraction.cc:273]   Name:            P1180193.JPG
+I20261007 03:35:24.770523 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.770528 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.770535 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.770542 42532 feature_extraction.cc:294]   Features:        2459 (SIFT)
+I20261007 03:35:24.842883 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.844344 42532 feature_extraction.cc:270] Processed file [54/128]
+I20261007 03:35:24.844381 42532 feature_extraction.cc:273]   Name:            P1180194.JPG
+I20261007 03:35:24.844401 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.844408 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.844416 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.844425 42532 feature_extraction.cc:294]   Features:        2297 (SIFT)
+I20261007 03:35:24.844452 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.845770 42532 feature_extraction.cc:270] Processed file [55/128]
+I20261007 03:35:24.845798 42532 feature_extraction.cc:273]   Name:            P1180195.JPG
+I20261007 03:35:24.845804 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.845809 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.845815 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.845822 42532 feature_extraction.cc:294]   Features:        2392 (SIFT)
+I20261007 03:35:24.884101 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.885558 42532 feature_extraction.cc:270] Processed file [56/128]
+I20261007 03:35:24.885585 42532 feature_extraction.cc:273]   Name:            P1180196.JPG
+I20261007 03:35:24.885592 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.885597 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.885604 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.885611 42532 feature_extraction.cc:294]   Features:        2430 (SIFT)
+I20261007 03:35:24.923155 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:24.924794 42532 feature_extraction.cc:270] Processed file [57/128]
+I20261007 03:35:24.924832 42532 feature_extraction.cc:273]   Name:            P1180197.JPG
+I20261007 03:35:24.924841 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:24.924847 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:24.924927 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:24.924935 42532 feature_extraction.cc:294]   Features:        2504 (SIFT)
+I20261007 03:35:25.007104 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.008561 42532 feature_extraction.cc:270] Processed file [58/128]
+I20261007 03:35:25.008589 42532 feature_extraction.cc:273]   Name:            P1180198.JPG
+I20261007 03:35:25.008595 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.008604 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.008611 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.008617 42532 feature_extraction.cc:294]   Features:        3013 (SIFT)
+I20261007 03:35:25.008643 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.010926 42532 feature_extraction.cc:270] Processed file [59/128]
+I20261007 03:35:25.010961 42532 feature_extraction.cc:273]   Name:            P1180199.JPG
+I20261007 03:35:25.010968 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.010974 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.010980 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.010988 42532 feature_extraction.cc:294]   Features:        2211 (SIFT)
+I20261007 03:35:25.131705 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.133591 42532 feature_extraction.cc:270] Processed file [60/128]
+I20261007 03:35:25.133625 42532 feature_extraction.cc:273]   Name:            P1180200.JPG
+I20261007 03:35:25.133639 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.133651 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.133664 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.133679 42532 feature_extraction.cc:294]   Features:        2413 (SIFT)
+I20261007 03:35:25.133729 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.151247 42532 feature_extraction.cc:270] Processed file [61/128]
+I20261007 03:35:25.151313 42532 feature_extraction.cc:273]   Name:            P1180201.JPG
+I20261007 03:35:25.151328 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.151340 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.151353 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.151369 42532 feature_extraction.cc:294]   Features:        1927 (SIFT)
+I20261007 03:35:25.286530 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.288638 42532 feature_extraction.cc:270] Processed file [62/128]
+I20261007 03:35:25.288698 42532 feature_extraction.cc:273]   Name:            P1180202.JPG
+I20261007 03:35:25.288765 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.288785 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.288805 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.288821 42532 feature_extraction.cc:294]   Features:        2228 (SIFT)
+I20261007 03:35:25.360303 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.362680 42532 feature_extraction.cc:270] Processed file [63/128]
+I20261007 03:35:25.362806 42532 feature_extraction.cc:273]   Name:            P1180203.JPG
+I20261007 03:35:25.362824 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.362842 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.362856 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.362871 42532 feature_extraction.cc:294]   Features:        1536 (SIFT)
+I20261007 03:35:25.431933 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.433712 42532 feature_extraction.cc:270] Processed file [64/128]
+I20261007 03:35:25.433758 42532 feature_extraction.cc:273]   Name:            P1180204.JPG
+I20261007 03:35:25.433775 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.433788 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.433802 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.433820 42532 feature_extraction.cc:294]   Features:        2363 (SIFT)
+I20261007 03:35:25.505203 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.509739 42532 feature_extraction.cc:270] Processed file [65/128]
+I20261007 03:35:25.509802 42532 feature_extraction.cc:273]   Name:            P1180205.JPG
+I20261007 03:35:25.509819 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.509831 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.509845 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.509861 42532 feature_extraction.cc:294]   Features:        1488 (SIFT)
+I20261007 03:35:25.509914 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.530698 42532 feature_extraction.cc:270] Processed file [66/128]
+I20261007 03:35:25.530772 42532 feature_extraction.cc:273]   Name:            P1180206.JPG
+I20261007 03:35:25.530789 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.530802 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.530815 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.530839 42532 feature_extraction.cc:294]   Features:        2332 (SIFT)
+I20261007 03:35:25.599458 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.601673 42532 feature_extraction.cc:270] Processed file [67/128]
+I20261007 03:35:25.601708 42532 feature_extraction.cc:273]   Name:            P1180207.JPG
+I20261007 03:35:25.601724 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.601736 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.601750 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.601765 42532 feature_extraction.cc:294]   Features:        2334 (SIFT)
+I20261007 03:35:25.601803 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.604355 42532 feature_extraction.cc:270] Processed file [68/128]
+I20261007 03:35:25.604395 42532 feature_extraction.cc:273]   Name:            P1180208.JPG
+I20261007 03:35:25.604410 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.604422 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.604436 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.604450 42532 feature_extraction.cc:294]   Features:        2322 (SIFT)
+I20261007 03:35:25.674540 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.676817 42532 feature_extraction.cc:270] Processed file [69/128]
+I20261007 03:35:25.676852 42532 feature_extraction.cc:273]   Name:            P1180209.JPG
+I20261007 03:35:25.676867 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.676880 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.676893 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.676908 42532 feature_extraction.cc:294]   Features:        2256 (SIFT)
+I20261007 03:35:25.676943 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.718634 42532 feature_extraction.cc:270] Processed file [70/128]
+I20261007 03:35:25.718830 42532 feature_extraction.cc:273]   Name:            P1180210.JPG
+I20261007 03:35:25.718853 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.718865 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.718878 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.718894 42532 feature_extraction.cc:294]   Features:        2290 (SIFT)
+I20261007 03:35:25.821738 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.823949 42532 feature_extraction.cc:270] Processed file [71/128]
+I20261007 03:35:25.823984 42532 feature_extraction.cc:273]   Name:            P1180211.JPG
+I20261007 03:35:25.823998 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.824010 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.824024 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.824039 42532 feature_extraction.cc:294]   Features:        2324 (SIFT)
+I20261007 03:35:25.891343 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.907790 42532 feature_extraction.cc:270] Processed file [72/128]
+I20261007 03:35:25.907863 42532 feature_extraction.cc:273]   Name:            P1180212.JPG
+I20261007 03:35:25.907881 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.907894 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.907909 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.907926 42532 feature_extraction.cc:294]   Features:        2305 (SIFT)
+I20261007 03:35:25.974654 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:25.977031 42532 feature_extraction.cc:270] Processed file [73/128]
+I20261007 03:35:25.977088 42532 feature_extraction.cc:273]   Name:            P1180213.JPG
+I20261007 03:35:25.977104 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:25.977117 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:25.977131 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:25.977146 42532 feature_extraction.cc:294]   Features:        2278 (SIFT)
+I20261007 03:35:26.044469 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.046699 42532 feature_extraction.cc:270] Processed file [74/128]
+I20261007 03:35:26.046805 42532 feature_extraction.cc:273]   Name:            P1180214.JPG
+I20261007 03:35:26.046827 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.046840 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.046853 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.046873 42532 feature_extraction.cc:294]   Features:        2319 (SIFT)
+I20261007 03:35:26.116195 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.118468 42532 feature_extraction.cc:270] Processed file [75/128]
+I20261007 03:35:26.118507 42532 feature_extraction.cc:273]   Name:            P1180215.JPG
+I20261007 03:35:26.118524 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.118537 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.118557 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.118573 42532 feature_extraction.cc:294]   Features:        2361 (SIFT)
+I20261007 03:35:26.186313 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.188561 42532 feature_extraction.cc:270] Processed file [76/128]
+I20261007 03:35:26.188599 42532 feature_extraction.cc:273]   Name:            P1180216.JPG
+I20261007 03:35:26.188621 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.188766 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.188789 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.188804 42532 feature_extraction.cc:294]   Features:        2372 (SIFT)
+I20261007 03:35:26.262777 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.265270 42532 feature_extraction.cc:270] Processed file [77/128]
+I20261007 03:35:26.265379 42532 feature_extraction.cc:273]   Name:            P1180217.JPG
+I20261007 03:35:26.265403 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.265417 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.265431 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.265447 42532 feature_extraction.cc:294]   Features:        2398 (SIFT)
+I20261007 03:35:26.337154 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.339538 42532 feature_extraction.cc:270] Processed file [78/128]
+I20261007 03:35:26.339582 42532 feature_extraction.cc:273]   Name:            P1180218.JPG
+I20261007 03:35:26.339607 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.339620 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.339634 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.339650 42532 feature_extraction.cc:294]   Features:        2294 (SIFT)
+I20261007 03:35:26.408432 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.410963 42532 feature_extraction.cc:270] Processed file [79/128]
+I20261007 03:35:26.411130 42532 feature_extraction.cc:273]   Name:            P1180219.JPG
+I20261007 03:35:26.411151 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.411170 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.411184 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.411200 42532 feature_extraction.cc:294]   Features:        2721 (SIFT)
+I20261007 03:35:26.483449 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.486070 42532 feature_extraction.cc:270] Processed file [80/128]
+I20261007 03:35:26.486114 42532 feature_extraction.cc:273]   Name:            P1180220.JPG
+I20261007 03:35:26.486140 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.486153 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.486167 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.486181 42532 feature_extraction.cc:294]   Features:        2242 (SIFT)
+I20261007 03:35:26.554633 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.556746 42532 feature_extraction.cc:270] Processed file [81/128]
+I20261007 03:35:26.556787 42532 feature_extraction.cc:273]   Name:            P1180221.JPG
+I20261007 03:35:26.556803 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.556815 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.556829 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.556854 42532 feature_extraction.cc:294]   Features:        2124 (SIFT)
+I20261007 03:35:26.556898 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.558763 42532 feature_extraction.cc:270] Processed file [82/128]
+I20261007 03:35:26.558905 42532 feature_extraction.cc:273]   Name:            P1180222.JPG
+I20261007 03:35:26.558927 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.559002 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.559022 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.559589 42532 feature_extraction.cc:294]   Features:        2282 (SIFT)
+I20261007 03:35:26.626625 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.645293 42532 feature_extraction.cc:270] Processed file [83/128]
+I20261007 03:35:26.645361 42532 feature_extraction.cc:273]   Name:            P1180223.JPG
+I20261007 03:35:26.645379 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.645392 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.645405 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.645422 42532 feature_extraction.cc:294]   Features:        2098 (SIFT)
+I20261007 03:35:26.713446 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.715444 42532 feature_extraction.cc:270] Processed file [84/128]
+I20261007 03:35:26.715479 42532 feature_extraction.cc:273]   Name:            P1180224.JPG
+I20261007 03:35:26.715494 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.715507 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.715521 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.715535 42532 feature_extraction.cc:294]   Features:        2531 (SIFT)
+I20261007 03:35:26.784106 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.786510 42532 feature_extraction.cc:270] Processed file [85/128]
+I20261007 03:35:26.786543 42532 feature_extraction.cc:273]   Name:            P1180225.JPG
+I20261007 03:35:26.786559 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.786572 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.786586 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.786601 42532 feature_extraction.cc:294]   Features:        2793 (SIFT)
+I20261007 03:35:26.850970 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.853594 42532 feature_extraction.cc:270] Processed file [86/128]
+I20261007 03:35:26.853632 42532 feature_extraction.cc:273]   Name:            P1180305.JPG
+I20261007 03:35:26.853647 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.853660 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.853674 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.853689 42532 feature_extraction.cc:294]   Features:        3093 (SIFT)
+I20261007 03:35:26.985696 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:26.988579 42532 feature_extraction.cc:270] Processed file [87/128]
+I20261007 03:35:26.988641 42532 feature_extraction.cc:273]   Name:            P1180306.JPG
+I20261007 03:35:26.988659 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:26.988672 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:26.988690 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:26.988708 42532 feature_extraction.cc:294]   Features:        2703 (SIFT)
+I20261007 03:35:27.127090 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.129833 42532 feature_extraction.cc:270] Processed file [88/128]
+I20261007 03:35:27.130026 42532 feature_extraction.cc:273]   Name:            P1180307.JPG
+I20261007 03:35:27.130175 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.130201 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.130224 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.130240 42532 feature_extraction.cc:294]   Features:        1659 (SIFT)
+I20261007 03:35:27.198634 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.200477 42532 feature_extraction.cc:270] Processed file [89/128]
+I20261007 03:35:27.200514 42532 feature_extraction.cc:273]   Name:            P1180308.JPG
+I20261007 03:35:27.200537 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.200550 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.200563 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.200583 42532 feature_extraction.cc:294]   Features:        2445 (SIFT)
+I20261007 03:35:27.333004 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.335473 42532 feature_extraction.cc:270] Processed file [90/128]
+I20261007 03:35:27.335594 42532 feature_extraction.cc:273]   Name:            P1180309.JPG
+I20261007 03:35:27.335612 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.335625 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.335639 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.335652 42532 feature_extraction.cc:294]   Features:        2492 (SIFT)
+I20261007 03:35:27.406049 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.408517 42532 feature_extraction.cc:270] Processed file [91/128]
+I20261007 03:35:27.408582 42532 feature_extraction.cc:273]   Name:            P1180310.JPG
+I20261007 03:35:27.408599 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.408612 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.408625 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.408648 42532 feature_extraction.cc:294]   Features:        2208 (SIFT)
+I20261007 03:35:27.408703 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.411049 42532 feature_extraction.cc:270] Processed file [92/128]
+I20261007 03:35:27.411094 42532 feature_extraction.cc:273]   Name:            P1180311.JPG
+I20261007 03:35:27.411110 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.411122 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.411135 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.411150 42532 feature_extraction.cc:294]   Features:        2375 (SIFT)
+I20261007 03:35:27.480070 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.498634 42532 feature_extraction.cc:270] Processed file [93/128]
+I20261007 03:35:27.498765 42532 feature_extraction.cc:273]   Name:            P1180312.JPG
+I20261007 03:35:27.498784 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.498797 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.498811 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.498828 42532 feature_extraction.cc:294]   Features:        3141 (SIFT)
+I20261007 03:35:27.570764 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.574343 42532 feature_extraction.cc:270] Processed file [94/128]
+I20261007 03:35:27.574386 42532 feature_extraction.cc:273]   Name:            P1180313.JPG
+I20261007 03:35:27.574402 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.574415 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.574428 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.574443 42532 feature_extraction.cc:294]   Features:        2156 (SIFT)
+I20261007 03:35:27.640841 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.642805 42532 feature_extraction.cc:270] Processed file [95/128]
+I20261007 03:35:27.642861 42532 feature_extraction.cc:273]   Name:            P1180314.JPG
+I20261007 03:35:27.642885 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.643052 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.643071 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.643086 42532 feature_extraction.cc:294]   Features:        2264 (SIFT)
+I20261007 03:35:27.710247 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.712488 42532 feature_extraction.cc:270] Processed file [96/128]
+I20261007 03:35:27.712658 42532 feature_extraction.cc:273]   Name:            P1180315.JPG
+I20261007 03:35:27.712687 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.712702 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.712716 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.712737 42532 feature_extraction.cc:294]   Features:        2374 (SIFT)
+I20261007 03:35:27.781044 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.783195 42532 feature_extraction.cc:270] Processed file [97/128]
+I20261007 03:35:27.783353 42532 feature_extraction.cc:273]   Name:            P1180316.JPG
+I20261007 03:35:27.783375 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.783391 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.783405 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.783422 42532 feature_extraction.cc:294]   Features:        1916 (SIFT)
+I20261007 03:35:27.852436 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.854174 42532 feature_extraction.cc:270] Processed file [98/128]
+I20261007 03:35:27.854207 42532 feature_extraction.cc:273]   Name:            P1180317.JPG
+I20261007 03:35:27.854222 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.854235 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.854365 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.854384 42532 feature_extraction.cc:294]   Features:        2301 (SIFT)
+I20261007 03:35:27.989550 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:27.991885 42532 feature_extraction.cc:270] Processed file [99/128]
+I20261007 03:35:27.991939 42532 feature_extraction.cc:273]   Name:            P1180318.JPG
+I20261007 03:35:27.991956 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:27.991978 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:27.991993 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:27.992010 42532 feature_extraction.cc:294]   Features:        2284 (SIFT)
+I20261007 03:35:28.059765 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.061955 42532 feature_extraction.cc:270] Processed file [100/128]
+I20261007 03:35:28.061990 42532 feature_extraction.cc:273]   Name:            P1180319.JPG
+I20261007 03:35:28.062006 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.062018 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.062031 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.062046 42532 feature_extraction.cc:294]   Features:        2275 (SIFT)
+I20261007 03:35:28.128954 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.131336 42532 feature_extraction.cc:270] Processed file [101/128]
+I20261007 03:35:28.131381 42532 feature_extraction.cc:273]   Name:            P1180320.JPG
+I20261007 03:35:28.131401 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.131414 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.131430 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.131490 42532 feature_extraction.cc:294]   Features:        2202 (SIFT)
+I20261007 03:35:28.196836 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.198950 42532 feature_extraction.cc:270] Processed file [102/128]
+I20261007 03:35:28.198998 42532 feature_extraction.cc:273]   Name:            P1180321.JPG
+I20261007 03:35:28.199015 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.199032 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.199048 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.199063 42532 feature_extraction.cc:294]   Features:        2332 (SIFT)
+I20261007 03:35:28.265571 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.267742 42532 feature_extraction.cc:270] Processed file [103/128]
+I20261007 03:35:28.267780 42532 feature_extraction.cc:273]   Name:            P1180322.JPG
+I20261007 03:35:28.267796 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.267808 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.267825 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.267844 42532 feature_extraction.cc:294]   Features:        2025 (SIFT)
+I20261007 03:35:28.335310 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.352148 42532 feature_extraction.cc:270] Processed file [104/128]
+I20261007 03:35:28.352242 42532 feature_extraction.cc:273]   Name:            P1180323.JPG
+I20261007 03:35:28.352261 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.352274 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.352287 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.352308 42532 feature_extraction.cc:294]   Features:        2381 (SIFT)
+I20261007 03:35:28.420552 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.422712 42532 feature_extraction.cc:270] Processed file [105/128]
+I20261007 03:35:28.422748 42532 feature_extraction.cc:273]   Name:            P1180324.JPG
+I20261007 03:35:28.422767 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.422780 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.422793 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.422813 42532 feature_extraction.cc:294]   Features:        2362 (SIFT)
+I20261007 03:35:28.422856 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.425113 42532 feature_extraction.cc:270] Processed file [106/128]
+I20261007 03:35:28.425156 42532 feature_extraction.cc:273]   Name:            P1180325.JPG
+I20261007 03:35:28.425172 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.425185 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.425198 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.425213 42532 feature_extraction.cc:294]   Features:        2250 (SIFT)
+I20261007 03:35:28.560147 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.562753 42532 feature_extraction.cc:270] Processed file [107/128]
+I20261007 03:35:28.562995 42532 feature_extraction.cc:273]   Name:            P1180326.JPG
+I20261007 03:35:28.563029 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.563206 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.563334 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.563435 42532 feature_extraction.cc:294]   Features:        2345 (SIFT)
+I20261007 03:35:28.676746 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.678846 42532 feature_extraction.cc:270] Processed file [108/128]
+I20261007 03:35:28.678894 42532 feature_extraction.cc:273]   Name:            P1180327.JPG
+I20261007 03:35:28.678912 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.678925 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.678939 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.678959 42532 feature_extraction.cc:294]   Features:        1360 (SIFT)
+I20261007 03:35:28.745529 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.747059 42532 feature_extraction.cc:270] Processed file [109/128]
+I20261007 03:35:28.747094 42532 feature_extraction.cc:273]   Name:            P1180328.JPG
+I20261007 03:35:28.747111 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.747131 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.747147 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.747165 42532 feature_extraction.cc:294]   Features:        1578 (SIFT)
+I20261007 03:35:28.747213 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.748995 42532 feature_extraction.cc:270] Processed file [110/128]
+I20261007 03:35:28.749031 42532 feature_extraction.cc:273]   Name:            P1180329.JPG
+I20261007 03:35:28.749079 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.749100 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.749115 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.749130 42532 feature_extraction.cc:294]   Features:        1589 (SIFT)
+I20261007 03:35:28.818112 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.819774 42532 feature_extraction.cc:270] Processed file [111/128]
+I20261007 03:35:28.819814 42532 feature_extraction.cc:273]   Name:            P1180330.JPG
+I20261007 03:35:28.819829 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.819842 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.819862 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.819877 42532 feature_extraction.cc:294]   Features:        2706 (SIFT)
+I20261007 03:35:28.887484 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.889997 42532 feature_extraction.cc:270] Processed file [112/128]
+I20261007 03:35:28.890111 42532 feature_extraction.cc:273]   Name:            P1180331.JPG
+I20261007 03:35:28.890172 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.890193 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.890208 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.890230 42532 feature_extraction.cc:294]   Features:        2288 (SIFT)
+I20261007 03:35:28.960647 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:28.963251 42532 feature_extraction.cc:270] Processed file [113/128]
+I20261007 03:35:28.963336 42532 feature_extraction.cc:273]   Name:            P1180332.JPG
+I20261007 03:35:28.963366 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:28.963430 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:28.963447 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:28.963462 42532 feature_extraction.cc:294]   Features:        2010 (SIFT)
+I20261007 03:35:29.104297 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.106253 42532 feature_extraction.cc:270] Processed file [114/128]
+I20261007 03:35:29.106334 42532 feature_extraction.cc:273]   Name:            P1180333.JPG
+I20261007 03:35:29.106350 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.106363 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.106376 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.106398 42532 feature_extraction.cc:294]   Features:        2206 (SIFT)
+I20261007 03:35:29.174183 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.176430 42532 feature_extraction.cc:270] Processed file [115/128]
+I20261007 03:35:29.176468 42532 feature_extraction.cc:273]   Name:            P1180334.JPG
+I20261007 03:35:29.176484 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.176504 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.176520 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.176535 42532 feature_extraction.cc:294]   Features:        2100 (SIFT)
+I20261007 03:35:29.245402 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.264402 42532 feature_extraction.cc:270] Processed file [116/128]
+I20261007 03:35:29.264478 42532 feature_extraction.cc:273]   Name:            P1180335.JPG
+I20261007 03:35:29.264496 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.264510 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.264524 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.264540 42532 feature_extraction.cc:294]   Features:        2296 (SIFT)
+I20261007 03:35:29.335385 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.337582 42532 feature_extraction.cc:270] Processed file [117/128]
+I20261007 03:35:29.337638 42532 feature_extraction.cc:273]   Name:            P1180336.JPG
+I20261007 03:35:29.337658 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.337671 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.337686 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.337708 42532 feature_extraction.cc:294]   Features:        2153 (SIFT)
+I20261007 03:35:29.406733 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.408804 42532 feature_extraction.cc:270] Processed file [118/128]
+I20261007 03:35:29.408851 42532 feature_extraction.cc:273]   Name:            P1180337.JPG
+I20261007 03:35:29.408867 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.408880 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.408904 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.408920 42532 feature_extraction.cc:294]   Features:        2258 (SIFT)
+I20261007 03:35:29.477718 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.479870 42532 feature_extraction.cc:270] Processed file [119/128]
+I20261007 03:35:29.479960 42532 feature_extraction.cc:273]   Name:            P1180338.JPG
+I20261007 03:35:29.479983 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.479997 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.480011 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.480032 42532 feature_extraction.cc:294]   Features:        2257 (SIFT)
+I20261007 03:35:29.552160 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.554184 42532 feature_extraction.cc:270] Processed file [120/128]
+I20261007 03:35:29.554219 42532 feature_extraction.cc:273]   Name:            P1180339.JPG
+I20261007 03:35:29.554241 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.554299 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.554317 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.554331 42532 feature_extraction.cc:294]   Features:        2166 (SIFT)
+I20261007 03:35:29.554377 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.556304 42532 feature_extraction.cc:270] Processed file [121/128]
+I20261007 03:35:29.556337 42532 feature_extraction.cc:273]   Name:            P1180340.JPG
+I20261007 03:35:29.556350 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.556362 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.556374 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.556387 42532 feature_extraction.cc:294]   Features:        3036 (SIFT)
+I20261007 03:35:29.556421 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.592737 42532 feature_extraction.cc:270] Processed file [122/128]
+I20261007 03:35:29.592809 42532 feature_extraction.cc:273]   Name:            P1180341.JPG
+I20261007 03:35:29.592828 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.592840 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.592853 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.592875 42532 feature_extraction.cc:294]   Features:        2264 (SIFT)
+I20261007 03:35:29.592947 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.628429 42532 feature_extraction.cc:270] Processed file [123/128]
+I20261007 03:35:29.628508 42532 feature_extraction.cc:273]   Name:            P1180342.JPG
+I20261007 03:35:29.628530 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.628543 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.628556 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.628573 42532 feature_extraction.cc:294]   Features:        2125 (SIFT)
+I20261007 03:35:29.628641 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.666793 42532 feature_extraction.cc:270] Processed file [124/128]
+I20261007 03:35:29.666862 42532 feature_extraction.cc:273]   Name:            P1180343.JPG
+I20261007 03:35:29.666881 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.666895 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.666909 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.666929 42532 feature_extraction.cc:294]   Features:        3796 (SIFT)
+I20261007 03:35:29.667001 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.705264 42532 feature_extraction.cc:270] Processed file [125/128]
+I20261007 03:35:29.705330 42532 feature_extraction.cc:273]   Name:            P1180344.JPG
+I20261007 03:35:29.705345 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.705357 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.705371 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.705386 42532 feature_extraction.cc:294]   Features:        2552 (SIFT)
+I20261007 03:35:29.705455 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.759086 42532 feature_extraction.cc:270] Processed file [126/128]
+I20261007 03:35:29.759174 42532 feature_extraction.cc:273]   Name:            P1180345.JPG
+I20261007 03:35:29.759195 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.759208 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.759224 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.759283 42532 feature_extraction.cc:294]   Features:        2579 (SIFT)
+I20261007 03:35:29.759347 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.835228 42532 feature_extraction.cc:270] Processed file [127/128]
+I20261007 03:35:29.835299 42532 feature_extraction.cc:273]   Name:            P1180346.JPG
+I20261007 03:35:29.835313 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.835325 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.835338 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.835353 42532 feature_extraction.cc:294]   Features:        2380 (SIFT)
+I20261007 03:35:29.835423 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.873284 42532 feature_extraction.cc:270] Processed file [128/128]
+I20261007 03:35:29.873386 42532 feature_extraction.cc:273]   Name:            P1180347.JPG
+I20261007 03:35:29.873411 42532 feature_extraction.cc:282]   Dimensions:      3072 x 2304
+I20261007 03:35:29.873424 42532 feature_extraction.cc:285]   Camera:          #1 - SIMPLE_RADIAL
+I20261007 03:35:29.873438 42532 feature_extraction.cc:289]   Focal Length:    2484.86px (Prior)
+I20261007 03:35:29.873453 42532 feature_extraction.cc:294]   Features:        2163 (SIFT)
+I20261007 03:35:29.873517 42532 feature_extraction.cc:315]   Gravity:         X=0.000, Y=1.000, Z=0.000
+I20261007 03:35:29.891375 55360 timer.cc:90] Elapsed time: 0.129 [minutes]

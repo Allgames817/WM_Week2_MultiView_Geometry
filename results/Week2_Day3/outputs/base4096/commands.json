@@ -1,0 +1,49 @@
+{
+  "feature": [
+    "feature_extractor",
+    "--database_path",
+    "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\database.db",
+    "--image_path",
+    "D:\\WM_Study\\Week2_Day3\\data\\south-building\\images",
+    "--ImageReader.camera_model",
+    "SIMPLE_RADIAL",
+    "--ImageReader.single_camera",
+    "0",
+    "--FeatureExtraction.use_gpu",
+    "1",
+    "--FeatureExtraction.max_image_size",
+    "1600",
+    "--FeatureExtraction.num_threads",
+    "4",
+    "--SiftExtraction.max_num_features",
+    "4096",
+    "--FeatureExtraction.type",
+    "SIFT",
+    "--default_random_seed",
+    "0"
+  ],
+  "match": [
+    "exhaustive_matcher",
+    "--database_path",
+    "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\database.db",
+    "--FeatureMatching.use_gpu",
+    "1",
+    "--FeatureMatching.num_threads",
+    "4",
+    "--FeatureMatching.type",
+    "SIFT_BRUTEFORCE",
+    "--default_random_seed",
+    "0"
+  ],
+  "map": [
+    "mapper",
+    "--database_path",
+    "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\database.db",
+    "--image_path",
+    "D:\\WM_Study\\Week2_Day3\\data\\south-building\\images",
+    "--output_path",
+    "D:\\WM_Study\\Week2_Day3\\outputs\\base4096\\sparse",
+    "--default_random_seed",
+    "0"
+  ]
+}

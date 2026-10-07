@@ -1,0 +1,27 @@
+{
+  "implementation": "student",
+  "mode": "demo",
+  "versions": {
+    "python": "3.11.17",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "opencv": "4.13.0"
+  },
+  "seed": 20261006,
+  "noise_std_each_uv_px": 0.5,
+  "n_points": 300,
+  "world_frame": "camera 1",
+  "convention": "X2=R21 X1+t21; C2=-R21.T t21",
+  "K_known": true,
+  "distortion": "zero",
+  "E_ransac_threshold_px": 1.0,
+  "E_ransac_confidence": 0.999,
+  "E_ransac_max_iterations": 10000,
+  "recoverPose_distanceThresh_unit_baseline": 1000000.0,
+  "estimator_inputs": [
+    "K",
+    "uv1",
+    "uv2"
+  ],
+  "ground_truth_used_by_estimator": false
+}

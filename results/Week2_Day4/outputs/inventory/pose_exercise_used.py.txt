@@ -1,0 +1,76 @@
+"""Day4 的三个 TODO。仅导入 NumPy；不含完成版答案或参考回退。
+
+坐标：X_cam = R @ X_world + t（列向量）；相机 x右/y下/z前。
+图像点使用 COLMAP 的原始像素坐标；不额外增减 0.5。
+"""
+from __future__ import annotations
+import numpy as np
+
+
+def qvec_to_rotmat(qvec: np.ndarray) -> np.ndarray:
+    """TODO 1：Hamilton 四元数 [qw,qx,qy,qz] -> world-to-camera R。
+
+    输入 (4,)，输出 float64 (3,3)。下面已检查并归一化输入。
+    使用 DAY4_GUIDE.md 中的旋转矩阵公式；不要颠倒 qw 的位置。
+    q 和 -q 必须得到同一个 R。
+    """
+    q = np.asarray(qvec, dtype=np.float64)
+    if q.shape != (4,) or not np.isfinite(q).all():
+        raise ValueError('qvec 必须为有限数值的 (4,) 数组。')
+    norm = float(np.linalg.norm(q))
+    if not np.isfinite(norm) or norm < 1e-15:
+        raise ValueError('四元数范数必须非零且有限。')
+    q = q / norm
+    w, x, y, z = q
+    return np.array([
+        [1 - 2 * (y * y + z * z), 2 * (x * y - w * z), 2 * (x * z + w * y)],
+        [2 * (x * y + w * z), 1 - 2 * (x * x + z * z), 2 * (y * z - w * x)],
+        [2 * (x * z - w * y), 2 * (y * z + w * x), 1 - 2 * (x * x + y * y)],
+    ], dtype=np.float64)
+
+
+def pose_to_c2w(R: np.ndarray, t: np.ndarray) -> np.ndarray:
+    """TODO 2：world-to-camera 的 (R,t) -> camera-to-world 的 4×4 矩阵。
+
+    输入 R:(3,3), t:(3,)；输出 T_camera_to_world:(4,4)。
+    请直接使用刚体逆变换，不调用 np.linalg.inv。
+    输出左上块是反向旋转，右上列是相机中心 C，末行是 [0,0,0,1]。
+    """
+    R = np.asarray(R, dtype=np.float64)
+    t = np.asarray(t, dtype=np.float64)
+    if R.shape != (3, 3) or t.shape != (3,):
+        raise ValueError('需要 R:(3,3) 和 t:(3,)。')
+    if not np.isfinite(R).all() or not np.isfinite(t).all():
+        raise ValueError('R/t 必须有限。')
+    if (not np.allclose(R.T @ R, np.eye(3), atol=1e-7, rtol=0)
+            or not np.isclose(np.linalg.det(R), 1.0, atol=1e-7, rtol=0)):
+        raise ValueError('R 必须是 det=+1 的正交旋转矩阵。')
+    Rt = R.T
+    T = np.eye(4, dtype=np.float64)
+    T[:3, :3] = Rt
+    T[:3, 3] = -Rt @ t
+    return T
+
+
+def project_simple_radial(
+    X_cam: np.ndarray, params: np.ndarray, min_depth: float = 1e-8,
+) -> tuple[np.ndarray, np.ndarray]:
+    """TODO 3：相机坐标点 -> SIMPLE_RADIAL 像素坐标。
+
+    输入 X_cam:(N,3)，params:(4,)=[f,cx,cy,k]。
+    返回 uv:(N,2) float64 和 valid:(N,) bool。
+    valid 条件：该行三个坐标均有限，且 Z > min_depth。
+    invalid 行 uv 全填 np.nan；N=0 要返回正确形状的空数组。
+    valid 不等于在图像内，不得过滤投到图像边界之外的点。
+    r^2 在归一化相机平面上计算，不是在像素平面上计算。
+    """
+    X_cam = np.asarray(X_cam, dtype=np.float64)
+    params = np.asarray(params, dtype=np.float64)
+    if X_cam.ndim != 2 or X_cam.shape[1] != 3:
+        raise ValueError('X_cam 必须为 (N,3)。')
+    if params.shape != (4,) or not np.isfinite(params).all() or params[0] <= 0:
+        raise ValueError('params 必须为有限 [f,cx,cy,k] 且 f>0。')
+    if not np.isfinite(min_depth) or min_depth < 0:
+        raise ValueError('min_depth 必须有限且非负。')
+    # TODO：先初始化 uv/valid，再对 valid 行做除深度、径向畸变、内参变换。
+    raise NotImplementedError('TODO 3: project_simple_radial')

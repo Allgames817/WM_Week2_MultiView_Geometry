@@ -1,0 +1,15 @@
+I20261007 03:21:29.600808  1300 option_manager.cc:1319] COLMAP 4.2.1 (Commit bd1fcf6 on 2026-09-29 with CUDA, boost hash maps)
+I20261007 03:21:29.601983  1300 option_manager.cc:1321] Options can either be specified via command-line or by defining them in a .ini project file passed to `--project_path`.
+  -h [ --help ] 
+  --project_path arg
+  --default_random_seed arg (=0)
+  --log_target arg (=stderr_and_file) {stderr, stdout, file, stderr_and_file}
+  --log_path arg
+  --log_level arg (=0)
+  --log_severity arg (=0)             0:INFO, 1:WARNING, 2:ERROR, 3:FATAL
+  --log_color arg (=1)
+  --input_path arg
+  --output_path arg
+  --output_type arg                   {BIN, TXT, NVM, Bundler, VRML, PLY, R3D, 
+                                      CAM}
+  --skip_distortion arg (=0)

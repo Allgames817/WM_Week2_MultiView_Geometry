@@ -1,0 +1,35 @@
+{
+  "ratio": 0.6,
+  "keypoints1": 2650,
+  "keypoints2": 2588,
+  "knn_queries": 2650,
+  "ratio_pass": 775,
+  "unique_tentative": 764,
+  "F_inliers": 605,
+  "F_inlier_fraction": 0.7918848167539267,
+  "sqrt_sampson_px_all": {
+    "n": 764,
+    "n_finite": 764,
+    "median": 0.21046873508044656,
+    "p90": 1.389026460647385
+  },
+  "sqrt_sampson_px_F_inliers": {
+    "n": 605,
+    "n_finite": 605,
+    "median": 0.15220246056078202,
+    "p90": 0.4472297718234361
+  },
+  "sqrt_sampson_px_rejected": {
+    "n": 159,
+    "n_finite": 159,
+    "median": 1.3475095756335989,
+    "p90": 2.6951661477765696
+  },
+  "F_singular_values": [
+    4.520153644086104,
+    3.519567066092891,
+    1.9709727435744724e-16
+  ],
+  "is_true_correspondence_accuracy": false,
+  "reconstruction_status": "NOT ATTEMPTED (F-only exercise)"
+}

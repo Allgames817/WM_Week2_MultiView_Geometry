@@ -1,0 +1,24 @@
+{
+  "part": "io",
+  "passed": 3,
+  "total": 3,
+  "results": [
+    {
+      "part": "io",
+      "name": "格式：非连续 ID、含空格图像名、空观测行",
+      "passed": true
+    },
+    {
+      "part": "io",
+      "name": "-1 未关联点保留原始 POINT2D_IDX",
+      "passed": true
+    },
+    {
+      "part": "io",
+      "name": "Track 反向关联错误必须报错",
+      "passed": true
+    }
+  ],
+  "student_source_sha256": "075bea4d6fcda43101bd0d251d9d84c62e5977b7b831c9c9835dae1f4e19e79c",
+  "note": "单元检查含已提供的输入验证和3项格式检查；不能代替本地真实实验分析。"
+}

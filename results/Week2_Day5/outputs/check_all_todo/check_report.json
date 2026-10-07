@@ -1,0 +1,128 @@
+{
+  "part": "all",
+  "passed": 20,
+  "total": 20,
+  "checks": [
+    {
+      "part": "depth",
+      "name": "01_known_mm_values_and_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "depth",
+      "name": "02_nonfinite_negative_and_zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "depth",
+      "name": "03_scale_is_not_hardcoded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "depth",
+      "name": "04_exclusive_truncation_boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "depth",
+      "name": "05_input_not_mutated_noncontiguous",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "depth",
+      "name": "06_invalid_arguments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "backproject",
+      "name": "07_principal_point",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "backproject",
+      "name": "08_nonsquare_distinct_fx_fy_and_axial_Z",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "backproject",
+      "name": "09_invalid_pixels_are_full_NaN",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "backproject",
+      "name": "10_mask_preservation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "backproject",
+      "name": "11_independent_forward_check_and_input_immutability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "backproject",
+      "name": "12_reject_bad_K_or_depth_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "pack",
+      "name": "13_row_major_ID_point_and_RGB_alignment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "pack",
+      "name": "14_full_xyz_finite_and_positive_Z",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "pack",
+      "name": "15_empty_output_shapes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "pack",
+      "name": "16_no_mutation_random_mask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "pack",
+      "name": "17_bad_shape_or_color_dtype",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "io",
+      "name": "18_intrinsic_JSON_column_major",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "io",
+      "name": "19_same_pixel_comparison_not_nearest_neighbors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "part": "io",
+      "name": "20_PLY_numeric_frame_preserved",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "real_dataset_experiment_completed": false
+}

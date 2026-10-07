@@ -1,0 +1,15 @@
+{
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "H:\\anaconda3\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "opencv-python-headless": null,
+    "opencv-python": null,
+    "matplotlib": "3.10.6",
+    "Pillow": "12.0.0",
+    "open3d": null,
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2"
+  }
+}

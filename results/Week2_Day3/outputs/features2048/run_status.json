@@ -1,0 +1,99 @@
+{
+  "status": "reconstruction_commands_completed",
+  "started_utc": "2026-10-06T19:35:21.253203+00:00",
+  "steps": [
+    {
+      "stage": "feature",
+      "argv": [
+        "feature_extractor",
+        "--database_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\database.db",
+        "--image_path",
+        "D:\\WM_Study\\Week2_Day3\\data\\south-building\\images",
+        "--ImageReader.camera_model",
+        "SIMPLE_RADIAL",
+        "--ImageReader.single_camera",
+        "0",
+        "--FeatureExtraction.use_gpu",
+        "1",
+        "--FeatureExtraction.max_image_size",
+        "1600",
+        "--FeatureExtraction.num_threads",
+        "4",
+        "--SiftExtraction.max_num_features",
+        "2048",
+        "--FeatureExtraction.type",
+        "SIFT",
+        "--default_random_seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 7.977785300005053,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\logs\\feature.log"
+    },
+    {
+      "stage": "match",
+      "argv": [
+        "exhaustive_matcher",
+        "--database_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\database.db",
+        "--FeatureMatching.use_gpu",
+        "1",
+        "--FeatureMatching.num_threads",
+        "4",
+        "--FeatureMatching.type",
+        "SIFT_BRUTEFORCE",
+        "--default_random_seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 16.19865199999913,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\logs\\match.log"
+    },
+    {
+      "stage": "map",
+      "argv": [
+        "mapper",
+        "--database_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\database.db",
+        "--image_path",
+        "D:\\WM_Study\\Week2_Day3\\data\\south-building\\images",
+        "--output_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\sparse",
+        "--default_random_seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 35.643714799996815,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\logs\\map.log"
+    },
+    {
+      "stage": "convert_0",
+      "argv": [
+        "model_converter",
+        "--input_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\sparse\\0",
+        "--output_path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\models_txt\\0",
+        "--output_type",
+        "TXT"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.6235229000012623,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\logs\\convert_0.log"
+    },
+    {
+      "stage": "analyze_0",
+      "argv": [
+        "model_analyzer",
+        "--path",
+        "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\sparse\\0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.15638140000373824,
+      "log": "D:\\WM_Study\\Week2_Day3\\outputs\\features2048\\logs\\analyze_0.log"
+    }
+  ],
+  "current_stage": null,
+  "ended_utc": "2026-10-06T19:36:22.628871+00:00"
+}

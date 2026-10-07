@@ -1,0 +1,940 @@
+{
+  "python": "H:\\anaconda3\\envs\\wm_geometry\\python.exe",
+  "syntax": [
+    {
+      "path": "./scripts/Week2_Day1/day1_check.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day1/geometry_core.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day1/geometry_exercise.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day1/solutions/__init__.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day1/solutions/geometry_reference.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day1/two_view_synthetic.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day2/common.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day2/day2_check.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day2/match_two_views.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day2/matching_exercise.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day2/pose_core.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day2/solutions/__init__.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day2/solutions/matching_reference.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day2/two_view_pose.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day3/compare_runs.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day3/day3_check.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day3/day3_common.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day3/prepare_data.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day3/run_day3.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day3/sfm_exercise.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day3/summarize_run.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day4/day4_check.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day4/day4_common.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day4/evaluate_model.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day4/inspect_colmap.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day4/model_io.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day4/plots.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day4/pose_exercise.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day5/common.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day5/day5_check.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day5/plots.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day5/prepare_data.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day5/rgbd_exercise.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day5/rgbd_to_cloud.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day5/validation.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day5/view_cloud.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day6/day6_check.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day6/fuse_rgbd.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day6/fusion_exercise.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day6/fusion_io.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day6/fusion_metrics.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day6/fusion_plots.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day6/fusion_validation.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day6/view_cloud.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day7/audit_support.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day7/bridge_io.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day7/collect_evidence.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day7/day7_check.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day7/geometry_audit_exercise.py",
+      "status": "passed"
+    },
+    {
+      "path": "./scripts/Week2_Day7/ray_bridge.py",
+      "status": "passed"
+    }
+  ],
+  "checks": [
+    {
+      "day": 1,
+      "exit_code": 0,
+      "report_path": "./scripts/Week2_Day1/outputs/package_check/check_student.json",
+      "report": {
+        "implementation": "student",
+        "solver_sha256": "96333113c8e64a05de4252d644bf5aaf332f927d2a9a0d6bda3feddf423a4db6",
+        "passed": 14,
+        "total": 14,
+        "checks": [
+          {
+            "name": "01 shared projection vs OpenCV; t=-R@C",
+            "passed": true
+          },
+          {
+            "name": "02 A has four correct constraints and nonzero rank",
+            "passed": true
+          },
+          {
+            "name": "03 analytical one-point example",
+            "passed": true
+          },
+          {
+            "name": "04 noise-free reconstruction at two nonzero baselines",
+            "passed": true
+          },
+          {
+            "name": "05 twenty mixed-pose, nonhorizontal cases vs ground truth",
+            "passed": true
+          },
+          {
+            "name": "06 noisy DLT vs OpenCV, identical pixel inputs",
+            "passed": true
+          },
+          {
+            "name": "07 normalized coordinates paired with [R|t], noise-free",
+            "passed": true
+          },
+          {
+            "name": "08 swapping both cameras and both observations preserves X",
+            "passed": true
+          },
+          {
+            "name": "09 projection-matrix rescaling, noise-free",
+            "passed": true
+          },
+          {
+            "name": "10 wrong translation sign: tiny reprojection but negative depth",
+            "passed": true
+          },
+          {
+            "name": "11 assumed baseline x2: scale wrong although reprojection is tiny",
+            "passed": true
+          },
+          {
+            "name": "12 shared guardrail rejects zero baseline and pure rotation",
+            "passed": true
+          },
+          {
+            "name": "13 shared guardrail rejects bad shape and NaN inputs",
+            "passed": true
+          },
+          {
+            "name": "14 solver rejects nonunique and infinite homogeneous solutions",
+            "passed": true
+          }
+        ],
+        "scope": "Day1 numerical checks only; not Week1 acceptance or concept mastery",
+        "versions": {
+          "python": "3.11.17",
+          "numpy": "2.3.5",
+          "opencv": "4.13.0"
+        }
+      }
+    },
+    {
+      "day": 2,
+      "exit_code": 0,
+      "report_path": "./scripts/Week2_Day2/outputs/package_check/check_student.json",
+      "report": {
+        "implementation": "student",
+        "versions": {
+          "python": "3.11.17",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "numpy": "2.3.5",
+          "opencv": "4.13.0"
+        },
+        "passed": 18,
+        "total": 18,
+        "exercise_passed": 14,
+        "exercise_total": 14,
+        "checks": [
+          {
+            "name": "ratio_basic_and_flat_output",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "ratio_strict_boundary",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "ratio_sparse_rows",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "ratio_zero_second_is_ambiguous",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "ratio_invalid_parameter",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "ratio_preserves_row_order",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "ratio_invalid_distances",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "sampson_exact_epipolar_constraint",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "sampson_known_two_pixel_vertical_offset",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "sampson_independent_opencv_comparison",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "sampson_F_scale_and_sign_invariance",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "sampson_swap_views_transpose_F",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "sampson_undefined_denominator_is_inf",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "sampson_empty_and_invalid_input",
+            "kind": "exercise",
+            "passed": true
+          },
+          {
+            "name": "provided_world_to_camera_and_center",
+            "kind": "provided",
+            "passed": true
+          },
+          {
+            "name": "provided_estimator_20_noiseless_scenes",
+            "kind": "provided",
+            "passed": true
+          },
+          {
+            "name": "provided_shared_scale_leaves_pixels_unchanged",
+            "kind": "provided",
+            "passed": true
+          },
+          {
+            "name": "provided_mask_accounting_and_no_input_mutation",
+            "kind": "provided",
+            "passed": true
+          }
+        ],
+        "completion_status": "numerical checks only; experiment/report required"
+      }
+    },
+    {
+      "day": 3,
+      "exit_code": 0,
+      "report_path": "./scripts/Week2_Day3/outputs/check_all.json",
+      "report": {
+        "part": "all",
+        "tests_run": 15,
+        "success": true,
+        "failures": [],
+        "errors": [],
+        "scope": "Unit tests of user code, not a reconstruction/geometry quality certificate."
+      }
+    },
+    {
+      "day": 4,
+      "exit_code": 0,
+      "report_path": "./scripts/Week2_Day4/outputs/checks/all_latest.json",
+      "report": {
+        "part": "all",
+        "passed": 20,
+        "total": 20,
+        "results": [
+          {
+            "part": "rotation",
+            "name": "单位四元数",
+            "passed": true
+          },
+          {
+            "part": "rotation",
+            "name": "绕 z 正向旋转，检查方向与 wxyz 顺序",
+            "passed": true
+          },
+          {
+            "part": "rotation",
+            "name": "20 组混合旋转与 OpenCV Rodrigues 对照",
+            "passed": true
+          },
+          {
+            "part": "rotation",
+            "name": "q 与 -q、归一化输入",
+            "passed": true
+          },
+          {
+            "part": "rotation",
+            "name": "SO(3) 正交性与行列式",
+            "passed": true
+          },
+          {
+            "part": "rotation",
+            "name": "非法四元数拒绝（输入验证已提供）",
+            "passed": true
+          },
+          {
+            "part": "pose",
+            "name": "单位旋转下的相机中心",
+            "passed": true
+          },
+          {
+            "part": "pose",
+            "name": "混合旋转下的刚体逆矩阵",
+            "passed": true
+          },
+          {
+            "part": "pose",
+            "name": "相机原点变回世界后应满足 R C+t=0",
+            "passed": true
+          },
+          {
+            "part": "pose",
+            "name": "相机基向量与20个世界点往返",
+            "passed": true
+          },
+          {
+            "part": "pose",
+            "name": "反射矩阵或错误形状拒绝（输入验证已提供）",
+            "passed": true
+          },
+          {
+            "part": "projection",
+            "name": "光轴点落在主点",
+            "passed": true
+          },
+          {
+            "part": "projection",
+            "name": "k=0 的针孔投影",
+            "passed": true
+          },
+          {
+            "part": "projection",
+            "name": "正负畸变与 OpenCV projectPoints 对照",
+            "passed": true
+          },
+          {
+            "part": "projection",
+            "name": "无效深度、非有限坐标、阈值等号与 NaN 行",
+            "passed": true
+          },
+          {
+            "part": "projection",
+            "name": "空输入保持 (0,2) 和 (0,)",
+            "passed": true
+          },
+          {
+            "part": "projection",
+            "name": "视野外的有限正深度点不能被丢弃",
+            "passed": true
+          },
+          {
+            "part": "io",
+            "name": "格式：非连续 ID、含空格图像名、空观测行",
+            "passed": true
+          },
+          {
+            "part": "io",
+            "name": "-1 未关联点保留原始 POINT2D_IDX",
+            "passed": true
+          },
+          {
+            "part": "io",
+            "name": "Track 反向关联错误必须报错",
+            "passed": true
+          }
+        ],
+        "student_source_sha256": "09cc77e6932e92d8b7450b3159c770cdc6c6d3352792d57e948ef7b391221918",
+        "note": "单元检查含已提供的输入验证和3项格式检查；不能代替本地真实实验分析。"
+      }
+    },
+    {
+      "day": 5,
+      "exit_code": 0,
+      "report_path": "./scripts/Week2_Day5/outputs/package_check_v3/check_report.json",
+      "report": {
+        "part": "all",
+        "passed": 20,
+        "total": 20,
+        "checks": [
+          {
+            "part": "depth",
+            "name": "01_known_mm_values_and_zero",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "depth",
+            "name": "02_nonfinite_negative_and_zero",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "depth",
+            "name": "03_scale_is_not_hardcoded",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "depth",
+            "name": "04_exclusive_truncation_boundary",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "depth",
+            "name": "05_input_not_mutated_noncontiguous",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "depth",
+            "name": "06_invalid_arguments",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "backproject",
+            "name": "07_principal_point",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "backproject",
+            "name": "08_nonsquare_distinct_fx_fy_and_axial_Z",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "backproject",
+            "name": "09_invalid_pixels_are_full_NaN",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "backproject",
+            "name": "10_mask_preservation",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "backproject",
+            "name": "11_independent_forward_check_and_input_immutability",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "backproject",
+            "name": "12_reject_bad_K_or_depth_shape",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "pack",
+            "name": "13_row_major_ID_point_and_RGB_alignment",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "pack",
+            "name": "14_full_xyz_finite_and_positive_Z",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "pack",
+            "name": "15_empty_output_shapes",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "pack",
+            "name": "16_no_mutation_random_mask",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "pack",
+            "name": "17_bad_shape_or_color_dtype",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "io",
+            "name": "18_intrinsic_JSON_column_major",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "io",
+            "name": "19_same_pixel_comparison_not_nearest_neighbors",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "part": "io",
+            "name": "20_PLY_numeric_frame_preserved",
+            "passed": true,
+            "detail": ""
+          }
+        ],
+        "real_dataset_experiment_completed": false
+      }
+    },
+    {
+      "day": 6,
+      "exit_code": 0,
+      "report_path": "./scripts/Week2_Day6/outputs/package_check_v3/check_results.json",
+      "report": {
+        "part": "all",
+        "passed": 22,
+        "total": 22,
+        "checks": [
+          {
+            "group": "inverse",
+            "name": "identity",
+            "passed": true
+          },
+          {
+            "group": "inverse",
+            "name": "translation",
+            "passed": true
+          },
+          {
+            "group": "inverse",
+            "name": "rotation plus translation",
+            "passed": true
+          },
+          {
+            "group": "inverse",
+            "name": "20 mixed poses; left and right identities",
+            "passed": true
+          },
+          {
+            "group": "inverse",
+            "name": "output dtype and no mutation",
+            "passed": true
+          },
+          {
+            "group": "inverse",
+            "name": "reject nonrigid matrix (provided guard)",
+            "passed": true
+          },
+          {
+            "group": "transform",
+            "name": "translation acts on each row",
+            "passed": true
+          },
+          {
+            "group": "transform",
+            "name": "rotation; row/column distinction",
+            "passed": true
+          },
+          {
+            "group": "transform",
+            "name": "independent homogeneous-coordinate oracle",
+            "passed": true
+          },
+          {
+            "group": "transform",
+            "name": "empty point array",
+            "passed": true
+          },
+          {
+            "group": "transform",
+            "name": "preserve negative Z, order, and inputs",
+            "passed": true
+          },
+          {
+            "group": "transform",
+            "name": "reject bad shape/nonfinite input (provided guard)",
+            "passed": true
+          },
+          {
+            "group": "relative",
+            "name": "same camera is identity",
+            "passed": true
+          },
+          {
+            "group": "relative",
+            "name": "translated camera pair",
+            "passed": true
+          },
+          {
+            "group": "relative",
+            "name": "noncommuting rotations; independent linear solve",
+            "passed": true
+          },
+          {
+            "group": "relative",
+            "name": "three-camera composition",
+            "passed": true
+          },
+          {
+            "group": "relative",
+            "name": "world-mediated point route equals direct route",
+            "passed": true
+          },
+          {
+            "group": "relative",
+            "name": "output contract and no mutation",
+            "passed": true
+          },
+          {
+            "group": "io",
+            "name": "raw LOG rows and metadata are retained",
+            "passed": true
+          },
+          {
+            "group": "io",
+            "name": "incomplete LOG is rejected",
+            "passed": true
+          },
+          {
+            "group": "io",
+            "name": "scaled LOG matrix is rejected",
+            "passed": true
+          },
+          {
+            "group": "io",
+            "name": "intrinsic JSON is column-major",
+            "passed": true
+          }
+        ],
+        "student_file_sha256": "00c8525cd18cad55467f4c1b6c030baf7e962206b99fadd00984568c3236aae1",
+        "note": "Synthetic implementation checks, not real-world reconstruction accuracy."
+      }
+    },
+    {
+      "day": 7,
+      "exit_code": 0,
+      "report_path": "./scripts/Week2_Day7/outputs/package_check/check_report.json",
+      "report": {
+        "part": "all",
+        "passed": 24,
+        "total": 24,
+        "checks": [
+          {
+            "group": "backproject",
+            "name": "01_analytic_identity",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "backproject",
+            "name": "02_known_rotated_translated_world",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "backproject",
+            "name": "03_negative_world_Z_kept",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "backproject",
+            "name": "04_no_half_pixel_no_ray_normalization",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "backproject",
+            "name": "05_twenty_random_camera_truth_cases",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "backproject",
+            "name": "06_order_and_input_preservation",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "backproject",
+            "name": "07_empty_shapes",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "backproject",
+            "name": "08_depth_guard",
+            "kind": "provided_guard",
+            "passed": true
+          },
+          {
+            "group": "project",
+            "name": "09_analytic_identity",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "project",
+            "name": "10_known_world_vs_OpenCV_pixels",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "project",
+            "name": "11_signed_depth_and_invalid_rows",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "project",
+            "name": "12_off_image_and_negative_world_Z",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "project",
+            "name": "13_twenty_nontrivial_pose_oracles",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "project",
+            "name": "14_threshold_is_strict",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "project",
+            "name": "15_empty_and_inputs_unchanged",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "project",
+            "name": "16_pose_guard",
+            "kind": "provided_guard",
+            "passed": true
+          },
+          {
+            "group": "rays",
+            "name": "17_central_axis_and_origins",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "rays",
+            "name": "18_off_axis_unit_vector_and_factor",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "rays",
+            "name": "19_truth_from_world_point_direction",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "rays",
+            "name": "20_translation_changes_origins_not_directions",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "rays",
+            "name": "21_twenty_truth_endpoints",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "rays",
+            "name": "22_rounded_rotation_norm_is_world_norm",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "rays",
+            "name": "23_empty_shapes",
+            "kind": "numerical",
+            "passed": true
+          },
+          {
+            "group": "rays",
+            "name": "24_K_guard",
+            "kind": "provided_guard",
+            "passed": true
+          }
+        ],
+        "student_file_sha256": "21de90b6c84d8629d35fc6e13030b899d43307048f4278679d4bcd868e35aff7",
+        "check_file_sha256": "c45bef7c37035ee75c303706ec2a0351fec9c0b4417b2a85c29b177d1c283837",
+        "support_file_sha256": "59d8fa98495fbdbee67e53cee069121e0c86d9a2d86f995d29091df05b610621",
+        "numerical_passed": 21,
+        "scope": "Synthetic geometry checks only. Not a Week2 completion certificate or physical accuracy."
+      }
+    }
+  ],
+  "note": "Checks ran on the consolidated staging source. Original study folders were not modified.",
+  "temporary_directory": "<workspace temporary directory>"
+}

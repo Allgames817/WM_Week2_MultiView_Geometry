@@ -1,0 +1,48 @@
+{
+  "frame_index": 0,
+  "frame_stem": "00000",
+  "available_pairs": 5,
+  "rgb_shape": [
+    480,
+    640,
+    3
+  ],
+  "rgb_dtype": "uint8",
+  "depth_shape": [
+    480,
+    640
+  ],
+  "depth_dtype": "uint16",
+  "input_pixel_count": 307200,
+  "zero_raw_pixel_count": 40071,
+  "nonzero_raw_pixel_count": 267129,
+  "nonzero_raw_depth_values": {
+    "n": 267129,
+    "mean": 1793.8873465628965,
+    "median": 1861.0,
+    "p95": 2578.0,
+    "max": 2702.0,
+    "min": 955.0
+  },
+  "K": [
+    [
+      525.0,
+      0.0,
+      319.5
+    ],
+    [
+      0.0,
+      525.0,
+      239.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "intrinsic_file": "camera_primesense.json",
+  "alignment": "Uses the official registered sample; equal image size alone does NOT verify alignment.",
+  "preprocessing": "No resize, no interpolation, no hole filling, no coordinate flip.",
+  "notes": "This mode does not call TODOs or convert depth to metres."
+}

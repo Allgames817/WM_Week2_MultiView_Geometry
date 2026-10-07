@@ -1,0 +1,26 @@
+[
+  {
+    "ratio": 0.6,
+    "ratio_pass": 775,
+    "unique_tentative": 764,
+    "F_inliers": 605,
+    "F_inlier_fraction": 0.7918848167539267,
+    "median_sqrt_sampson_inliers_px": 0.15220246056078202
+  },
+  {
+    "ratio": 0.75,
+    "ratio_pass": 985,
+    "unique_tentative": 953,
+    "F_inliers": 872,
+    "F_inlier_fraction": 0.9150052465897167,
+    "median_sqrt_sampson_inliers_px": 0.11876842390721314
+  },
+  {
+    "ratio": 0.9,
+    "ratio_pass": 1327,
+    "unique_tentative": 1165,
+    "F_inliers": 959,
+    "F_inlier_fraction": 0.8231759656652361,
+    "median_sqrt_sampson_inliers_px": 0.12320143258177665
+  }
+]

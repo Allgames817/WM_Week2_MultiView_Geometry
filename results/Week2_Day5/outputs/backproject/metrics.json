@@ -1,0 +1,42 @@
+{
+  "frame_index": 0,
+  "raw_dtype": "uint16",
+  "input_pixel_count": 307200,
+  "valid_pixel_count": 267129,
+  "valid_fraction": 0.869560546875,
+  "depth_scale": 1000.0,
+  "depth_trunc_m": 3.0,
+  "axial_depth_m": {
+    "n": 267129,
+    "mean": 1.793887336424306,
+    "median": 1.8609999418258667,
+    "p95": 2.578000068664551,
+    "max": 2.7019999027252197,
+    "min": 0.9549999833106995
+  },
+  "ray_distance_m": {
+    "n": 267129,
+    "mean": 1.9305308025683485,
+    "median": 1.956610577345635,
+    "p95": 2.7729524432945483,
+    "max": 3.2463657011940725,
+    "min": 1.0510457482637963
+  },
+  "cycle_consistency_px": {
+    "n": 267129,
+    "mean": 3.293124605587575e-16,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 6.572520305780927e-14,
+    "min": 0.0
+  },
+  "extent_xyz_m": [
+    2.409436142331078,
+    1.5965809102285475,
+    1.7469999194145203
+  ],
+  "coordinate_frame": "camera_00000",
+  "global_pose_estimated": false,
+  "geometric_ground_truth_available": false,
+  "interpretation": "Units follow configured depth_scale; no independent metric calibration. Cycle consistency is not a depth-accuracy measurement."
+}

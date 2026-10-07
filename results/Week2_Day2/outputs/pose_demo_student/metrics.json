@@ -1,0 +1,42 @@
+{
+  "method": "essential_ransac",
+  "n_matches": 300,
+  "n_true_matches": 210,
+  "n_model_selected": 177,
+  "selected_precision_vs_gt": 0.9887005649717514,
+  "selected_recall_vs_gt": 0.8333333333333334,
+  "rotation_error_deg": 0.39841612524012965,
+  "translation_direction_error_deg": 0.36201089206766524,
+  "translation_norm": 1.0,
+  "n_finite_all": 300,
+  "n_positive_all": 270,
+  "positive_fraction_of_model_selected": 0.9943502824858758,
+  "n_recover_pose_retained": 176,
+  "reprojection_px_model_selected": {
+    "n": 177,
+    "n_finite": 177,
+    "median": 0.28865817885863054,
+    "p90": 0.5839415003139233
+  },
+  "sqrt_sampson_px_model_selected": {
+    "n": 177,
+    "n_finite": 177,
+    "median": 0.4082222531008391,
+    "p90": 0.8257134373090381
+  },
+  "gt_baseline_m_used_ONLY_for_evaluation": 0.6517092910186258,
+  "scale_aligned_3d_m_all_true_finite": {
+    "n": 210,
+    "n_finite": 210,
+    "median": 0.29128714206445433,
+    "p90": 0.47841422345265866
+  },
+  "scale_aligned_3d_m_model_selected_true_finite": {
+    "n": 175,
+    "n_finite": 175,
+    "median": 0.2939449799064006,
+    "p90": 0.47532154533135157
+  },
+  "n_true_nonfinite": 0,
+  "note": "Raw translation and raw 3D are in unit-baseline coordinates, NOT metres. Pose-selected positive-depth fraction is not independent proof."
+}

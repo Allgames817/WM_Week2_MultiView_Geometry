@@ -1,0 +1,57 @@
+{
+  "condition": "source_inverse_as_forward",
+  "description": "Only source frame 4: numerical inverse is deliberately misused as a forward c2w pose.",
+  "counts": {
+    "unpooled_point_count": 1340711,
+    "voxel_point_count": 47619,
+    "voxel_size_m": 0.02,
+    "note": "Voxel downsampling is a derived representation; raw frame/pixel identities are not retained in its vertices."
+  },
+  "source_input_pixel_count": 269051,
+  "same_source_pixel_set_as_baseline": true,
+  "same_source_world_delta_vs_baseline_m": {
+    "n": 269051,
+    "mean": 5.723972416584201,
+    "median": 5.727878104572135,
+    "p95": 5.785993168511698,
+    "max": 5.80200057019942,
+    "min": 5.657580839499494
+  },
+  "delta_is_GT_error": false,
+  "pair": {
+    "source_point_count": 269051,
+    "positive_target_depth_count": 269051,
+    "nonpositive_or_nonfinite_target_count": 0,
+    "projected_inside_count_before_zbuffer": 0,
+    "zbuffer_visible_target_pixel_count": 0,
+    "projection_collisions_removed": 0,
+    "valid_target_depth_pixel_count": 267129,
+    "overlap_pixel_count": 0,
+    "valid_target_coverage_fraction": 0.0,
+    "signed_depth_residual_m": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null,
+      "max": null,
+      "min": null
+    },
+    "absolute_depth_residual_m": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null,
+      "max": null,
+      "min": null
+    },
+    "threshold_m": 0.03,
+    "within_threshold_count": 0,
+    "predicted_behind_observation_count": 0,
+    "predicted_in_front_of_observation_count": 0,
+    "residual_threshold_used_to_remove_points": false,
+    "interpretation": "Projective depth agreement on overlap, not true correspondence or GT 3D accuracy. Discretization, occlusion, edges, depth and pose errors can all contribute."
+  },
+  "target_depth_unchanged": true,
+  "reoptimization": false,
+  "point_statistics_before_downsampling": true
+}

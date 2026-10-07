@@ -1,0 +1,31 @@
+{
+  "available_submodels": [
+    {
+      "model_id": "0",
+      "n_registered_images": 128
+    }
+  ],
+  "selected_model_id": "0",
+  "selection_rule": "largest registered-image count unless model_id explicitly set; not best geometry",
+  "n_camera_parameter_records": 1,
+  "n_registered_images": 128,
+  "n_points3D": 40692,
+  "camera_models": [
+    "SIMPLE_RADIAL"
+  ],
+  "links": {
+    "associated_observations": 241106,
+    "unassociated_keypoints": 448131,
+    "track_observations": 241106
+  },
+  "overlay_image_ids": [
+    1,
+    64,
+    128
+  ],
+  "n_photos_checked": 128,
+  "extra_files_preserved": [
+    "frames.txt",
+    "rigs.txt"
+  ]
+}

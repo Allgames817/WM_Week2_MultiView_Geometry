@@ -1,0 +1,29 @@
+{
+  "mode": "controls",
+  "command": [
+    "rgbd_to_cloud.py",
+    "--mode",
+    "controls"
+  ],
+  "source_sha256": {
+    "common.py": "83c1ff06d9ef5a6d60297ea69bd4026192eee5d3833a0b6841897340c15a993f",
+    "day5_check.py": "3ae46e5f29ca54c51ec4a522706fed4fe1f77d580c98825788072c272abdb195",
+    "plots.py": "dc0a90802281822451db7f7cbf7010c833ad85f11ae8ae43a2fe1e0f5c94ba1e",
+    "prepare_data.py": "1bca033b96d04f542ae770a6759948fd0ff3c1b33919fa813e25190f1d4bed87",
+    "rgbd_exercise.py": "0846117d37b210c35291b50d3445c2b9b9cb912d1d8e6ff714d1bd1d9c38287f",
+    "rgbd_to_cloud.py": "1ab46b7d3ffa03fd363b9ad3d0d60412589c0020ae93839bad2750a66d9d2d48",
+    "validation.py": "775d18fa72d56f2b6c82632130708562f1b6396603dc0e7c33fbec97f807b5b6",
+    "view_cloud.py": "b193ee6b57ecaaad236b5cd71c586ba8762b821c45b896b72b42529c9181b4cf"
+  },
+  "coordinate_frame": "selected camera, +X right +Y down +Z forward",
+  "claimed_world_pose": null,
+  "pixel_centers": "integer u=column v=row",
+  "units": "metres under the declared depth_scale; not externally calibrated here",
+  "input_sha256": {
+    "color/00000.jpg": "29468161241d7ef92312991cf0019d7ccf199db1fafbf783d27288ef279d270a",
+    "depth/00000.png": "3eff7854dd5f056fe6f67ce68999a632fbc1fe6f3555cc00f83528312d6cb186",
+    "camera_primesense.json": "69ec0cb6a0beeead2551e332e1f728df6d1fe37f4b056410580733d2dbc54259"
+  },
+  "data_source": "https://github.com/isl-org/open3d_downloads/releases/download/20220301-data/SampleRedwoodRGBDImages.zip",
+  "intrinsic_source": "D:\\WM_Study\\Week2_Day5\\data\\SampleRedwoodRGBDImages\\camera_primesense.json"
+}
